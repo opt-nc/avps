@@ -3,7 +3,7 @@
   "description": "Avis de Vacances de Poste de l'Office des Postes et Télécommunications de Nouvelle-Calédonie",
   "author": "OPT-NC",
   "source": "data",
-  "output": "docs",
+  "output": "site",
   "theme": "default",
   "navigation": {
     "enabled": true,

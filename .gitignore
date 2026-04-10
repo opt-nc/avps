@@ -4,4 +4,4 @@ __pycache__/
 temp_out/
 temp_pdfs/
 .lock
-docs/
+site/

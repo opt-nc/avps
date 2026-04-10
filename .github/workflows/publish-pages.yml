@@ -15,52 +15,35 @@ permissions:
   pages: write
   id-token: write
 
-concurrency:
-  group: "pages"
-  cancel-in-progress: false
-
 jobs:
-  build:
+  deploy:
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
     runs-on: ubuntu-latest
     steps:
-      - name: Checkout
-        uses: actions/checkout@v4
-
-      - name: Setup Node.js
-        uses: actions/setup-node@v4
-        with:
-          node-version: '20'
-
-      - name: Install Zensical
-        run: npm install -g zensical
-
-      - name: Build site with Zensical
-        run: |
-          echo "Building site from Markdown files..."
-          zensical build
-          
-          # Vérifier que le dossier docs a été créé
-          if [ -d "docs" ]; then
-            echo "✅ Site built successfully in docs/"
-            ls -la docs/
-          else
-            echo "❌ Build failed - docs/ directory not found"
-            exit 1
-          fi
-
-      - name: Setup Pages
+      - name: Configure Pages
         uses: actions/configure-pages@v5
 
-      - name: Upload artifact
-        uses: actions/upload-pages-artifact@v3
+      - name: Checkout
+        uses: actions/checkout@v5
+
+      - name: Setup Python
+        uses: actions/setup-python@v5
         with:
-          path: './docs'
+          python-version: 3.x
+
+      - name: Install Zensical
+        run: pip install zensical
+
+      - name: Build site with Zensical
+        run: zensical build --clean
+
+      - name: Upload artifact
+        uses: actions/upload-pages-artifact@v4
+        with:
+          path: site
 
       - name: Deploy to GitHub Pages
         id: deployment
         uses: actions/deploy-pages@v4
-
-      - name: Output deployment URL
-        run: |
-          echo "🚀 Site deployed successfully!"
-          echo "📍 URL: https://opt-nc.github.io/odata-avps-drhfpnc/"
