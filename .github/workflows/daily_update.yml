@@ -5,6 +5,10 @@ on:
     - cron: '0 0 * * *'
   workflow_dispatch:
 
+permissions:
+  contents: write
+  pull-requests: write
+
 jobs:
   update-data:
     runs-on: ubuntu-latest
@@ -45,21 +49,112 @@ jobs:
           rm -rf temp_out/ temp_pdfs/
           echo "Cleaned up temporary files"
 
-      - name: Commit and push changes
+      - name: Check for changes
+        id: check_changes
         run: |
-          git config --global user.name "github-actions[bot]"
-          git config --global user.email "github-actions[bot]@users.noreply.github.com"
+          git add data/*.csv data/*.md 2>/dev/null || true
+          git add -u data/*.md 2>/dev/null || true
           
-          # Ajouter les nouveaux fichiers CSV et Markdown
-          git add data/*.csv data/*.md
-          
-          # Supprimer les fichiers markdown qui ont été supprimés (anciens AVP)
-          git add -u data/*.md
-          
-          # Vérifier s'il y a des changements à commiter
           if [ -n "$(git status --porcelain data/)" ]; then
-            git commit -m "chore: daily data update - CSV and Markdown files [skip ci]"
-            git push
+            echo "has_changes=true" >> $GITHUB_OUTPUT
           else
+            echo "has_changes=false" >> $GITHUB_OUTPUT
             echo "No changes to commit"
           fi
+
+      - name: Create Pull Request
+        if: steps.check_changes.outputs.has_changes == 'true'
+        id: create_pr
+        uses: peter-evans/create-pull-request@v6
+        with:
+          token: ${{ secrets.GITHUB_TOKEN }}
+          commit-message: "chore: daily data update - CSV and Markdown files"
+          branch: data-update-${{ github.run_id }}
+          delete-branch: true
+          title: "📊 Daily Data Update - ${{ github.run_id }}"
+          body: |
+            ## 🔄 Mise à jour automatique des données
+            
+            Cette PR contient les mises à jour quotidiennes des données AVPS.
+            
+            **Date d'exécution:** ${{ github.run_id }}
+            **Workflow:** ${{ github.workflow }}
+            
+            Les fichiers suivants ont été mis à jour :
+            - CSV des données AVPS
+            - Fichiers Markdown associés
+          labels: |
+            automated
+            data-update
+
+      - name: Auto-merge Pull Request
+        if: steps.check_changes.outputs.has_changes == 'true' && steps.create_pr.outputs.pull-request-number
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          gh pr merge ${{ steps.create_pr.outputs.pull-request-number }} \
+            --merge \
+            --auto \
+            --delete-branch
+
+      - name: Wait for PR merge
+        if: steps.check_changes.outputs.has_changes == 'true' && steps.create_pr.outputs.pull-request-number
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          echo "Waiting for PR to be merged..."
+          for i in {1..30}; do
+            PR_STATE=$(gh pr view ${{ steps.create_pr.outputs.pull-request-number }} --json state --jq '.state')
+            if [ "$PR_STATE" = "MERGED" ]; then
+              echo "PR successfully merged!"
+              break
+            fi
+            echo "Attempt $i/30: PR state is $PR_STATE, waiting..."
+            sleep 10
+          done
+
+      - name: Checkout main branch
+        if: steps.check_changes.outputs.has_changes == 'true'
+        run: |
+          git fetch origin main
+          git checkout main
+          git pull origin main
+
+      - name: Create and push tag
+        if: steps.check_changes.outputs.has_changes == 'true'
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          # Générer le tag basé sur la date
+          BASE_TAG=$(date -u +"%Y-%m-%d")
+          
+          # Récupérer tous les tags existants pour cette date
+          git fetch --tags
+          EXISTING_TAGS=$(git tag -l "${BASE_TAG}*")
+          
+          # Déterminer le tag final
+          if [ -z "$EXISTING_TAGS" ]; then
+            # Aucun tag pour cette date, utiliser le tag de base
+            FINAL_TAG="$BASE_TAG"
+          else
+            # Trouver le prochain incrément
+            MAX_INCREMENT=0
+            for tag in $EXISTING_TAGS; do
+              if [ "$tag" = "$BASE_TAG" ]; then
+                MAX_INCREMENT=0
+              elif [[ "$tag" =~ ^${BASE_TAG}\.([0-9]+)$ ]]; then
+                INCREMENT="${BASH_REMATCH[1]}"
+                if [ "$INCREMENT" -gt "$MAX_INCREMENT" ]; then
+                  MAX_INCREMENT=$INCREMENT
+                fi
+              fi
+            done
+            NEXT_INCREMENT=$((MAX_INCREMENT + 1))
+            FINAL_TAG="${BASE_TAG}.${NEXT_INCREMENT}"
+          fi
+          
+          echo "Creating tag: $FINAL_TAG"
+          git tag -a "$FINAL_TAG" -m "Data update for $BASE_TAG (increment: $FINAL_TAG)"
+          git push origin "$FINAL_TAG"
+          
+          echo "✅ Tag $FINAL_TAG created and pushed successfully!"
