@@ -42,6 +42,10 @@ jobs:
           TORCH_DEVICE: cpu
           INFERENCE_DEVICE: cpu
 
+      - name: Update zensical config with build info
+        run: |
+          uv run src/update_zensical_config.py
+
       - name: Clean up temporary files
         run: |
           # Supprimer les PDFs temporaires
