@@ -93,31 +93,16 @@ jobs:
             automated
             data-update
 
-      - name: Auto-merge Pull Request
+      - name: Merge Pull Request
         if: steps.check_changes.outputs.has_changes == 'true' && steps.create_pr.outputs.pull-request-number
         env:
           GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: |
+          echo "Merging PR #${{ steps.create_pr.outputs.pull-request-number }}..."
           gh pr merge ${{ steps.create_pr.outputs.pull-request-number }} \
             --merge \
-            --auto \
             --delete-branch
-
-      - name: Wait for PR merge
-        if: steps.check_changes.outputs.has_changes == 'true' && steps.create_pr.outputs.pull-request-number
-        env:
-          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-        run: |
-          echo "Waiting for PR to be merged..."
-          for i in {1..30}; do
-            PR_STATE=$(gh pr view ${{ steps.create_pr.outputs.pull-request-number }} --json state --jq '.state')
-            if [ "$PR_STATE" = "MERGED" ]; then
-              echo "PR successfully merged!"
-              break
-            fi
-            echo "Attempt $i/30: PR state is $PR_STATE, waiting..."
-            sleep 10
-          done
+          echo "PR merged successfully!"
 
       - name: Checkout main branch
         if: steps.check_changes.outputs.has_changes == 'true'
