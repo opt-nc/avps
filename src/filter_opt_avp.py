@@ -107,14 +107,20 @@ def process_pdfs_to_markdown(df, data_dir="data"):
             if 'temp_pdf' in locals() and os.path.exists(temp_pdf):
                 os.remove(temp_pdf)
             
-    # Nettoyage des anciens fichiers Markdown
-    print("Nettoyage des anciens fichiers Markdown...")
+    # Nettoyage des anciens fichiers Markdown et JSON
+    print("Nettoyage des anciens fichiers Markdown et JSON...")
     all_md_files = glob(os.path.join(data_dir, "*.md"))
     for md_file in all_md_files:
         filename = os.path.basename(md_file)
-        if filename not in current_numbers:
+        if filename not in current_numbers and filename != "index.md":
             print(f"  Suppression du fichier obsolète : {filename}")
             os.remove(md_file)
+    
+    # Nettoyage des fichiers JSON de métadonnées générés par marker
+    all_json_files = glob(os.path.join(data_dir, "*_meta.json"))
+    for json_file in all_json_files:
+        print(f"  Suppression des métadonnées : {os.path.basename(json_file)}")
+        os.remove(json_file)
 
 def main():
     url = "https://data.gouv.nc/api/explore/v2.1/catalog/datasets/avis-de-vacances-de-poste-avp-drhfpnc/exports/parquet?lang=fr&timezone=Pacific%2FNoumea"

@@ -51,6 +51,8 @@ jobs:
           # Supprimer les PDFs temporaires
           rm -f temp_*.pdf
           rm -rf temp_out/ temp_pdfs/
+          # Supprimer les fichiers JSON de métadonnées générés par marker-pdf
+          rm -f data/*_meta.json
           echo "Cleaned up temporary files"
 
       - name: Check for changes

@@ -5,3 +5,5 @@ temp_out/
 temp_pdfs/
 .lock
 site/
+# Métadonnées JSON générées par marker-pdf
+data/*_meta.json
