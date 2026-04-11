@@ -1,0 +1,289 @@
+{
+  "table_of_contents": [
+    {
+      "title": "DT \u2013 Commercial - AT",
+      "heading_level": null,
+      "page_id": 0,
+      "polygon": [
+        [
+          54.89999771118164,
+          60.18609619140625
+        ],
+        [
+          180.12811279296875,
+          59.203125
+        ],
+        [
+          180.12811279296875,
+          74.18609619140625
+        ],
+        [
+          54.89999771118164,
+          74.18609619140625
+        ]
+      ]
+    },
+    {
+      "title": "Caract\u00e9ristiques\nparticuli\u00e8res de\nl'emploi :",
+      "heading_level": null,
+      "page_id": 1,
+      "polygon": [
+        [
+          53.83789062499999,
+          101.138671875
+        ],
+        [
+          122.82367706298828,
+          99.494140625
+        ],
+        [
+          122.82367706298828,
+          136.292236328125
+        ],
+        [
+          52.67382812499999,
+          136.292236328125
+        ]
+      ]
+    },
+    {
+      "title": "- Conditions de travail :",
+      "heading_level": null,
+      "page_id": 1,
+      "polygon": [
+        [
+          131.830078125,
+          138.49920654296875
+        ],
+        [
+          227.25445556640625,
+          137.318359375
+        ],
+        [
+          227.25445556640625,
+          148.49920654296875
+        ],
+        [
+          130.666015625,
+          148.830078125
+        ]
+      ]
+    },
+    {
+      "title": "Profil du\ncandidat",
+      "heading_level": null,
+      "page_id": 1,
+      "polygon": [
+        [
+          53.25585937499999,
+          186.654296875
+        ],
+        [
+          92.251953125,
+          185.009765625
+        ],
+        [
+          92.251953125,
+          209.534423828125
+        ],
+        [
+          53.25585937499999,
+          209.534423828125
+        ]
+      ]
+    },
+    {
+      "title": "Savoir / Connaissance / Dipl\u00f4me exig\u00e9 :",
+      "heading_level": null,
+      "page_id": 1,
+      "polygon": [
+        [
+          131.248046875,
+          187.0654296875
+        ],
+        [
+          292.93682861328125,
+          185.4208984375
+        ],
+        [
+          292.93682861328125,
+          197.3272705078125
+        ],
+        [
+          130.083984375,
+          197.3272705078125
+        ]
+      ]
+    },
+    {
+      "title": "Savoir-faire :",
+      "heading_level": null,
+      "page_id": 1,
+      "polygon": [
+        [
+          132.12109375,
+          260.2470703125
+        ],
+        [
+          184.35108947753906,
+          258.6025390625
+        ],
+        [
+          184.35108947753906,
+          270.5694580078125
+        ],
+        [
+          132.12109375,
+          270.5694580078125
+        ]
+      ]
+    },
+    {
+      "title": "Comportement professionnel :",
+      "heading_level": null,
+      "page_id": 1,
+      "polygon": [
+        [
+          132.412109375,
+          309.171875
+        ],
+        [
+          258.03338623046875,
+          307.52734375
+        ],
+        [
+          258.03338623046875,
+          319.397705078125
+        ],
+        [
+          131.248046875,
+          319.397705078125
+        ]
+      ]
+    },
+    {
+      "title": "POUR R\u00c9PONDRE \u00c0 CETTE OFFRE",
+      "heading_level": null,
+      "page_id": 1,
+      "polygon": [
+        [
+          49.64999771118164,
+          658.634765625
+        ],
+        [
+          243.41302490234375,
+          656.990234375
+        ],
+        [
+          243.41302490234375,
+          675.9308471679688
+        ],
+        [
+          49.64999771118164,
+          675.9308471679688
+        ]
+      ]
+    }
+  ],
+  "page_stats": [
+    {
+      "page_id": 0,
+      "text_extraction_method": "pdftext",
+      "block_counts": [
+        [
+          "Span",
+          663
+        ],
+        [
+          "Line",
+          43
+        ],
+        [
+          "Text",
+          23
+        ],
+        [
+          "SectionHeader",
+          1
+        ],
+        [
+          "Picture",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0,
+        "previous_text": "",
+        "previous_type": "",
+        "previous_order": 0
+      }
+    },
+    {
+      "page_id": 1,
+      "text_extraction_method": "pdftext",
+      "block_counts": [
+        [
+          "Span",
+          712
+        ],
+        [
+          "Line",
+          45
+        ],
+        [
+          "Text",
+          11
+        ],
+        [
+          "ListItem",
+          9
+        ],
+        [
+          "SectionHeader",
+          7
+        ],
+        [
+          "ListGroup",
+          3
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0,
+        "previous_text": "",
+        "previous_type": "",
+        "previous_order": 0
+      }
+    },
+    {
+      "page_id": 2,
+      "text_extraction_method": "pdftext",
+      "block_counts": [
+        [
+          "Span",
+          311
+        ],
+        [
+          "Line",
+          11
+        ],
+        [
+          "Text",
+          6
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0,
+        "previous_text": "",
+        "previous_type": "",
+        "previous_order": 0
+      }
+    }
+  ],
+  "debug_data_path": "debug_data/temp_26-0422"
+}

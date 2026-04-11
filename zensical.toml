@@ -9,7 +9,7 @@ repo_name = "opt-nc/odata-avps-drhfpnc"
 
 copyright = """
 Copyright &copy; 2026 OPT-NC<br>
-<small>Dernière mise à jour : Date inconnue (Nouméa) | Commit : <a href="https://github.com/opt-nc/odata-avps-drhfpnc/commit/unknown" target="_blank">unknown</a></small>
+<small>Dernière mise à jour : 11/04/2026 à 12:22 (Nouméa) | Commit : <a href="https://github.com/opt-nc/odata-avps-drhfpnc/commit/8ce6ed0" target="_blank">8ce6ed0</a></small>
 """
 
 # Documentation source directory

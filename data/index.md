@@ -5,8 +5,17 @@ Bienvenue sur le site des **Avis de Vacances de Poste** de l'Office des Postes e
 ## 📊 En bref
 
 - **5** postes disponibles actuellement
-- 📅 Dernière mise à jour : **11/04/2026 à 11h22** (Nouméa)
+- 📅 Dernière mise à jour : **11/04/2026 à 12h22** (Nouméa)
 - 🔄 Prochaine mise à jour : demain à 00h00 (automatique)
+
+### 📈 Répartition par corps/grade
+
+```mermaid
+pie title Répartition des postes par corps/grade
+    "Contrôleur" : 2
+    "Agent d'exploitation" : 2
+    "Cadre spécialiste d'exploitation" : 1
+```
 
 ---
 
