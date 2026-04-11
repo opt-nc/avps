@@ -186,6 +186,54 @@ def main():
     df_opt.to_csv(output_path, index=False, encoding='utf-8')
     
     print(f"Terminé. {len(df_opt)} lignes enregistrées dans {output_path}.")
+    
+    # Génération de l'index.md
+    generate_index_md(df_opt)
+
+def generate_index_md(df):
+    """Génère un fichier index.md avec la liste des AVPs."""
+    print("Génération de index.md...")
+    
+    index_content = """# AVPS OPT-NC
+
+Bienvenue sur le site des **Avis de Vacances de Poste** de l'Office des Postes et Télécommunications de Nouvelle-Calédonie.
+
+## 📋 Postes disponibles
+
+Cette page recense les avis de vacances de poste publiés par l'OPT-NC, issus de [data.gouv.nc](https://data.gouv.nc).
+
+### Liste des AVP disponibles
+
+"""
+    
+    # Trier par numéro de référence décroissant
+    df_sorted = df.sort_values('numero', ascending=False)
+    
+    for _, row in df_sorted.iterrows():
+        numero = row.get('numero', '')
+        libelle = row.get('libelle_poste', 'Poste disponible')
+        
+        # Limiter la longueur du libellé
+        if len(libelle) > 80:
+            libelle = libelle[:77] + "..."
+        
+        index_content += f"* [{numero} - {libelle}]({numero}/)\n"
+    
+    index_content += """
+## 🔄 Mise à jour
+
+Les données sont mises à jour quotidiennement de manière automatique.
+
+---
+
+*Données extraites de [data.gouv.nc](https://data.gouv.nc)*
+"""
+    
+    # Écrire le fichier
+    with open("data/index.md", "w", encoding="utf-8") as f:
+        f.write(index_content)
+    
+    print(f"✅ Fichier index.md généré avec {len(df)} AVPs")
 
 if __name__ == "__main__":
     main()
