@@ -83,6 +83,17 @@ def process_pdfs_to_markdown(df, data_dir="data"):
             # 3. Sauvegarde du Markdown et des images
             output_files = save_output(rendered, final_md_path, data_dir)
             
+            # 4. Ajouter un lien vers le PDF original en haut du fichier
+            with open(final_md_path, 'r', encoding='utf-8') as f:
+                content = f.read()
+            
+            # Ajouter le lien PDF en début de fichier
+            pdf_header = f'<div style="text-align: right; margin-bottom: 1em;"><a href="{url_pdf}" target="_blank" style="display: inline-block; padding: 8px 16px; background-color: #3f51b5; color: white; text-decoration: none; border-radius: 4px;">📄 Télécharger le PDF original</a></div>\n\n'
+            content_with_pdf_link = pdf_header + content
+            
+            with open(final_md_path, 'w', encoding='utf-8') as f:
+                f.write(content_with_pdf_link)
+            
             # Nettoyage
             if os.path.exists(temp_pdf):
                 os.remove(temp_pdf)
@@ -231,6 +242,8 @@ Bienvenue sur le site des **Avis de Vacances de Poste** de l'Office des Postes e
 
 Cette page recense les avis de vacances de poste publiés par l'OPT-NC, issus du dataset [avis-de-vacances-de-poste-avp-drhfpnc](https://data.gouv.nc/explore/dataset/avis-de-vacances-de-poste-avp-drhfpnc/information) disponible sur data.gouv.nc.
 
+👉 **Retrouvez également les AVP sur le [site institutionnel OPT-NC](https://office.opt.nc/fr/emploi-et-carriere/postuler-lopt-nc/avp)**
+
 ### Liste des AVP disponibles
 
 """
@@ -241,12 +254,17 @@ Cette page recense les avis de vacances de poste publiés par l'OPT-NC, issus du
     for _, row in df_sorted.iterrows():
         numero = row.get('numero', '')
         libelle = row.get('libelle_poste', 'Poste disponible')
+        url_pdf = row.get('url_pdf', '')
         
         # Limiter la longueur du libellé
         if len(libelle) > 80:
             libelle = libelle[:77] + "..."
         
-        index_content += f"* [{numero} - {libelle}]({numero}/)\n"
+        # Ajouter le lien vers la page et vers le PDF
+        if url_pdf:
+            index_content += f"* [{numero} - {libelle}]({numero}/) · [📄 PDF]({url_pdf}){{target=\"_blank\"}}\n"
+        else:
+            index_content += f"* [{numero} - {libelle}]({numero}/)\n"
     
     index_content += """
 ## 🔄 Mise à jour
