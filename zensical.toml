@@ -16,3 +16,18 @@ site_dir = "site"
 
 [project.repo]
 url = "https://github.com/opt-nc/odata-avps-drhfpnc"
+
+# Dark mode by default with toggle
+[[project.theme.palette]]
+scheme = "slate"
+primary = "indigo"
+accent = "indigo"
+toggle.icon = "lucide/sun"
+toggle.name = "Basculer en mode clair"
+
+[[project.theme.palette]]
+scheme = "default"
+primary = "indigo"
+accent = "indigo"
+toggle.icon = "lucide/moon"
+toggle.name = "Basculer en mode sombre"
