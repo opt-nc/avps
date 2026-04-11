@@ -1,0 +1,21 @@
+version: 2
+updates:
+  # Surveiller les GitHub Actions
+  - package-ecosystem: "github-actions"
+    directory: "/"
+    schedule:
+      interval: "weekly"
+    groups:
+      actions:
+        patterns:
+          - "*"
+
+  # Surveiller les dépendances Python (compatible avec uv via l'écosystème pip)
+  - package-ecosystem: "pip"
+    directory: "/"
+    schedule:
+      interval: "weekly"
+    groups:
+      python-deps:
+        patterns:
+          - "*"

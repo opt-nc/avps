@@ -1,34 +1,61 @@
 [project]
-
 site_name = "AVPS OPT-NC"
 site_description = "Avis de Vacances de Poste de l'Office des Postes et Télécommunications de Nouvelle-Calédonie"
 site_author = "OPT-NC"
-site_url = "https://opt-nc.github.io/odata-avps-drhfpnc/"
-repo_url = "https://github.com/opt-nc/odata-avps-drhfpnc"
-repo_name = "opt-nc/odata-avps-drhfpnc"
+site_url = "https://opt-nc.github.io/avps/"
+repo_url = "https://github.com/opt-nc/avps"
+repo_name = "opt-nc/avps"
+
+# Dossiers sources et destination
+docs_dir = "data"
+site_dir = "site"
 
 copyright = """
 Copyright &copy; 2026 OPT-NC<br>
-<small>Dernière mise à jour : 11/04/2026 à 13:02 (Nouméa) | Commit : <a href="https://github.com/opt-nc/odata-avps-drhfpnc/commit/69d1ffd" target="_blank">69d1ffd</a></small>
+<small>Dernière mise à jour : 11/04/2026 à 13:02 (Nouméa) | Commit : <a href="https://github.com/opt-nc/avps/commit/69d1ffd" target="_blank">69d1ffd</a></small><br>
+<small>Propulsé par <a href="https://github.com/opt-nc/zensical" target="_blank">0.0.32</a></small>
 """
 
-# Documentation source directory
-docs_dir = "data"
+[project.theme]
+name = "material"
+language = "fr"
 
-# Build output directory
-site_dir = "site"
+# Icônes du site
+icon.logo = "assets/logo.png"
+icon.favicon = "assets/logo.png"
+icon.repo = "lucide/github"
 
-# Dark mode by default with toggle
+# Options de navigation et recherche
+features = [
+    "navigation.top",          # Bouton "Retour en haut"
+    "navigation.tracking",     # Mise à jour de l'URL au défilement
+    "navigation.footer",       # Boutons Suivant/Précédent entre les avis
+    "search.suggest",          # Suggestions de recherche
+    "search.highlight"         # Surlignage des résultats de recherche
+]
+
+# Mode sombre / Mode clair
 [[project.theme.palette]]
 scheme = "slate"
 primary = "indigo"
 accent = "indigo"
 toggle.icon = "lucide/sun"
-toggle.name = "Basculer en mode clair"
+toggle.name = "Passer au mode clair"
 
 [[project.theme.palette]]
 scheme = "default"
 primary = "indigo"
 accent = "indigo"
 toggle.icon = "lucide/moon"
-toggle.name = "Basculer en mode sombre"
+toggle.name = "Passer au mode sombre"
+
+# Liens sociaux et institutionnels
+[[project.extra.social]]
+icon = "lucide/github"
+link = "https://github.com/opt-nc/avps"
+name = "Code source sur GitHub"
+
+[[project.extra.social]]
+icon = "lucide/globe"
+link = "https://office.opt.nc/fr/emploi-et-carriere/postuler-lopt-nc/avp"
+name = "Site Institutionnel OPT-NC"

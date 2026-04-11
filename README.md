@@ -1,7 +1,7 @@
-# odata-avps-drhfpnc
+# avps
 
-[![Daily Update](https://github.com/opt-nc/odata-avps-drhfpnc/actions/workflows/daily_update.yml/badge.svg)](https://github.com/opt-nc/odata-avps-drhfpnc/actions/workflows/daily_update.yml)
-[![Publish to GitHub Pages](https://github.com/opt-nc/odata-avps-drhfpnc/actions/workflows/publish-pages.yml/badge.svg)](https://github.com/opt-nc/odata-avps-drhfpnc/actions/workflows/publish-pages.yml)
+[![Daily Update](https://github.com/opt-nc/avps/actions/workflows/daily_update.yml/badge.svg)](https://github.com/opt-nc/avps/actions/workflows/daily_update.yml)
+[![Publish to GitHub Pages](https://github.com/opt-nc/avps/actions/workflows/publish-pages.yml/badge.svg)](https://github.com/opt-nc/avps/actions/workflows/publish-pages.yml)
 
 AVPS de l'OPT-NC issus de data.gouv.nc
 
@@ -9,7 +9,7 @@ AVPS de l'OPT-NC issus de data.gouv.nc
 
 Les avis de vacances de poste sont automatiquement publiés sur GitHub Pages :
 
-**🔗 [Consulter les AVPS](https://opt-nc.github.io/odata-avps-drhfpnc/)**
+**🔗 [Consulter les AVPS](https://opt-nc.github.io/avps/)**
 
 ## 🔄 Mise à jour automatique
 
