@@ -465,7 +465,81 @@ Les données sont mises à jour quotidiennement de manière automatique.
     except Exception as e:
         print(f"⚠️ Erreur lors de la génération du sitemap: {e}")
     
+    # --- ARCHIVAGE DES ANCIENS AVPS ---
+    try:
+        archive_old_avps(df)
+    except Exception as e:
+        print(f"⚠️ Erreur lors de l'archivage : {e}")
+    
     print(f"✅ Fichier index.md généré avec {len(df)} AVPs")
+
+def archive_old_avps(current_df, data_dir="data", arch_root="archives"):
+    """Archive les AVPs qui ne sont plus dans le flux (texte uniquement)."""
+    import os
+    import re
+    import datetime
+    
+    today_iso = datetime.datetime.now().strftime("%Y-%m-%d")
+    current_year = datetime.datetime.now().strftime("%Y")
+    arch_dir = os.path.join(arch_root, current_year)
+    
+    if not os.path.exists(arch_dir):
+        os.makedirs(arch_dir, exist_ok=True)
+        
+    current_numbers = set(current_df['numero_avp'].astype(str).tolist())
+    
+    # Lister tous les fichiers MD dans data/ (exclure index.md)
+    existing_files = [f for f in os.listdir(data_dir) if f.endswith('.md') and f != 'index.md']
+    
+    for filename in existing_files:
+        numero = filename.replace('.md', '')
+        
+        if numero not in current_numbers:
+            file_path = os.path.join(data_dir, filename)
+            arch_path = os.path.join(arch_dir, filename)
+            
+            with open(file_path, 'r', encoding='utf-8') as f:
+                content = f.read()
+            
+            # --- NETTOYAGE DU CONTENU ---
+            # 1. Supprimer le bouton PDF du début
+            content = re.sub(r'<div.*?</div>', '', content, flags=re.DOTALL)
+            
+            # 2. Supprimer les images Markdown ![]()
+            content = re.sub(r'!\[.*?\]\(.*?\)', '', content)
+            
+            # 3. Essayer de ne garder que le corps du texte (après les métadonnées)
+            # On cherche "Activités principales" ou "Missions" ou "Profil"
+            body_match = re.search(r'(#+.*?(?:Activités|Missions|Profil|Caractéristiques).*?)$', content, flags=re.DOTALL | re.IGNORECASE)
+            if body_match:
+                content = body_match.group(1)
+            
+            # 4. Ajouter le bandeau d'archive
+            banner = f"""> [!IMPORTANT]\n> **AVIS ARCHIVÉ** : Ce poste a été retiré du flux officiel le {today_iso}.\n> Les informations ci-dessous sont conservées à titre historique uniquement.\n\n"""
+            
+            # Sauvegarder dans archives/YYYY/
+            with open(arch_path, 'w', encoding='utf-8') as f:
+                f.write(banner + content.strip())
+            
+            # 5. Supprimer le fichier original
+            os.remove(file_path)
+            print(f"📂 Archivage terminé pour l'AVP {numero} (Année {current_year})")
+
+    # Nettoyage des images orphelines dans data/
+    active_md_content = ""
+    for filename in os.listdir(data_dir):
+        if filename.endswith('.md'):
+            try:
+                with open(os.path.join(data_dir, filename), 'r', encoding='utf-8') as f:
+                    active_md_content += f.read()
+            except: pass
+    
+    for filename in os.listdir(data_dir):
+        if filename.endswith(('.jpeg', '.jpg', '.png')):
+            if filename not in active_md_content:
+                os.remove(os.path.join(data_dir, filename))
+                print(f"🗑️ Image orpheline supprimée : {filename}")
+
 
 def generate_rss_feed(df):
     """Génère un flux RSS simple pour les AVPs."""
