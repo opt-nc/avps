@@ -5,7 +5,7 @@ Bienvenue sur le site des **Avis de Vacances de Poste** de l'Office des Postes e
 ## 📊 En bref
 
 - **5** postes disponibles actuellement
-- 📅 Dernière mise à jour : **11/04/2026 à 13h02** (Nouméa)
+- 📅 Dernière mise à jour : **12/04/2026 à 11h30** (Nouméa)
 - 🔄 Prochaine mise à jour : demain à 00h00 (automatique)
 
 ### 📈 Répartition par corps/grade
@@ -26,11 +26,11 @@ gantt
     axisFormat %d/%m
     
     section Postes disponibles
-    DT - Commercial - AT (26-0422)    :active, task3632, 2026-03-26, 2026-04-16
-    DT - Chargé d'affaires Télécom grands comptes... (26-0420)    :active, task3651, 2026-03-26, 2026-04-16
-    DT - Assistant Commercial Pro et Revendeurs -... (26-0421)    :active, task3752, 2026-03-26, 2026-04-16
-    DDI - CHARGÉ DE CONTACT CLIENTÈLE EN SOUTIEN ... (26-0438)    :active, task15815, 2026-03-26, 2026-04-16
-    DDI - CHARGÉ DE CONTACT CLIENTÈLE EN SOUTIEN ... (26-0437)    :active, task15816, 2026-03-26, 2026-04-16
+    DT - Commercial - AT (26-0422)    :active, task13875, 2026-03-26, 2026-04-16
+    DT - Chargé d'affaires Télécom grands comptes... (26-0420)    :active, task13894, 2026-03-26, 2026-04-16
+    DT - Assistant Commercial Pro et Revendeurs -... (26-0421)    :active, task13995, 2026-03-26, 2026-04-16
+    DDI - CHARGÉ DE CONTACT CLIENTÈLE EN SOUTIEN ... (26-0438)    :active, task17008, 2026-03-26, 2026-04-16
+    DDI - CHARGÉ DE CONTACT CLIENTÈLE EN SOUTIEN ... (26-0437)    :active, task17009, 2026-03-26, 2026-04-16
 ```
 
 > 💡 **Légende** : 🟢 Vert = Plus de 7 jours | 🔵 Bleu = 3 à 7 jours | 🔴 Rouge = Moins de 3 jours (urgent !)
@@ -46,7 +46,7 @@ Cette page recense les avis de vacances de poste publiés par l'OPT-NC, issus du
 ### Liste des AVP disponibles
 
 
-!!! info "26-0438 - DDI - CHARGÉ DE CONTACT CLIENTÈLE EN SOUTIEN - ZN VOH-KONÉ-POUEMBOUT 🟢"
+!!! info "26-0438 - DDI - CHARGÉ DE CONTACT CLIENTÈLE EN SOUTIEN - ZN VOH-KONÉ-POUEMBOUT 🟢 <span class="md-tag md-tag--urgent">J-3</span>"
     **🏢 Direction :** Office des postes et télécommunications (OPT)  
     **📅 Date limite :** 16/04/2026  
     **💼 Corps :** Agent d'exploitation  
@@ -54,7 +54,7 @@ Cette page recense les avis de vacances de poste publiés par l'OPT-NC, issus du
     
     [📖 Voir les détails](26-0438/){ .md-button } [📄 Télécharger le PDF](https://data.gouv.nc/explore/dataset/avis-de-vacances-de-poste-avp-drhfpnc/files/4c30caa0b55abc63564ce9194ae06de9/download/){ .md-button .md-button--primary target="_blank" }
 
-!!! info "26-0437 - DDI - CHARGÉ DE CONTACT CLIENTÈLE EN SOUTIEN - ZN OUÉGOA-POUÉBO 🟢"
+!!! info "26-0437 - DDI - CHARGÉ DE CONTACT CLIENTÈLE EN SOUTIEN - ZN OUÉGOA-POUÉBO 🟢 <span class="md-tag md-tag--urgent">J-3</span>"
     **🏢 Direction :** Office des postes et télécommunications (OPT)  
     **📅 Date limite :** 16/04/2026  
     **💼 Corps :** Agent d'exploitation  
@@ -62,7 +62,7 @@ Cette page recense les avis de vacances de poste publiés par l'OPT-NC, issus du
     
     [📖 Voir les détails](26-0437/){ .md-button } [📄 Télécharger le PDF](https://data.gouv.nc/explore/dataset/avis-de-vacances-de-poste-avp-drhfpnc/files/90b867f7edd4944c0992eb3e489c122b/download/){ .md-button .md-button--primary target="_blank" }
 
-!!! info "26-0422 - DT - Commercial - AT 🟢"
+!!! info "26-0422 - DT - Commercial - AT 🟢 <span class="md-tag md-tag--urgent">J-3</span>"
     **🏢 Direction :** Office des postes et télécommunications (OPT)  
     **📅 Date limite :** 16/04/2026  
     **💼 Corps :** Contrôleur  
@@ -70,7 +70,7 @@ Cette page recense les avis de vacances de poste publiés par l'OPT-NC, issus du
     
     [📖 Voir les détails](26-0422/){ .md-button } [📄 Télécharger le PDF](https://data.gouv.nc/explore/dataset/avis-de-vacances-de-poste-avp-drhfpnc/files/1d35b378fa0b24d7397ffb16e2a9b2aa/download/){ .md-button .md-button--primary target="_blank" }
 
-!!! info "26-0421 - DT - Assistant Commercial Pro et Revendeurs - AE 🟢"
+!!! info "26-0421 - DT - Assistant Commercial Pro et Revendeurs - AE 🟢 <span class="md-tag md-tag--urgent">J-3</span>"
     **🏢 Direction :** Office des postes et télécommunications (OPT)  
     **📅 Date limite :** 16/04/2026  
     **💼 Corps :** Contrôleur  
@@ -78,7 +78,7 @@ Cette page recense les avis de vacances de poste publiés par l'OPT-NC, issus du
     
     [📖 Voir les détails](26-0421/){ .md-button } [📄 Télécharger le PDF](https://data.gouv.nc/explore/dataset/avis-de-vacances-de-poste-avp-drhfpnc/files/fafff45544298630ae00430fd07ef837/download/){ .md-button .md-button--primary target="_blank" }
 
-!!! info "26-0420 - DT - Chargé d'affaires Télécom grands comptes stratégiques - AE 🟢"
+!!! info "26-0420 - DT - Chargé d'affaires Télécom grands comptes stratégiques - AE 🟢 <span class="md-tag md-tag--urgent">J-3</span>"
     **🏢 Direction :** Office des postes et télécommunications (OPT)  
     **📅 Date limite :** 16/04/2026  
     **💼 Corps :** Cadre spécialiste d'exploitation  
