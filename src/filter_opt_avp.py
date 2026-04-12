@@ -144,7 +144,7 @@ def main():
     
     # Renommage des colonnes (Dictionnaire complet)
     renames = {
-        'numeroavp': 'numero_avp',
+        'numeroavp': 'numero',
         'datepublicationavp': 'date_publication_avp',
         'libelleposte': 'libelle_poste',
         'libelleemploirome': 'libelle_emploi_rome',
@@ -482,7 +482,7 @@ def archive_old_avps(current_df, data_dir="data", arch_root="archives"):
     if not os.path.exists(arch_dir):
         os.makedirs(arch_dir, exist_ok=True)
         
-    current_numbers = set(current_df['numero_avp'].astype(str).tolist())
+    current_numbers = set(current_df['numero'].astype(str).tolist())
     
     # Lister tous les fichiers MD dans data/ (exclure index.md)
     existing_files = [f for f in os.listdir(data_dir) if f.endswith('.md') and f != 'index.md']
