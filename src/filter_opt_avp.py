@@ -446,7 +446,7 @@ Les données sont mises à jour quotidiennement de manière automatique.
 
 ---
 
-*Données extraites de [data.gouv.nc](https://data.gouv.nc)*
+*Données extraites du dataset [avis-de-vacances-de-poste-avp-drhfpnc](https://data.gouv.nc/explore/dataset/avis-de-vacances-de-poste-avp-drhfpnc) disponible sur data.gouv.nc*
 """
     
     # Écrire le fichier
