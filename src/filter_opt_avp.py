@@ -588,7 +588,7 @@ def generate_rss_feed(df):
             description += f'    <p><a href="{url_pdf}">📄 Télécharger le PDF</a></p>'
         
         rss += '  <item>\n'
-        rss += f'    <title>{numero} - {libelle}</title>\n'
+        rss += f'    <title>{numero} - {libelle_poste}</title>\n'
         rss += f'    <link>https://opt-nc.github.io/avps/{numero}/</link>\n'
         rss += f'    <guid isPermaLink="true">https://opt-nc.github.io/avps/{numero}/</guid>\n'
         rss += f'    <description><![CDATA[\n    {description}\n  ]]></description>\n'
