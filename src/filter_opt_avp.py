@@ -550,14 +550,14 @@ def generate_rss_feed(df):
     rss += '  <language>fr</language>\n'
     rss += f'  <lastBuildDate>{datetime.datetime.now().strftime("%a, %d %b %Y %H:%M:%S +1100")}</lastBuildDate>\n'
     
-    # Trier par date de publication décroissante
-    df_sorted = df.sort_values('date_publication_avp', ascending=False).head(20)
+    # Trier par date de mise en ligne décroissante
+    df_sorted = df.sort_values('date_mis_en_ligne', ascending=False).head(20)
     
     for _, row in df_sorted.iterrows():
-        numero = row.get('numero_avp', '')
-        libelle = row.get('libelle_emploi', '')
-        direction = row.get('libelle_direction', '')
-        date_pub = row.get('date_publication_avp', '')
+        numero = row.get('numero', '').replace("/", "_")
+        libelle = row.get('libelle_emploi_rome', '')
+        direction = row.get('direction_libelle', '')
+        date_pub = row.get('date_mis_en_ligne', '')
         
         rss += '  <item>\n'
         rss += f'    <title>{numero} - {libelle}</title>\n'
