@@ -542,18 +542,21 @@ def generate_rss_feed(df):
     import datetime
     
     rss = '<?xml version="1.0" encoding="UTF-8" ?>\n'
-    rss += '<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">\n'
+    rss += '<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:media="http://search.yahoo.com/mrss/" xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd">\n'
     rss += '<channel>\n'
     rss += '  <title>OPT-NC : AVPS en cours</title>\n'
     rss += '  <link>https://opt-nc.github.io/avps/</link>\n'
     rss += '  <description>Avis de vacances de poste en cours et publiés par l\'OPT-NC</description>\n'
     rss += '  <language>fr</language>\n'
     rss += f'  <lastBuildDate>{datetime.datetime.now().strftime("%a, %d %b %Y %H:%M:%S +1100")}</lastBuildDate>\n'
+    rss += '  <atom:link href="https://opt-nc.github.io/avps/feed.xml" rel="self" type="application/rss+xml" />\n'
     rss += '  <image>\n'
     rss += '    <url>https://opt-nc.github.io/avps/assets/logo.png</url>\n'
     rss += '    <title>OPT-NC : AVPS en cours</title>\n'
     rss += '    <link>https://opt-nc.github.io/avps/</link>\n'
     rss += '  </image>\n'
+    rss += '  <itunes:image href="https://opt-nc.github.io/avps/assets/logo.png" />\n'
+    rss += '  <media:thumbnail url="https://opt-nc.github.io/avps/assets/logo.png" />\n'
     
     # Trier par date de mise en ligne décroissante
     df_sorted = df.sort_values('date_mis_en_ligne', ascending=False).head(20)
