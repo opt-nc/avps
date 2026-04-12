@@ -11,7 +11,7 @@ docs_dir = "data"
 site_dir = "site"
 
 # Inclure le flux RSS dans le build final
-static_assets = ["feed.xml"]
+extra_files = ["feed.xml"]
 
 copyright = """
 Copyright &copy; 2026 OPT-NC<br>
