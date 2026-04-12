@@ -65,9 +65,6 @@ icon = "material/earth"
 link = "https://office.opt.nc/fr/emploi-et-carriere/postuler-lopt-nc/avp"
 name = "Site Institutionnel OPT-NC"
 
-[project.nav]
-"Accueil" = "index.md"
-
 # --- CUSTOM CSS POUR LES BADGES ---
 extra_css = ["assets/custom.css"]
 
