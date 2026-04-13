@@ -7,7 +7,6 @@ Bienvenue sur le site des **Avis de Vacances de Poste** de l'Office des Postes e
 - **5** postes disponibles actuellement
 - 📅 Dernière mise à jour : **13/04/2026 à 11h30** (Nouméa)
 - 🔄 Prochaine mise à jour : demain à 00h00 (automatique)
-
 ### 📈 Répartition par corps/grade
 
 ```mermaid
@@ -16,24 +15,6 @@ pie title Répartition des postes par corps/grade
     "Agent d'exploitation" : 2
     "Cadre spécialiste d'exploitation" : 1
 ```
-
-### 📅 Timeline des dates de clôture
-
-```mermaid
-gantt
-    title Calendrier des dates de clôture
-    dateFormat YYYY-MM-DD
-    axisFormat %d/%m
-    
-    section Postes disponibles
-    DT - Commercial - AT (26-0422)    :crit, task2436, 2026-03-26, 2026-04-16
-    DT - Chargé d'affaires Télécom grands comptes... (26-0420)    :crit, task2455, 2026-03-26, 2026-04-16
-    DT - Assistant Commercial Pro et Revendeurs -... (26-0421)    :crit, task2556, 2026-03-26, 2026-04-16
-    DDI - CHARGÉ DE CONTACT CLIENTÈLE EN SOUTIEN ... (26-0438)    :crit, task7413, 2026-03-26, 2026-04-16
-    DDI - CHARGÉ DE CONTACT CLIENTÈLE EN SOUTIEN ... (26-0437)    :crit, task7414, 2026-03-26, 2026-04-16
-```
-
-> 💡 **Légende** : 🟢 Vert = Plus de 7 jours | 🔵 Bleu = 3 à 7 jours | 🔴 Rouge = Moins de 3 jours (urgent !)
 
 ---
 
