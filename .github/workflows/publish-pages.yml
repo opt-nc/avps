@@ -72,7 +72,7 @@ jobs:
           ls -l site/feed.xml || echo "❌ feed.xml absent de site/"
 
       - name: Upload artifact
-        uses: actions/upload-pages-artifact@v4
+        uses: actions/upload-pages-artifact@v5
         with:
           path: site
 
