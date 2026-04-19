@@ -65,7 +65,7 @@ requires-dist = [
     { name = "marker-pdf", specifier = ">=1.10.2" },
     { name = "pandas", specifier = ">=3.0.2" },
     { name = "pyarrow", specifier = ">=23.0.1" },
-    { name = "pytz", specifier = ">=2024.1" },
+    { name = "pytz", specifier = ">=2026.1.post1" },
     { name = "requests", specifier = ">=2.33.1" },
 ]
 

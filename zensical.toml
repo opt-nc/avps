@@ -21,7 +21,7 @@ extra_files = ["feed.xml"]
 
 copyright = """
 Copyright &copy; 2026 OPT-NC<br>
-<small>Dernière mise à jour : 18/04/2026 à 11:20 (Nouméa) | Commit : <a href="https://github.com/opt-nc/avps/commit/5111dc6" target="_blank">5111dc6</a></small><br>
+<small>Dernière mise à jour : 19/04/2026 à 11:21 (Nouméa) | Commit : <a href="https://github.com/opt-nc/avps/commit/44c5d71" target="_blank">44c5d71</a></small><br>
 <small>Propulsé par <a href="https://github.com/opt-nc/zensical" target="_blank">0.0.33</a></small>
 """
 

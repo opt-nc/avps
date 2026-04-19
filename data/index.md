@@ -5,25 +5,15 @@ Bienvenue sur le site des **Avis de Vacances de Poste** de l'Office des Postes e
 ## 📊 En bref
 
 - **0** poste disponible actuellement
-- 📅 Dernière mise à jour : **18/04/2026 à 11h20** (Nouméa)
+- 📅 Dernière mise à jour : **19/04/2026 à 11h21** (Nouméa)
 - 🔄 Prochaine mise à jour : demain à 00h00 (automatique)
 
-### 📈 Répartition par corps/grade
-
-```mermaid
-pie title Répartition des postes par corps/grade
-```
+!!! info "Information"
+    Il n'y a aucun avis de vacance de poste disponible pour le moment.
 
 ---
 
 ## 📋 Postes disponibles
-
-Cette page recense les avis de vacances de poste publiés par l'OPT-NC, issus du dataset [avis-de-vacances-de-poste-avp-drhfpnc](https://data.gouv.nc/explore/dataset/avis-de-vacances-de-poste-avp-drhfpnc/information) disponible sur data.gouv.nc.
-
-👉 **Retrouvez également les AVP sur le [site institutionnel OPT-NC](https://office.opt.nc/fr/emploi-et-carriere/postuler-lopt-nc/avp)**
-
-### Liste des AVP disponibles
-
 
 ## 📝 Comment postuler ?
 
