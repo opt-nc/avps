@@ -5,7 +5,7 @@ requires-python = ">=3.14"
 dependencies = [
     "marker-pdf>=1.10.2",
     "pandas>=3.0.2",
-    "pyarrow>=23.0.1",
+    "pyarrow>=24.0.0",
     "pytz>=2026.1.post1",
     "requests>=2.33.1",
 ]
