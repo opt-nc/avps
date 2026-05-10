@@ -5,7 +5,7 @@
   <link>https://opt-nc.github.io/avps/</link>
   <description>Avis de vacances de poste en cours et publiés par l'OPT-NC</description>
   <language>fr</language>
-  <lastBuildDate>Sat, 09 May 2026 01:18:20 +1100</lastBuildDate>
+  <lastBuildDate>Sun, 10 May 2026 01:08:26 +1100</lastBuildDate>
   <atom:link href="https://opt-nc.github.io/avps/feed.xml" rel="self" type="application/rss+xml" />
   <image>
     <url>https://opt-nc.github.io/avps/assets/logo.png</url>
@@ -145,6 +145,21 @@
     <p><strong>À pourvoir :</strong> IMMEDIATEMENT</p>
     <p><strong>Date de clôture :</strong> 28/05/2026</p>
     <p><a href="https://data.gouv.nc/explore/dataset/avis-de-vacances-de-poste-avp-drhfpnc/files/2a6abf2880b0a5ed17a785a419098c96/download/">📄 Télécharger le PDF</a></p>
+  ]]></description>
+    <pubDate>Thu, 07 May 2026 00:00:00 +1100</pubDate>
+  <category>Emploi</category>
+  </item>
+  <item>
+    <title>26-0672 - Directeur(trice) adjoint(e) expérience client -pôle fonctionnel</title>
+    <link>https://opt-nc.github.io/avps/26-0672/</link>
+    <guid isPermaLink="true">https://opt-nc.github.io/avps/26-0672/</guid>
+    <description><![CDATA[
+    <p><strong>Poste :</strong> Directeur(trice) adjoint(e) expérience client -pôle fonctionnel</p>
+    <p><strong>Direction :</strong> Office des postes et télécommunications</p>
+    <p><strong>Corps/Grade :</strong> emploi fonctionnel</p>
+    <p><strong>À pourvoir :</strong> susceptible d'être vacant</p>
+    <p><strong>Date de clôture :</strong> 28/05/2026</p>
+    <p><a href="https://data.gouv.nc/explore/dataset/avis-de-vacances-de-poste-avp-drhfpnc/files/b4f556b149b543de0eca299c6848adde/download/">📄 Télécharger le PDF</a></p>
   ]]></description>
     <pubDate>Thu, 07 May 2026 00:00:00 +1100</pubDate>
   <category>Emploi</category>
@@ -295,21 +310,6 @@
     <p><strong>À pourvoir :</strong> susceptible d'être vacant</p>
     <p><strong>Date de clôture :</strong> 28/05/2026</p>
     <p><a href="https://data.gouv.nc/explore/dataset/avis-de-vacances-de-poste-avp-drhfpnc/files/4fac4d8ae02775a03fe834fa53c63be4/download/">📄 Télécharger le PDF</a></p>
-  ]]></description>
-    <pubDate>Thu, 07 May 2026 00:00:00 +1100</pubDate>
-  <category>Emploi</category>
-  </item>
-  <item>
-    <title>26-0672 - Directeur(trice) adjoint(e) expérience client -pôle fonctionnel</title>
-    <link>https://opt-nc.github.io/avps/26-0672/</link>
-    <guid isPermaLink="true">https://opt-nc.github.io/avps/26-0672/</guid>
-    <description><![CDATA[
-    <p><strong>Poste :</strong> Directeur(trice) adjoint(e) expérience client -pôle fonctionnel</p>
-    <p><strong>Direction :</strong> Office des postes et télécommunications</p>
-    <p><strong>Corps/Grade :</strong> emploi fonctionnel</p>
-    <p><strong>À pourvoir :</strong> susceptible d'être vacant</p>
-    <p><strong>Date de clôture :</strong> 28/05/2026</p>
-    <p><a href="https://data.gouv.nc/explore/dataset/avis-de-vacances-de-poste-avp-drhfpnc/files/b4f556b149b543de0eca299c6848adde/download/">📄 Télécharger le PDF</a></p>
   ]]></description>
     <pubDate>Thu, 07 May 2026 00:00:00 +1100</pubDate>
   <category>Emploi</category>
