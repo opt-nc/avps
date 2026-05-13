@@ -5,7 +5,7 @@ Bienvenue sur le site des **Avis de Vacances de Poste** de l'Office des Postes e
 ## 📊 En bref
 
 - **28** postes disponibles actuellement
-- 📅 Dernière mise à jour : **12/05/2026 à 12h18** (Nouméa)
+- 📅 Dernière mise à jour : **13/05/2026 à 12h27** (Nouméa)
 - 🔄 Prochaine mise à jour : demain à 00h00 (automatique)
 
 ### 📈 Répartition par corps/grade
@@ -61,7 +61,7 @@ Cette page recense les avis de vacances de poste publiés par l'OPT-NC, issus du
     
     [📖 Voir les détails](26-0713/){ .md-button } [📄 Télécharger le PDF](https://data.gouv.nc/explore/dataset/avis-de-vacances-de-poste-avp-drhfpnc/files/2e3d1325aa2af87327dd876f0a22d6c6/download/){ .md-button .md-button--primary target="_blank" }
 
-!!! info "26-0712 - Chef(fe) de centre - Agence Etreprises 🟢"
+!!! info "26-0712 - Chef(fe) de centre - Agence Entreprises 🟢"
     **🏢 Direction :** Office des postes et télécommunications (OPT)  
     **📅 Date limite :** 28/05/2026  
     **💼 Corps :** Cadre technique  
