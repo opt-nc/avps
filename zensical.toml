@@ -76,6 +76,16 @@ link = "https://www.linkedin.com/company/opt-new-caledonia"
 name = "LinkedIn OPT-NC"
 
 [[project.extra.social]]
+icon = "fontawesome/brands/kaggle"
+link = "https://www.kaggle.com/optnouvellecaldonie"
+name = "Kaggle OPT-NC"
+
+[[project.extra.social]]
+icon = "simple/huggingface"
+link = "https://huggingface.co/opt-nc"
+name = "Hugging Face OPT-NC"
+
+[[project.extra.social]]
 icon = "fontawesome/brands/x-twitter"
 link = "https://x.com/OPT_NC"
 name = "X (Twitter) OPT-NC"

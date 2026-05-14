@@ -84,16 +84,20 @@ def process_pdfs_to_markdown(df, data_dir="data"):
             # save_output attend: (rendered, output_dir, fname_base)
             output_files = save_output(rendered, output_dir=data_dir, fname_base=numero)
             
-            # 4. Ajouter un lien vers le PDF original en haut du fichier
+            # 4. Ajouter un titre H1 et un lien vers le PDF original en haut du fichier
             with open(final_md_path, 'r', encoding='utf-8') as f:
                 content = f.read()
             
-            # Ajouter le lien PDF en début de fichier
+            # Récupérer le libellé du poste depuis le CSV
+            libelle_poste = row.get('libelle_poste', f'Poste {numero}')
+            
+            # Ajouter le titre H1 et le lien PDF en début de fichier
             pdf_header = f'<div style="text-align: right; margin-bottom: 1em;"><a href="{url_pdf}" target="_blank" style="display: inline-block; padding: 8px 16px; background-color: #3f51b5; color: white; text-decoration: none; border-radius: 4px;">📄 Télécharger le PDF original</a></div>\n\n'
-            content_with_pdf_link = pdf_header + content
+            page_title = f'# {libelle_poste}\n\n'
+            content_with_header = pdf_header + page_title + content
             
             with open(final_md_path, 'w', encoding='utf-8') as f:
-                f.write(content_with_pdf_link)
+                f.write(content_with_header)
             
             # Nettoyage
             if os.path.exists(temp_pdf):
