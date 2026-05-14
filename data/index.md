@@ -5,7 +5,7 @@ Bienvenue sur le site des **Avis de Vacances de Poste** de l'Office des Postes e
 ## 📊 En bref
 
 - **28** postes disponibles actuellement
-- 📅 Dernière mise à jour : **15/05/2026 à 08h06** (Nouméa)
+- 📅 Dernière mise à jour : **15/05/2026 à 09h51** (Nouméa)
 - 🔄 Prochaine mise à jour : demain à 00h00 (automatique)
 
 ### 📈 Répartition par corps/grade
