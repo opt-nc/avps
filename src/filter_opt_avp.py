@@ -177,11 +177,11 @@ def process_pdfs_to_markdown(df, data_dir="data"):
             # Corriger les doubles tirets dans les listes (- -Item → - Item)
             content = re.sub(r'^([ \t]*)-\s+-', r'\1-', content, flags=re.MULTILINE)
             
-            # Corriger la section "POUR RÉPONDRE À CETTE OFFRE" : H1 → H3
+            # Corriger la section "POUR RÉPONDRE À CETTE OFFRE" : H1 → H3 et normaliser la casse
             # Cette section ne doit pas être au même niveau que le titre de l'annonce
             content = re.sub(
                 r'^# \*\*POUR RÉPONDRE À CETTE OFFRE\*\*',
-                r'### **POUR RÉPONDRE À CETTE OFFRE**',
+                r'### **Pour répondre à cette offre**',
                 content,
                 flags=re.MULTILINE
             )
