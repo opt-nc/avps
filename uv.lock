@@ -57,6 +57,7 @@ dependencies = [
     { name = "pandas" },
     { name = "pyarrow" },
     { name = "pytz" },
+    { name = "pyyaml" },
     { name = "requests" },
 ]
 
@@ -66,6 +67,7 @@ requires-dist = [
     { name = "pandas", specifier = ">=3.0.2" },
     { name = "pyarrow", specifier = ">=24.0.0" },
     { name = "pytz", specifier = ">=2026.2" },
+    { name = "pyyaml", specifier = ">=6.0" },
     { name = "requests", specifier = ">=2.33.1" },
 ]
 
