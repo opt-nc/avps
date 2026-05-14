@@ -62,11 +62,13 @@ jobs:
           git add data/*.csv data/*.md data/*.jpeg data/*.jpg data/*.png 2>/dev/null || true
           # Ajouter les suppressions
           git add -u data/ 2>/dev/null || true
+          # Ajouter le catalogue consolidé
+          git add exports/ 2>/dev/null || true
           
-          if [ -n "$(git status --porcelain data/)" ]; then
+          if [ -n "$(git status --porcelain data/ exports/)" ]; then
             echo "has_changes=true" >> $GITHUB_OUTPUT
-            echo "Changes detected in data/"
-            git status --short data/
+            echo "Changes detected in data/ or exports/"
+            git status --short data/ exports/
           else
             echo "has_changes=false" >> $GITHUB_OUTPUT
             echo "No changes to commit"
