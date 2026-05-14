@@ -140,6 +140,7 @@ def process_pdfs_to_markdown(df, data_dir="data"):
                 front_matter += f'date_cloture: "{date_cloture}"\n'
             if disponibilite:
                 front_matter += f'disponibilite: "{disponibilite}"\n'
+                front_matter += f'disponible_immediatement: {"true" if disponibilite == "IMMEDIATEMENT" else "false"}\n'
             if url_pdf:
                 front_matter += f'url_pdf: "{url_pdf}"\n'
             front_matter += '---\n\n'
@@ -260,7 +261,14 @@ def main():
     if 'code_emploi_rome' in df_opt.columns:
         df_opt['code_emploi_rome'] = df_opt['code_emploi_rome'].replace("N0000", "")
     if 'date_a_pourvoir_libelle' in df_opt.columns:
-        df_opt['date_a_pourvoir_libelle'] = df_opt['date_a_pourvoir_libelle'].replace("immédiatement", "IMMEDIATEMENT")
+        df_opt['date_a_pourvoir_libelle'] = df_opt['date_a_pourvoir_libelle'].replace({
+            "immédiatement": "IMMEDIATEMENT",
+            "susceptible d'être vacant": "SUSCEPTIBLE_VACANT",
+            "susceptible d'être vacant le": "SUSCEPTIBLE_VACANT",
+            "vacant à partir du": "SUSCEPTIBLE_VACANT",
+            "date": "A_DATE",
+            "autre": "AUTRE",
+        })
     if 'emploi_resp' in df_opt.columns:
         df_opt['emploi_resp'] = df_opt['emploi_resp'].replace("Inspecteur", "")
     
