@@ -320,6 +320,9 @@ def main():
     # Génération de l'index.md
     generate_index_md(df_opt)
     
+    # Génération du catalogue consolidé
+    generate_consolidated_catalog(data_dir="data", output_dir="exports")
+    
     # Génération du fichier de build info
     generate_build_info()
 
@@ -771,6 +774,93 @@ def generate_rss_feed(df):
     with open("data/feed.xml", "w", encoding="utf-8") as f:
         f.write(rss)
     print("✅ Flux RSS généré : data/feed.xml")
+
+def generate_consolidated_catalog(data_dir="data", output_dir="exports"):
+    """Génère un fichier consolidé avec toutes les annonces AVP."""
+    import re
+    import os
+    
+    print("Génération du catalogue consolidé...")
+    
+    # Créer le répertoire exports s'il n'existe pas
+    os.makedirs(output_dir, exist_ok=True)
+    
+    # Récupérer tous les fichiers MD (sauf index.md)
+    md_files = [f for f in os.listdir(data_dir) 
+                if f.endswith('.md') and f != 'index.md']
+    
+    # Trier par numéro d'AVP (décroissant)
+    md_files.sort(reverse=True)
+    
+    catalog_content = """# Catalogue des Avis de Vacances de Poste OPT-NC
+
+Ce fichier consolidé contient toutes les annonces AVP de l'Office des Postes et Télécommunications de Nouvelle-Calédonie.
+
+**Source :** [https://opt-nc.github.io/avps/](https://opt-nc.github.io/avps/)
+
+**Nombre d'annonces :** {count}
+
+---
+
+"""
+    
+    catalog_content = catalog_content.format(count=len(md_files))
+    
+    for md_file in md_files:
+        numero = md_file.replace('.md', '')
+        md_path = os.path.join(data_dir, md_file)
+        
+        try:
+            with open(md_path, 'r', encoding='utf-8') as f:
+                content = f.read()
+            
+            # Extraire le front matter (optionnel - on peut le garder en commentaire)
+            frontmatter_match = re.match(r'^---\n(.*?)\n---\n(.*)$', content, re.DOTALL)
+            
+            if frontmatter_match:
+                frontmatter = frontmatter_match.group(1)
+                body = frontmatter_match.group(2)
+                
+                # Parser le titre depuis le front matter
+                title_match = re.search(r'^title:\s*"([^"]+)"', frontmatter, re.MULTILINE)
+                title = title_match.group(1) if title_match else numero
+            else:
+                body = content
+                title = numero
+            
+            # Supprimer le bouton HTML de téléchargement PDF
+            body = re.sub(r'<div style="text-align: right.*?</div>\n*', '', body, flags=re.DOTALL)
+            
+            # Supprimer les images
+            body = re.sub(r'!\[\]\([^)]+\)\s*\n*', '', body)
+            
+            # Décaler tous les titres d'un niveau (H1 → H2, H2 → H3, etc.)
+            # On doit traiter de H6 à H1 pour éviter les conflits
+            body = re.sub(r'^##### ', '###### ', body, flags=re.MULTILINE)  # H5 → H6
+            body = re.sub(r'^#### ', '##### ', body, flags=re.MULTILINE)     # H4 → H5
+            body = re.sub(r'^### ', '#### ', body, flags=re.MULTILINE)       # H3 → H4
+            body = re.sub(r'^## ', '### ', body, flags=re.MULTILINE)         # H2 → H3
+            body = re.sub(r'^# ', '## ', body, flags=re.MULTILINE)           # H1 → H2
+            
+            # Ajouter le titre H1 de l'annonce
+            catalog_content += f"\n# {numero} - {title}\n\n"
+            
+            # Ajouter le contenu
+            catalog_content += body.strip() + "\n\n"
+            catalog_content += "---\n\n"
+            
+            print(f"  ✓ {numero}")
+            
+        except Exception as e:
+            print(f"  ✗ Erreur avec {md_file}: {e}")
+    
+    # Écrire le fichier consolidé
+    output_path = os.path.join(output_dir, "avp_catalog.md")
+    with open(output_path, 'w', encoding='utf-8') as f:
+        f.write(catalog_content)
+    
+    print(f"✅ Catalogue consolidé généré : {output_path}")
+    print(f"   {len(md_files)} annonces consolidées")
 
 if __name__ == "__main__":
     main()
