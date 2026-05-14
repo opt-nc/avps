@@ -5,6 +5,7 @@ import json
 import os
 import re
 import shutil
+import yaml
 from glob import glob
 
 # Configuration CPU pour marker
@@ -25,6 +26,15 @@ DIRECTIONS_OPT = {
     "DPSP": "Direction de la Poste et des Services de Proximité",
 }
 
+# Charger le référentiel OPT
+def load_referentiel():
+    """Charge le référentiel des directions et services depuis le YAML."""
+    ref_path = "data/opt_referentiel.yml"
+    if os.path.exists(ref_path):
+        with open(ref_path, 'r', encoding='utf-8') as f:
+            return yaml.safe_load(f)
+    return {"directions": {}, "services": {}}
+
 def extract_direction_from_content(content):
     """Extrait l'acronyme de sous-direction depuis le premier titre du markdown."""
     match = re.search(r'^#{1,3}\s+\*{0,2}([A-Z]{2,6})\s*[–-]', content, re.MULTILINE)
@@ -32,6 +42,15 @@ def extract_direction_from_content(content):
         acronyme = match.group(1)
         if acronyme in DIRECTIONS_OPT:
             return acronyme, DIRECTIONS_OPT[acronyme]
+    return None, None
+
+def extract_service_from_libelle(libelle_poste, referentiel):
+    """Extrait l'acronyme de service depuis le libellé du poste."""
+    services = referentiel.get("services", {})
+    # Chercher les acronymes de services dans le libellé
+    for acronyme, info in services.items():
+        if re.search(r'\b' + re.escape(acronyme) + r'\b', libelle_poste):
+            return acronyme, info.get("nom", "")
     return None, None
 
 def extract_pdf_url(val):
@@ -56,6 +75,9 @@ def extract_pdf_url(val):
 def process_pdfs_to_markdown(df, data_dir="data"):
     """Télécharge les PDFs et les convertit en Markdown avec marker-pdf."""
     print("Début de la conversion des PDFs en Markdown avec marker-pdf (Haute Qualité)...")
+    
+    # Charger le référentiel
+    referentiel = load_referentiel()
     
     try:
         from marker.converters.pdf import PdfConverter
@@ -125,6 +147,9 @@ def process_pdfs_to_markdown(df, data_dir="data"):
             # Extraire l'acronyme de sous-direction depuis le contenu du MD
             acronyme_dir, libelle_dir = extract_direction_from_content(content)
             
+            # Extraire le service depuis le libellé du poste
+            acronyme_service, libelle_service = extract_service_from_libelle(libelle_poste, referentiel)
+            
             # Construire le front matter YAML
             front_matter = '---\n'
             front_matter += f'title: "{libelle_poste.replace(chr(34), chr(39))}"\n'
@@ -136,6 +161,9 @@ def process_pdfs_to_markdown(df, data_dir="data"):
             if acronyme_dir:
                 front_matter += f'direction_interne_acronyme: "{acronyme_dir}"\n'
                 front_matter += f'direction_interne: "{libelle_dir}"\n'
+            if acronyme_service:
+                front_matter += f'service_acronyme: "{acronyme_service}"\n'
+                front_matter += f'service: "{libelle_service}"\n'
             if date_cloture and date_cloture != 'nan':
                 front_matter += f'date_cloture: "{date_cloture}"\n'
             if disponibilite:
@@ -604,6 +632,9 @@ def generate_rss_feed(df):
     """Génère un flux RSS simple pour les AVPs."""
     import datetime
     
+    # Charger le référentiel
+    referentiel = load_referentiel()
+    
     rss = '<?xml version="1.0" encoding="UTF-8" ?>\n'
     rss += '<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:media="http://search.yahoo.com/mrss/" xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd">\n'
     rss += '<channel>\n'
@@ -668,6 +699,21 @@ def generate_rss_feed(df):
             except:
                 pass
         rss += '  <category>Emploi</category>\n'
+        
+        # Ajouter les catégories de direction et service depuis le MD
+        md_path = os.path.join("data", f"{numero}.md")
+        if os.path.exists(md_path):
+            with open(md_path, 'r', encoding='utf-8') as f:
+                md_content = f.read()
+            # Extraire direction
+            acronyme_dir, libelle_dir = extract_direction_from_content(md_content)
+            if acronyme_dir and libelle_dir:
+                rss += f'  <category>{libelle_dir}</category>\n'
+            # Extraire service
+            acronyme_service, libelle_service = extract_service_from_libelle(libelle_poste, referentiel)
+            if acronyme_service and libelle_service:
+                rss += f'  <category>{libelle_service}</category>\n'
+        
         rss += '  </item>\n'
         
     rss += '</channel>\n'
