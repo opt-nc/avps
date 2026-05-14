@@ -35,6 +35,16 @@ def load_referentiel():
             return yaml.safe_load(f)
     return {"directions": {}, "services": {}}
 
+def load_lieux_mapping():
+    """Charge le mapping des lieux de travail depuis le YAML."""
+    lieux_path = "data/lieux_travail.yml"
+    if os.path.exists(lieux_path):
+        with open(lieux_path, 'r', encoding='utf-8') as f:
+            data = yaml.safe_load(f)
+            # Créer un dict pour accès rapide
+            return {item['lieu_brut']: item['ville'] for item in data.get('lieux', [])}
+    return {}
+
 def extract_direction_from_content(content):
     """Extrait l'acronyme de sous-direction depuis le premier titre du markdown."""
     match = re.search(r'^#{1,3}\s+\*{0,2}([A-Z]{2,6})\s*[–-]', content, re.MULTILINE)
@@ -52,6 +62,38 @@ def extract_service_from_libelle(libelle_poste, referentiel):
         if re.search(r'\b' + re.escape(acronyme) + r'\b', libelle_poste):
             return acronyme, info.get("nom", "")
     return None, None
+
+def extract_lieu_travail_from_content(content):
+    """Extrait le lieu de travail depuis le contenu markdown.
+    
+    Patterns détectés:
+    - **Lieu de travail** Nouméa
+    - **Durée de résidence...** / **Lieu de travail** Nouméa
+    """
+    # Pattern 1: Lieu de travail simple
+    match = re.search(r'\*\*Lieu de travail\*\*\s+([^\n]+)', content, re.IGNORECASE)
+    if match:
+        lieu = match.group(1).strip()
+        # Nettoyer les caractères spéciaux de fin
+        lieu = re.sub(r'\s*\*\*.*$', '', lieu)  # Enlever les ** en fin si présents
+        return lieu if lieu else None
+    return None
+
+def normalize_ville(lieu_brut, lieux_mapping):
+    """Normalise un lieu de travail brut en ville."""
+    if not lieu_brut:
+        return None
+    
+    # 1. Chercher dans le mapping explicite
+    if lieu_brut in lieux_mapping:
+        return lieux_mapping[lieu_brut]
+    
+    # 2. Règle par défaut: si contient "Nouméa" ou "Ducos" → ville = "Nouméa"
+    if any(x in lieu_brut for x in ['Nouméa', 'Noumea', 'Ducos']):
+        return 'Nouméa'
+    
+    # 3. Sinon, retourner le lieu brut comme ville
+    return lieu_brut
 
 def extract_pdf_url(val):
     """Extrait l'URL du PDF depuis l'objet JSON présent dans la colonne url_pdf."""
@@ -101,8 +143,9 @@ def process_pdfs_to_markdown(df, data_dir="data"):
     """Télécharge les PDFs et les convertit en Markdown avec marker-pdf."""
     print("Début de la conversion des PDFs en Markdown avec marker-pdf (Haute Qualité)...")
     
-    # Charger le référentiel
+    # Charger le référentiel et le mapping des lieux
     referentiel = load_referentiel()
+    lieux_mapping = load_lieux_mapping()
     
     try:
         from marker.converters.pdf import PdfConverter
@@ -203,6 +246,15 @@ def process_pdfs_to_markdown(df, data_dir="data"):
             # Extraire le service depuis le libellé du poste
             acronyme_service, libelle_service = extract_service_from_libelle(libelle_poste, referentiel)
             
+            # Extraire le lieu de travail depuis le contenu (prioritaire sur CSV qui est souvent vide)
+            lieu_travail_from_md = extract_lieu_travail_from_content(content)
+            # Utiliser le lieu du CSV si disponible, sinon celui du MD
+            if not lieu_travail or str(lieu_travail).strip() == '' or str(lieu_travail).lower() == 'nan':
+                lieu_travail = lieu_travail_from_md or ''
+            
+            # Normaliser la ville depuis le lieu de travail
+            ville = normalize_ville(lieu_travail, lieux_mapping) if lieu_travail else None
+            
             # Construire le front matter YAML
             front_matter = '---\n'
             front_matter += f'title: "{libelle_poste.replace(chr(34), chr(39))}"\n'
@@ -219,6 +271,8 @@ def process_pdfs_to_markdown(df, data_dir="data"):
                 front_matter += f'service: "{libelle_service}"\n'
             if lieu_travail:
                 front_matter += f'lieu_travail: "{lieu_travail}"\n'
+            if ville:
+                front_matter += f'ville: "{ville}"\n'
             if date_cloture and date_cloture != 'nan':
                 front_matter += f'date_cloture: "{date_cloture}"\n'
             if disponibilite:

@@ -1,0 +1,31 @@
+# Configuration de mapping des lieux de travail
+# Permet de normaliser les adresses complètes vers des villes
+#
+# Structure:
+#   lieu_brut: texte exact extrait du PDF
+#   ville: ville normalisée (pour filtrage/regroupement)
+
+lieux:
+  # Nouméa - adresses spécifiques
+  - lieu_brut: "9 rue du Général Galliéni Nouméa"
+    ville: "Nouméa"
+  
+  - lieu_brut: "Direction générale - Immeuble Waruna - 2 rue Paul Montchovet - Nouméa"
+    ville: "Nouméa"
+  
+  - lieu_brut: "Immeuble WARUNA II Port Plaisance"
+    ville: "Nouméa"
+  
+  - lieu_brut: "206 rue Jacques IEKAWE PK5 - 98841"
+    ville: "Nouméa"
+  
+  - lieu_brut: "Centre d'Exploitation des Réseaux de"
+    ville: "Nouméa"
+    note: "Texte incomplet dans le PDF source"
+  
+  # Ducos (fait partie du Grand Nouméa)
+  - lieu_brut: "Immeuble Le Fulton à Ducos"
+    ville: "Nouméa"
+
+# Règle par défaut: si le lieu contient "Nouméa" ou "Ducos" → ville = "Nouméa"
+# Si aucun mapping trouvé, on garde le lieu_brut comme ville
