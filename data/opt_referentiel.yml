@@ -1,0 +1,41 @@
+# Référentiel OPT-NC : Directions et Services
+# Ce fichier documente les acronymes utilisés dans les AVPs
+
+directions:
+  DDI:
+    nom: "Direction de la Distribution"
+  DT:
+    nom: "Direction des Télécommunications"
+  DMI:
+    nom: "Direction des Moyens"
+  DPO:
+    nom: "Direction du Postal"
+  DSB:
+    nom: "Direction des Services Bancaires"
+  DFI:
+    nom: "Direction des Finances"
+  DSI:
+    nom: "Direction des Systèmes d'Information"
+  AC:
+    nom: "Agent Comptable"
+  DG:
+    nom: "Direction Générale"
+  SG:
+    nom: "Secrétariat Général"
+  DPSP:
+    nom: "Direction de la Poste et des Services de Proximité"
+
+services:
+  CPMC:
+    nom: "Centre de Production et de Maintenance Clients"
+    direction: DT
+    description: "Gère la production et la maintenance des services clients"
+  SMC:
+    nom: "Service Marketing et Communication"
+    direction: null
+  SMQP:
+    nom: "Service Management Qualité et Performance"
+    direction: null
+  CERT:
+    nom: "Centre d'Expertise Réseau et Télécommunications"
+    direction: DT
