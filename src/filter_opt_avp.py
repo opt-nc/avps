@@ -3,12 +3,36 @@ import requests
 import io
 import json
 import os
+import re
 import shutil
 from glob import glob
 
 # Configuration CPU pour marker
 os.environ["TORCH_DEVICE"] = "cpu"
 os.environ["INFERENCE_DEVICE"] = "cpu"
+
+DIRECTIONS_OPT = {
+    "DDI":  "Direction de la Distribution",
+    "DT":   "Direction des Télécommunications",
+    "DMI":  "Direction des Moyens",
+    "DPO":  "Direction du Postal",
+    "DSB":  "Direction des Services Bancaires",
+    "DFI":  "Direction des Finances",
+    "DSI":  "Direction des Systèmes d'Information",
+    "AC":   "Agent Comptable",
+    "DG":   "Direction Générale",
+    "SG":   "Secrétariat Général",
+    "DPSP": "Direction de la Poste et des Services de Proximité",
+}
+
+def extract_direction_from_content(content):
+    """Extrait l'acronyme de sous-direction depuis le premier titre du markdown."""
+    match = re.search(r'^#{1,3}\s+\*{0,2}([A-Z]{2,6})\s*[–-]', content, re.MULTILINE)
+    if match:
+        acronyme = match.group(1)
+        if acronyme in DIRECTIONS_OPT:
+            return acronyme, DIRECTIONS_OPT[acronyme]
+    return None, None
 
 def extract_pdf_url(val):
     """Extrait l'URL du PDF depuis l'objet JSON présent dans la colonne url_pdf."""
@@ -96,8 +120,10 @@ def process_pdfs_to_markdown(df, data_dir="data"):
             disponibilite  = row.get('date_a_pourvoir_libelle', '')
             
             # Supprimer les références aux images de type _page_*_Picture_*.jpeg (logos OPT)
-            import re
             content = re.sub(r'!\[\]\(_page_\d+_Picture_\d+\.jpeg\)\s*\n?', '', content)
+            
+            # Extraire l'acronyme de sous-direction depuis le contenu du MD
+            acronyme_dir, libelle_dir = extract_direction_from_content(content)
             
             # Construire le front matter YAML
             front_matter = '---\n'
@@ -107,6 +133,9 @@ def process_pdfs_to_markdown(df, data_dir="data"):
                 front_matter += f'corps_grade: "{corps_grade}"\n'
             if direction:
                 front_matter += f'direction: "{direction}"\n'
+            if acronyme_dir:
+                front_matter += f'direction_interne_acronyme: "{acronyme_dir}"\n'
+                front_matter += f'direction_interne: "{libelle_dir}"\n'
             if date_cloture and date_cloture != 'nan':
                 front_matter += f'date_cloture: "{date_cloture}"\n'
             if disponibilite:
