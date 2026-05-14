@@ -148,6 +148,9 @@ def process_pdfs_to_markdown(df, data_dir="data"):
             # Ex: "**Emploi RESPNC :**" devient "**Emploi RESPNC**"
             content = re.sub(r'\*\*([^*]+) :\*\*', r'**\1**', content)
             
+            # Corriger les doubles tirets dans les listes (- -Item → - Item)
+            content = re.sub(r'^([ \t]*)-\s+-', r'\1-', content, flags=re.MULTILINE)
+            
             # Extraire l'acronyme de sous-direction depuis le contenu du MD
             acronyme_dir, libelle_dir = extract_direction_from_content(content)
             
