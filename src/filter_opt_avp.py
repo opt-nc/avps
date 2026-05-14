@@ -72,6 +72,31 @@ def extract_pdf_url(val):
         pass
     return val
 
+def convert_savoir_faire_to_list(content):
+    """Convertit les paragraphes de la section Savoir-faire en liste."""
+    import re
+    
+    # Pattern pour trouver la section Savoir-faire et son contenu jusqu'à la prochaine section
+    pattern = r'(#{2,4}\s+\*\*Savoir-faire\*\*\s*\n)((?:(?!#{2,4}).*\n)*)'
+    
+    def replace_func(match):
+        header = match.group(1)
+        content_block = match.group(2).strip()
+        
+        # Si le contenu a déjà des listes (commence par -), ne rien faire
+        if re.search(r'^\s*-', content_block, re.MULTILINE):
+            return match.group(0)
+        
+        # Découper en lignes non vides
+        lines = [line.strip() for line in content_block.split('\n') if line.strip()]
+        
+        # Convertir chaque ligne en item de liste
+        list_items = ['- ' + line for line in lines]
+        
+        return header + '\n' + '\n'.join(list_items) + '\n'
+    
+    return re.sub(pattern, replace_func, content)
+
 def process_pdfs_to_markdown(df, data_dir="data"):
     """Télécharge les PDFs et les convertit en Markdown avec marker-pdf."""
     print("Début de la conversion des PDFs en Markdown avec marker-pdf (Haute Qualité)...")
@@ -168,6 +193,9 @@ def process_pdfs_to_markdown(df, data_dir="data"):
                 content,
                 flags=re.MULTILINE
             )
+            
+            # Convertir les paragraphes de Savoir-faire en liste
+            content = convert_savoir_faire_to_list(content)
             
             # Extraire l'acronyme de sous-direction depuis le contenu du MD
             acronyme_dir, libelle_dir = extract_direction_from_content(content)
