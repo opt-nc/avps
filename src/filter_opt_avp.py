@@ -84,21 +84,41 @@ def process_pdfs_to_markdown(df, data_dir="data"):
             # save_output attend: (rendered, output_dir, fname_base)
             output_files = save_output(rendered, output_dir=data_dir, fname_base=numero)
             
-            # 4. Ajouter un titre H1 et un lien vers le PDF original en haut du fichier
+            # 4. Ajouter le front matter, un titre H1 et un lien vers le PDF original
             with open(final_md_path, 'r', encoding='utf-8') as f:
                 content = f.read()
             
-            # Récupérer le libellé du poste depuis le CSV
+            # Récupérer les métadonnées depuis le CSV
             libelle_poste = row.get('libelle_poste', f'Poste {numero}')
+            corps_grade    = row.get('libelle_corps_grade', '')
+            direction      = row.get('direction_libelle', '')
+            date_cloture   = str(row.get('date_cloture', ''))[:10]
+            disponibilite  = row.get('date_a_pourvoir_libelle', '')
             
             # Supprimer les références aux images de type _page_*_Picture_*.jpeg (logos OPT)
             import re
             content = re.sub(r'!\[\]\(_page_\d+_Picture_\d+\.jpeg\)\s*\n?', '', content)
             
-            # Ajouter le titre H1 et le lien PDF en début de fichier
+            # Construire le front matter YAML
+            front_matter = '---\n'
+            front_matter += f'title: "{libelle_poste.replace(chr(34), chr(39))}"\n'
+            front_matter += f'numero: "{numero}"\n'
+            if corps_grade:
+                front_matter += f'corps_grade: "{corps_grade}"\n'
+            if direction:
+                front_matter += f'direction: "{direction}"\n'
+            if date_cloture and date_cloture != 'nan':
+                front_matter += f'date_cloture: "{date_cloture}"\n'
+            if disponibilite:
+                front_matter += f'disponibilite: "{disponibilite}"\n'
+            if url_pdf:
+                front_matter += f'url_pdf: "{url_pdf}"\n'
+            front_matter += '---\n\n'
+            
+            # Ajouter le lien PDF et le titre H1
             pdf_header = f'<div style="text-align: right; margin-bottom: 1em;"><a href="{url_pdf}" target="_blank" style="display: inline-block; padding: 8px 16px; background-color: #3f51b5; color: white; text-decoration: none; border-radius: 4px;">📄 Télécharger le PDF original</a></div>\n\n'
             page_title = f'# {libelle_poste}\n\n'
-            content_with_header = pdf_header + page_title + content
+            content_with_header = front_matter + pdf_header + page_title + content
             
             with open(final_md_path, 'w', encoding='utf-8') as f:
                 f.write(content_with_header)
