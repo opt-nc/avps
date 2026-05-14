@@ -5,7 +5,7 @@
   <link>https://opt-nc.github.io/avps/</link>
   <description>Avis de vacances de poste en cours et publiés par l'OPT-NC</description>
   <language>fr</language>
-  <lastBuildDate>Thu, 14 May 2026 11:53:00 +1100</lastBuildDate>
+  <lastBuildDate>Thu, 14 May 2026 20:16:53 +1100</lastBuildDate>
   <atom:link href="https://opt-nc.github.io/avps/feed.xml" rel="self" type="application/rss+xml" />
   <image>
     <url>https://opt-nc.github.io/avps/assets/logo.png</url>
@@ -14,23 +14,6 @@
   </image>
   <itunes:image href="https://opt-nc.github.io/avps/assets/logo.png" />
   <media:thumbnail url="https://opt-nc.github.io/avps/assets/logo.png" />
-  <item>
-    <title>26-0715 - Responsable produit Télécoms - SMC</title>
-    <link>https://opt-nc.github.io/avps/26-0715/</link>
-    <guid isPermaLink="true">https://opt-nc.github.io/avps/26-0715/</guid>
-    <description><![CDATA[
-    <p><strong>Poste :</strong> Responsable produit Télécoms - SMC</p>
-    <p><strong>Direction :</strong> Office des postes et télécommunications</p>
-    <p><strong>Corps/Grade :</strong> cadre d'exploitation</p>
-    <p><strong>À pourvoir :</strong> SUSCEPTIBLE_VACANT</p>
-    <p><strong>Date de clôture :</strong> 28/05/2026</p>
-    <p><a href="https://data.gouv.nc/explore/dataset/avis-de-vacances-de-poste-avp-drhfpnc/files/3fbd9fa9f786ac8d4a8b9d9676fba362/download/">📄 Télécharger le PDF</a></p>
-  ]]></description>
-    <pubDate>Thu, 07 May 2026 00:00:00 +1100</pubDate>
-  <category>Emploi</category>
-  <category>Direction des Télécommunications</category>
-  <category>Service Marketing et Communication</category>
-  </item>
   <item>
     <title>26-0690 - Administrateur des pratiques métiers - section applications et pratiques métiers</title>
     <link>https://opt-nc.github.io/avps/26-0690/</link>
@@ -42,6 +25,22 @@
     <p><strong>À pourvoir :</strong> SUSCEPTIBLE_VACANT</p>
     <p><strong>Date de clôture :</strong> 28/05/2026</p>
     <p><a href="https://data.gouv.nc/explore/dataset/avis-de-vacances-de-poste-avp-drhfpnc/files/60e51e47713579732ce575c556125c7d/download/">📄 Télécharger le PDF</a></p>
+  ]]></description>
+    <pubDate>Thu, 07 May 2026 00:00:00 +1100</pubDate>
+  <category>Emploi</category>
+  <category>Direction de la Poste et des Services de Proximité</category>
+  </item>
+  <item>
+    <title>26-0674 - Chef(fe) de section expérience commerciale - Service expérience client</title>
+    <link>https://opt-nc.github.io/avps/26-0674/</link>
+    <guid isPermaLink="true">https://opt-nc.github.io/avps/26-0674/</guid>
+    <description><![CDATA[
+    <p><strong>Poste :</strong> Chef(fe) de section expérience commerciale - Service expérience client</p>
+    <p><strong>Direction :</strong> Office des postes et télécommunications</p>
+    <p><strong>Corps/Grade :</strong> cadre d'exploitation</p>
+    <p><strong>À pourvoir :</strong> IMMEDIATEMENT</p>
+    <p><strong>Date de clôture :</strong> 28/05/2026</p>
+    <p><a href="https://data.gouv.nc/explore/dataset/avis-de-vacances-de-poste-avp-drhfpnc/files/72dc9702fec70e5de6ae91def4b6ca7d/download/">📄 Télécharger le PDF</a></p>
   ]]></description>
     <pubDate>Thu, 07 May 2026 00:00:00 +1100</pubDate>
   <category>Emploi</category>
