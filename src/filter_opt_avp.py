@@ -524,6 +524,25 @@ def archive_old_avps(current_df, data_dir="data", arch_root="archives"):
                 print(f"🗑️ Image orpheline supprimée : {filename}")
 
 
+def extract_missions_from_md(numero, data_dir="data"):
+    """Extrait le paragraphe Missions depuis le fichier markdown de l'AVP."""
+    import re
+    md_path = os.path.join(data_dir, f"{numero}.md")
+    if not os.path.exists(md_path):
+        return None
+    with open(md_path, 'r', encoding='utf-8') as f:
+        content = f.read()
+    match = re.search(
+        r'\*\*Missions?\s*:\*\*\s*(.*?)(?=\n\*\*|\n#{1,4}|\Z)',
+        content, re.DOTALL | re.IGNORECASE
+    )
+    if match:
+        text = match.group(1).strip()
+        text = re.sub(r'\s+', ' ', text)
+        return text[:500] + ('…' if len(text) > 500 else '')
+    return None
+
+
 def generate_rss_feed(df):
     """Génère un flux RSS simple pour les AVPs."""
     import datetime
@@ -574,6 +593,9 @@ def generate_rss_feed(df):
                 description += f'    <p><strong>Date de clôture :</strong> {date_cloture_fr}</p>\n'
             except:
                 pass
+        missions = extract_missions_from_md(numero)
+        if missions:
+            description += f'    <p><strong>Missions :</strong> {missions}</p>\n'
         if url_pdf:
             description += f'    <p><a href="{url_pdf}">📄 Télécharger le PDF</a></p>'
         
