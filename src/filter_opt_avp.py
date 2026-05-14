@@ -91,6 +91,10 @@ def process_pdfs_to_markdown(df, data_dir="data"):
             # Récupérer le libellé du poste depuis le CSV
             libelle_poste = row.get('libelle_poste', f'Poste {numero}')
             
+            # Supprimer les références aux images de type _page_*_Picture_*.jpeg (logos OPT)
+            import re
+            content = re.sub(r'!\[\]\(_page_\d+_Picture_\d+\.jpeg\)\s*\n?', '', content)
+            
             # Ajouter le titre H1 et le lien PDF en début de fichier
             pdf_header = f'<div style="text-align: right; margin-bottom: 1em;"><a href="{url_pdf}" target="_blank" style="display: inline-block; padding: 8px 16px; background-color: #3f51b5; color: white; text-decoration: none; border-radius: 4px;">📄 Télécharger le PDF original</a></div>\n\n'
             page_title = f'# {libelle_poste}\n\n'
@@ -98,6 +102,11 @@ def process_pdfs_to_markdown(df, data_dir="data"):
             
             with open(final_md_path, 'w', encoding='utf-8') as f:
                 f.write(content_with_header)
+            
+            # Supprimer les fichiers images de logos extraits
+            for img_file in glob(os.path.join(data_dir, f"{numero}_page_*_Picture_*.jpeg")):
+                os.remove(img_file)
+                print(f"    Image logo supprimée : {os.path.basename(img_file)}")
             
             # Nettoyage
             if os.path.exists(temp_pdf):
@@ -123,8 +132,15 @@ def process_pdfs_to_markdown(df, data_dir="data"):
     # Nettoyage des fichiers JSON de métadonnées générés par marker
     all_json_files = glob(os.path.join(data_dir, "*_meta.json"))
     for json_file in all_json_files:
-        print(f"  Suppression des métadonnées : {os.path.basename(json_file)}")
         os.remove(json_file)
+        print(f"  Suppression des métadonnées : {os.path.basename(json_file)}")
+    
+    # Nettoyage de toutes les images de logos (_page_*_Picture_*.jpeg)
+    print("Nettoyage des images de logos...")
+    all_logo_images = glob(os.path.join(data_dir, "_page_*_Picture_*.jpeg"))
+    for img_file in all_logo_images:
+        os.remove(img_file)
+        print(f"  Image logo supprimée : {os.path.basename(img_file)}")
 
 def main():
     url = "https://data.gouv.nc/api/explore/v2.1/catalog/datasets/avis-de-vacances-de-poste-avp-drhfpnc/exports/parquet?lang=fr&timezone=Pacific%2FNoumea"
