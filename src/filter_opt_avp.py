@@ -357,6 +357,30 @@ def generate_index_md(df):
     if os.path.exists("data/sitemap.xml"):
         os.remove("data/sitemap.xml")
         print("🗑️ sitemap.xml obsolète supprimé")
+    
+    # Fonction helper pour extraire le front matter d'un fichier MD
+    def extract_frontmatter(numero):
+        """Extrait le front matter YAML d'un fichier markdown."""
+        md_path = os.path.join("data", f"{numero}.md")
+        if not os.path.exists(md_path):
+            return {}
+        
+        try:
+            with open(md_path, 'r', encoding='utf-8') as f:
+                content = f.read()
+            
+            # Extraire le front matter entre ---
+            import re
+            match = re.match(r'^---\n(.*?)\n---', content, re.DOTALL)
+            if not match:
+                return {}
+            
+            # Parser le YAML
+            import yaml
+            frontmatter = yaml.safe_load(match.group(1))
+            return frontmatter or {}
+        except:
+            return {}
 
     # Calculer les statistiques
     from datetime import datetime
@@ -429,6 +453,15 @@ Cette page recense les avis de vacances de poste publiés par l'OPT-NC, issus du
             date_publication = row.get('date_publication_avp', '')
             corps_grade = row.get('libelle_corps_grade', '')
             
+            # Extraire les métadonnées du front matter
+            frontmatter = extract_frontmatter(numero)
+            direction_interne = frontmatter.get('direction_interne')
+            direction_interne_acronyme = frontmatter.get('direction_interne_acronyme')
+            service = frontmatter.get('service')
+            service_acronyme = frontmatter.get('service_acronyme')
+            disponibilite = frontmatter.get('disponibilite')
+            disponible_immediatement = frontmatter.get('disponible_immediatement', False)
+            
             # Limiter la longueur du libellé pour le titre
             libelle_court = libelle
             if len(libelle) > 80:
@@ -436,8 +469,10 @@ Cette page recense les avis de vacances de poste publiés par l'OPT-NC, issus du
             
             # Badge de disponibilité dans le titre
             badge_dispo = ""
-            if str(date_a_pourvoir_libelle).upper() == "IMMEDIATEMENT":
+            if disponible_immediatement or str(date_a_pourvoir_libelle).upper() == "IMMEDIATEMENT":
                 badge_dispo = " 🟢"
+            elif disponibilite == "SUSCEPTIBLE_VACANT":
+                badge_dispo = " 🟡"
             
             # --- CALCUL DES NOUVEAUX BADGES ---
             badges_info = ""
@@ -467,14 +502,20 @@ Cette page recense les avis de vacances de poste publiés par l'OPT-NC, issus du
             # Créer une carte admonition avec les badges
             index_content += f'\n!!! info "{numero} - {libelle_court}{badge_dispo}{badges_info}"\n'
             
-            # Direction
-            if pd.notna(direction_libelle) and direction_libelle:
+            # Direction interne (prioritaire si disponible)
+            if direction_interne and direction_interne_acronyme:
+                index_content += f"    **🏢 Direction :** {direction_interne} ({direction_interne_acronyme})  \n"
+            elif pd.notna(direction_libelle) and direction_libelle:
                 index_content += f"    **🏢 Direction :** {direction_libelle}"
                 if pd.notna(direction_acronyme) and direction_acronyme:
                     index_content += f" ({direction_acronyme})"
                 index_content += "  \n"
             elif pd.notna(direction_acronyme) and direction_acronyme:
                 index_content += f"    **🏢 Direction :** {direction_acronyme}  \n"
+            
+            # Service (nouvelle donnée du front matter)
+            if service and service_acronyme:
+                index_content += f"    **🔧 Service :** {service} ({service_acronyme})  \n"
             
             # Lieu
             if pd.notna(lieu_travail) and lieu_travail:
@@ -494,8 +535,12 @@ Cette page recense les avis de vacances de poste publiés par l'OPT-NC, issus du
                 index_content += f"    **💼 Corps :** {corps_grade.capitalize()}  \n"
             
             # Disponibilité
-            if str(date_a_pourvoir_libelle).upper() == "IMMEDIATEMENT":
+            if disponible_immediatement or str(date_a_pourvoir_libelle).upper() == "IMMEDIATEMENT":
                 index_content += f"    **⚡ Disponibilité :** Immédiate  \n"
+            elif disponibilite == "SUSCEPTIBLE_VACANT":
+                index_content += f"    **🔔 Disponibilité :** Susceptible d'être vacant  \n"
+            elif disponibilite == "A_DATE":
+                index_content += f"    **📅 Disponibilité :** À date  \n"
             
             # Liens
             index_content += "    \n"
