@@ -144,6 +144,10 @@ def process_pdfs_to_markdown(df, data_dir="data"):
             # Supprimer les références aux images de type _page_*_Picture_*.jpeg (logos OPT)
             content = re.sub(r'!\[\]\(_page_\d+_Picture_\d+\.jpeg\)\s*\n?', '', content)
             
+            # Supprimer les ":" en fin de ligne dans les titres en gras
+            # Ex: "**Emploi RESPNC :**" devient "**Emploi RESPNC**"
+            content = re.sub(r'\*\*([^*]+) :\*\*', r'**\1**', content)
+            
             # Extraire l'acronyme de sous-direction depuis le contenu du MD
             acronyme_dir, libelle_dir = extract_direction_from_content(content)
             
