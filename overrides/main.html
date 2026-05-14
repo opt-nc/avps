@@ -88,6 +88,12 @@
           <td style="padding: 0.5em;">🔧 {{ page.meta.service }} ({{ page.meta.service_acronyme }})</td>
         </tr>
         {% endif %}
+        {% if page.meta.lieu_travail %}
+        <tr>
+          <td style="padding: 0.5em; font-weight: bold;">Lieu de travail</td>
+          <td style="padding: 0.5em;">📍 {{ page.meta.lieu_travail }}</td>
+        </tr>
+        {% endif %}
         {% if page.meta.disponibilite %}
         <tr>
           <td style="padding: 0.5em; font-weight: bold;">Disponibilité</td>

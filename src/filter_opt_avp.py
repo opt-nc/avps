@@ -138,6 +138,7 @@ def process_pdfs_to_markdown(df, data_dir="data"):
             libelle_poste = row.get('libelle_poste', f'Poste {numero}')
             corps_grade    = row.get('libelle_corps_grade', '')
             direction      = row.get('direction_libelle', '')
+            lieu_travail   = row.get('lieu_travail', '')
             date_cloture   = str(row.get('date_cloture', ''))[:10]
             disponibilite  = row.get('date_a_pourvoir_libelle', '')
             
@@ -171,6 +172,8 @@ def process_pdfs_to_markdown(df, data_dir="data"):
             if acronyme_service:
                 front_matter += f'service_acronyme: "{acronyme_service}"\n'
                 front_matter += f'service: "{libelle_service}"\n'
+            if lieu_travail:
+                front_matter += f'lieu_travail: "{lieu_travail}"\n'
             if date_cloture and date_cloture != 'nan':
                 front_matter += f'date_cloture: "{date_cloture}"\n'
             if disponibilite:
