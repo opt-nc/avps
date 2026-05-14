@@ -161,6 +161,14 @@ def process_pdfs_to_markdown(df, data_dir="data"):
                 flags=re.MULTILINE
             )
             
+            # Corriger la section "Détails de l'offre" : H1 → H3
+            content = re.sub(
+                r'^# \*\*Détails de l\'offre',
+                r'### **Détails de l\'offre',
+                content,
+                flags=re.MULTILINE
+            )
+            
             # Extraire l'acronyme de sous-direction depuis le contenu du MD
             acronyme_dir, libelle_dir = extract_direction_from_content(content)
             
