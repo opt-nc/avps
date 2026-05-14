@@ -20,4 +20,110 @@
   <meta name="twitter:image" content="{{ config.site_url }}assets/logo.png">
   <meta name="twitter:site" content="@OPT_NC">
   <meta name="twitter:creator" content="@OPT_NC">
+  
+  <!-- Schema.org JobPosting structured data -->
+  {% if page.meta and page.meta.numero %}
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "JobPosting",
+    "title": "{{ page.meta.title | default(page.title) }}",
+    "description": "{{ page.meta.description | default(config.site_description) }}",
+    "identifier": {
+      "@type": "PropertyValue",
+      "name": "Numéro AVP",
+      "value": "{{ page.meta.numero }}"
+    },
+    "datePosted": "{{ page.meta.date_publication | default('2026-05-01') }}",
+    "validThrough": "{{ page.meta.date_cloture }}",
+    "hiringOrganization": {
+      "@type": "Organization",
+      "name": "Office des Postes et Télécommunications de Nouvelle-Calédonie",
+      "sameAs": "https://www.opt.nc"
+    },
+    "jobLocation": {
+      "@type": "Place",
+      "address": {
+        "@type": "PostalAddress",
+        "addressCountry": "NC",
+        "addressRegion": "Nouvelle-Calédonie"
+      }
+    }{% if page.meta.direction_interne %},
+    "department": "{{ page.meta.direction_interne }}"{% endif %}{% if page.meta.service %},
+    "workingEnvironment": "{{ page.meta.service }}"{% endif %}{% if page.meta.disponible_immediatement == true %},
+    "jobStartDate": "Immédiatement"{% endif %}
+  }
+  </script>
+  {% endif %}
+{% endblock %}
+
+{% block content %}
+  {% if page.meta and page.meta.numero %}
+  <!-- Metadata card for job posting -->
+  <div class="md-typeset" style="background: var(--md-code-bg-color); border-left: 4px solid var(--md-primary-fg-color); padding: 1em; margin-bottom: 2em; border-radius: 4px;">
+    <h3 style="margin-top: 0;">📋 Informations sur le poste</h3>
+    <table style="width: 100%; margin: 0;">
+      <tbody>
+        {% if page.meta.numero %}
+        <tr>
+          <td style="padding: 0.5em; font-weight: bold; width: 40%;">Numéro AVP</td>
+          <td style="padding: 0.5em;">{{ page.meta.numero }}</td>
+        </tr>
+        {% endif %}
+        {% if page.meta.corps_grade %}
+        <tr>
+          <td style="padding: 0.5em; font-weight: bold;">Corps/Grade</td>
+          <td style="padding: 0.5em;">{{ page.meta.corps_grade }}</td>
+        </tr>
+        {% endif %}
+        {% if page.meta.direction_interne %}
+        <tr>
+          <td style="padding: 0.5em; font-weight: bold;">Direction</td>
+          <td style="padding: 0.5em;">🏢 {{ page.meta.direction_interne }} ({{ page.meta.direction_interne_acronyme }})</td>
+        </tr>
+        {% endif %}
+        {% if page.meta.service %}
+        <tr>
+          <td style="padding: 0.5em; font-weight: bold;">Service</td>
+          <td style="padding: 0.5em;">🔧 {{ page.meta.service }} ({{ page.meta.service_acronyme }})</td>
+        </tr>
+        {% endif %}
+        {% if page.meta.disponibilite %}
+        <tr>
+          <td style="padding: 0.5em; font-weight: bold;">Disponibilité</td>
+          <td style="padding: 0.5em;">
+            {% if page.meta.disponible_immediatement == true %}
+            <span style="background: #4caf50; color: white; padding: 0.2em 0.6em; border-radius: 3px; font-size: 0.9em;">⚡ Immédiatement</span>
+            {% elif page.meta.disponibilite == "SUSCEPTIBLE_VACANT" %}
+            <span style="background: #ff9800; color: white; padding: 0.2em 0.6em; border-radius: 3px; font-size: 0.9em;">🔔 Susceptible d'être vacant</span>
+            {% elif page.meta.disponibilite == "A_DATE" %}
+            <span style="background: #2196f3; color: white; padding: 0.2em 0.6em; border-radius: 3px; font-size: 0.9em;">📅 À date</span>
+            {% else %}
+            {{ page.meta.disponibilite }}
+            {% endif %}
+          </td>
+        </tr>
+        {% endif %}
+        {% if page.meta.date_cloture %}
+        <tr>
+          <td style="padding: 0.5em; font-weight: bold;">Date de clôture</td>
+          <td style="padding: 0.5em;">⏰ {{ page.meta.date_cloture }}</td>
+        </tr>
+        {% endif %}
+        {% if page.meta.url_pdf %}
+        <tr>
+          <td style="padding: 0.5em; font-weight: bold;">Document</td>
+          <td style="padding: 0.5em;">
+            <a href="{{ page.meta.url_pdf }}" target="_blank" style="color: var(--md-primary-fg-color);">
+              📄 Télécharger le PDF original
+            </a>
+          </td>
+        </tr>
+        {% endif %}
+      </tbody>
+    </table>
+  </div>
+  {% endif %}
+  
+  {{ super() }}
 {% endblock %}
