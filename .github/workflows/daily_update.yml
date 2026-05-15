@@ -161,3 +161,46 @@ jobs:
           git push origin "$FINAL_TAG"
           
           echo "✅ Tag $FINAL_TAG created and pushed successfully!"
+
+      - name: Push to HuggingFace
+        if: steps.check_changes.outputs.has_changes == 'true'
+        env:
+          HF_TOKEN: ${{ secrets.DATASET_AVP }}
+        run: |
+          echo "📦 Pushing dataset to HuggingFace..."
+          
+          # Installer huggingface_hub si nécessaire
+          pip install -q huggingface_hub
+          
+          # Push des fichiers vers HuggingFace (sans README)
+          python -c "
+          from huggingface_hub import HfApi
+          import os
+          
+          api = HfApi(token=os.environ['HF_TOKEN'])
+          repo_id = 'opt-nc/avps'
+          
+          # Liste des fichiers à pousser
+          files_to_upload = [
+              ('exports/avp_opt_with_embeddings.parquet', 'avp_opt_with_embeddings.parquet'),
+              ('exports/avp_opt_enrichi.csv', 'avp_opt_enrichi.csv'),
+              ('exports/avp_opt_embeddings.jsonl', 'avp_opt_embeddings.jsonl'),
+              ('exports/avp_catalog.md', 'avp_catalog.md'),
+          ]
+          
+          for local_path, remote_path in files_to_upload:
+              if os.path.exists(local_path):
+                  print(f'Uploading {local_path} -> {remote_path}...')
+                  api.upload_file(
+                      path_or_fileobj=local_path,
+                      path_in_repo=remote_path,
+                      repo_id=repo_id,
+                      repo_type='dataset',
+                      commit_message=f'Update {remote_path}'
+                  )
+                  print(f'✅ {remote_path} uploaded')
+              else:
+                  print(f'⚠️ {local_path} not found, skipping')
+          
+          print('✅ All files pushed to HuggingFace successfully!')
+          "

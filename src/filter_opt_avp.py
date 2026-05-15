@@ -691,7 +691,11 @@ def main():
     generate_enriched_csv(df_opt, data_dir="data", output_dir="exports")
     
     # Génération du JSONL pour embeddings
-    generate_embeddings_jsonl(df_opt, data_dir="data", output_dir="exports")
+    jsonl_path = generate_embeddings_jsonl(df_opt, data_dir="data", output_dir="exports")
+    
+    # Génération des embeddings avec BAAI/bge-m3
+    if jsonl_path:
+        generate_embeddings_with_bge_m3(jsonl_path, output_dir="exports")
     
     # Génération du catalogue consolidé
     generate_consolidated_catalog(data_dir="data", output_dir="exports")
