@@ -330,6 +330,120 @@ def process_pdfs_to_markdown(df, data_dir="data"):
         os.remove(img_file)
         print(f"  Image logo supprimée : {os.path.basename(img_file)}")
 
+def extract_text_for_embedding(content):
+    """Extrait les sections clés du markdown pour créer un texte optimisé pour embeddings."""
+    import re
+    
+    # Enlever le frontmatter YAML
+    content = re.sub(r'^---\n.*?\n---\n', '', content, flags=re.DOTALL)
+    
+    # Enlever les balises HTML
+    content = re.sub(r'<[^>]+>', '', content)
+    
+    sections_text = []
+    
+    # Extraire le titre (premier H1)
+    title_match = re.search(r'^# (.+)$', content, re.MULTILINE)
+    if title_match:
+        sections_text.append(title_match.group(1).strip())
+    
+    # Extraire Corps/Grade
+    corps_match = re.search(r'\*\*Corps ou Cadre d\'emploi[^*]*\*\*\s*([^\n*]+)', content)
+    if corps_match:
+        sections_text.append(corps_match.group(1).strip())
+    
+    # Extraire section Missions
+    missions_match = re.search(r'\*\*Missions?\*\*\s*([^\n]+(?:\n(?!\*\*|###|##)[^\n]+)*)', content, re.IGNORECASE)
+    if missions_match:
+        missions = missions_match.group(1).strip()
+        sections_text.append(f"Missions: {missions}")
+    
+    # Extraire Activités principales (premières 5 lignes)
+    activites_match = re.search(r'\*\*Activités principales\*\*\s*((?:[-•]\s*[^\n]+\n?){1,5})', content, re.IGNORECASE)
+    if activites_match:
+        activites = activites_match.group(1).strip()
+        activites = re.sub(r'\n\s*[-•]\s*', ', ', activites)
+        sections_text.append(f"Activités: {activites}")
+    
+    # Extraire Savoir/Connaissances
+    savoir_match = re.search(r'\*\*(?:Profil du candidat )?Savoir[^\n]*\*\*\s*([^\n]+(?:\n(?!\*\*|###|##)[^\n]+){0,3})', content, re.IGNORECASE)
+    if savoir_match:
+        savoir = savoir_match.group(1).strip()
+        savoir = re.sub(r'\n+', ' ', savoir)
+        sections_text.append(f"Compétences: {savoir}")
+    
+    # Extraire Savoir-faire (premières lignes)
+    savoir_faire_match = re.search(r'\*\*Savoir-faire\*\*\s*((?:[-•]\s*[^\n]+\n?){1,5})', content, re.IGNORECASE)
+    if savoir_faire_match:
+        savoir_faire = savoir_faire_match.group(1).strip()
+        savoir_faire = re.sub(r'\n\s*[-•]\s*', ', ', savoir_faire)
+        sections_text.append(savoir_faire)
+    
+    # Concaténer avec des points
+    return '. '.join(sections_text).replace('..', '.')
+
+def generate_embeddings_jsonl(df, data_dir="data", output_dir="exports", site_url="https://opt-nc.github.io/avps/"):
+    """Génère un fichier JSONL optimisé pour embeddings et HuggingFace."""
+    print("Génération du fichier JSONL pour embeddings...")
+    
+    os.makedirs(output_dir, exist_ok=True)
+    output_path = os.path.join(output_dir, "avp_opt_embeddings.jsonl")
+    
+    with open(output_path, 'w', encoding='utf-8') as f:
+        for _, row in df.iterrows():
+            numero = str(row['numero']).replace("/", "_")
+            md_file = os.path.join(data_dir, f"{numero}.md")
+            
+            if not os.path.exists(md_file):
+                continue
+            
+            with open(md_file, 'r', encoding='utf-8') as mf:
+                content = mf.read()
+            
+            # Extraire le texte optimisé pour embeddings
+            text = extract_text_for_embedding(content)
+            
+            # Extraire les métadonnées du frontmatter
+            import re
+            def extract_yaml_field(field_name):
+                match = re.search(rf'^{field_name}: "?([^"\n]+)"?$', content, re.MULTILINE)
+                return match.group(1) if match else None
+            
+            def extract_yaml_bool(field_name):
+                match = re.search(rf'^{field_name}: (true|false)$', content, re.MULTILINE)
+                return match.group(1) == 'true' if match else False
+            
+            # Construire l'objet JSON
+            record = {
+                "id": numero,
+                "text": text,
+                "metadata": {
+                    "numero": numero,
+                    "titre": extract_yaml_field("title"),
+                    "corps_grade": extract_yaml_field("corps_grade"),
+                    "direction_interne": extract_yaml_field("direction_interne"),
+                    "direction_interne_acronyme": extract_yaml_field("direction_interne_acronyme"),
+                    "service": extract_yaml_field("service"),
+                    "service_acronyme": extract_yaml_field("service_acronyme"),
+                    "ville": extract_yaml_field("ville"),
+                    "lieu_travail": extract_yaml_field("lieu_travail"),
+                    "date_cloture": extract_yaml_field("date_cloture"),
+                    "disponible_immediatement": extract_yaml_bool("disponible_immediatement"),
+                    "url": f"{site_url}{numero}/",
+                    "url_pdf": extract_yaml_field("url_pdf")
+                }
+            }
+            
+            # Écrire la ligne JSON
+            f.write(json.dumps(record, ensure_ascii=False) + '\n')
+    
+    # Compter les lignes
+    with open(output_path, 'r') as f:
+        num_records = sum(1 for _ in f)
+    
+    print(f"  JSONL créé : {output_path} ({num_records} enregistrements)")
+    return output_path
+
 def generate_enriched_csv(df, data_dir="data", output_dir="exports"):
     """Génère un CSV enrichi avec les colonnes calculées (ville, direction_interne, service, etc.)"""
     print("Génération du CSV enrichi avec données calculées...")
@@ -497,6 +611,9 @@ def main():
     
     # Génération du CSV enrichi
     generate_enriched_csv(df_opt, data_dir="data", output_dir="exports")
+    
+    # Génération du JSONL pour embeddings
+    generate_embeddings_jsonl(df_opt, data_dir="data", output_dir="exports")
     
     # Génération du catalogue consolidé
     generate_consolidated_catalog(data_dir="data", output_dir="exports")
