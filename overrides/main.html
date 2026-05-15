@@ -112,12 +112,13 @@
         {% if page.meta.lieu_travail %}
         <tr>
           <td style="padding: 0.5em; font-weight: bold;">Lieu de travail</td>
-          <td style="padding: 0.5em;">
-            📍 {{ page.meta.lieu_travail }}
-            {% if page.meta.ville and page.meta.ville not in page.meta.lieu_travail %}
-            <br><small style="color: #666;">🏙️ Ville: {{ page.meta.ville }}</small>
-            {% endif %}
-          </td>
+          <td style="padding: 0.5em;">📍 {{ page.meta.lieu_travail }}</td>
+        </tr>
+        {% endif %}
+        {% if page.meta.ville %}
+        <tr>
+          <td style="padding: 0.5em; font-weight: bold;">Ville</td>
+          <td style="padding: 0.5em;">🏙️ {{ page.meta.ville }}</td>
         </tr>
         {% endif %}
         {% if page.meta.disponibilite %}
