@@ -63,7 +63,7 @@ Fonction du supérieur hiérarchique directe : chef due centre CPMC
 - Rendre compte de l'activité sur tous les volets, l'analyser et en proposer à sa hiérarchie les enseignements et les recommandations
 - Apporter une contribution personnelle sur les sujets d'évolution, transformation et amélioration
 - Assurer l'intérim du chef de centre en cas de nécessité
--Veiller au respect des attendus décrits dans les référentiels de fonction de l'OPT (Agents et managers)
+- Veiller au respect des attendus décrits dans les référentiels de fonction de l'OPT (Agents et managers)
 
 ### **Caractéristiques particulières de l'emploi**
 
@@ -465,7 +465,7 @@ télécommunications (CERT) – 205 rue Jacques IEKAWE PK5
 
 #### Fourniture ou mise à disposition de matériels, biens ou services :
 
--Téléphone et carte SIM d'exploitation
+- Téléphone et carte SIM d'exploitation
 - Sacoche d'outils
 - Equipements de protection individuelle pour les travaux électriques.
 
@@ -1083,7 +1083,7 @@ Les compétences suivies de (\*) pourront être acquises à la suite de la prise
 
 **Contact et informations complémentaires** Le chef de projet Tel : 26.79.38
 
-### **POUR RÉPONDRE À CETTE OFFRE**
+#### **Pour répondre à cette offre**
 
 Les candidatures (CV à jour, lettre de candidature, a minima) précisant la référence de l'offre doivent parvenir à la direction des ressources humaines – service développement des compétences – section recrutement compétences innovation formation initiale prioritairement par mail : [drh-candidature@opt.nc](mailto:drh-candidature@opt.nc)
 
@@ -1208,7 +1208,7 @@ Les compétences suivies de (\*) pourront être acquises à la suite de la prise
 
 **Contact et informations complémentaires** Le chef de projet Tel : 26.79.28
 
-### **POUR RÉPONDRE À CETTE OFFRE**
+#### **Pour répondre à cette offre**
 
 Les candidatures (CV à jour, lettre de candidature, a minima) précisant la référence de l'offre doivent parvenir à la direction des ressources humaines – service développement des compétences – section recrutement compétences innovation formation initiale prioritairement par mail : [drh-candidature@opt.nc](mailto:drh-candidature@opt.nc)
 
@@ -1370,9 +1370,7 @@ la réorganisation **Date limite de candidature** vendredi 29 mai 2026
 
 > Contribuer à la modernisation des pratiques internes et à la diffusion d'une culture data et numérique au sein de l'OPT-NC.
 
-Accompagner à l'homogénéisation et à l'automatisation de la collecte des
-
-données des 3 pôles de la BU.
+Accompagner à l'homogénéisation et à l'automatisation de la collecte des données des 3 pôles de la BU.
 
 Place dans l'organigramme : N – 3 (par rapport au directeur opérationnel)
 
@@ -1687,7 +1685,7 @@ Les compétences suivies de (\*) pourront être acquises à la suite de la prise
 
 **Contact et informations complémentaires** Le chef de projet Tel : 26.79.38
 
-### **POUR RÉPONDRE À CETTE OFFRE**
+#### **Pour répondre à cette offre**
 
 Les candidatures (CV à jour, lettre de candidature, a minima) précisant la référence de l'offre doivent parvenir à la direction des ressources humaines – service développement des compétences – section recrutement compétences innovation formation initiale prioritairement par mail : [drh-candidature@opt.nc](mailto:drh-candidature@opt.nc)
 
@@ -1932,7 +1930,7 @@ Les compétences suivies de (\*) pourront être acquises à la suite de la prise
 
 **Contact et informations complémentaires** Le chef de projet Tel : 26.79.38
 
-### **POUR RÉPONDRE À CETTE OFFRE**
+#### **Pour répondre à cette offre**
 
 Les candidatures (CV à jour, lettre de candidature, a minima) précisant la référence de l'offre doivent parvenir à la direction des ressources humaines – service développement des compétences – section recrutement compétences innovation formation initiale prioritairement par mail : [drh-candidature@opt.nc](mailto:drh-candidature@opt.nc)
 
@@ -1969,7 +1967,7 @@ la réorganisation
 
 **Date de dépôt de l'offre** vendredi 8 mai 2026
 
-### **Détails de l'offre : Avis de vacances de poste lié à la réorganisation de la Direction de la Poste et des services de proximité**
+#### **Détails de l\'offre : Avis de vacances de poste lié à la réorganisation de la Direction de la Poste et des services de proximité**
 
 **Emploi RESPNC : Responsable de projet**
 
@@ -2075,7 +2073,7 @@ la réorganisation
 
 **Date limite de candidature** vendredi 29 mai 2026
 
-### **Détails de l'offre : Avis de vacances de poste lié à la réorganisation de la Direction de la Poste et des services de proximité**
+#### **Détails de l\'offre : Avis de vacances de poste lié à la réorganisation de la Direction de la Poste et des services de proximité**
 
 **Emploi RESPNC** Chargé de soutien réseaux de vente
 
@@ -2352,40 +2350,40 @@ Fonction du supérieur hiérarchique directe : Chef de service pôle pilotage et
 
 #### **Activités principales : Pilotage et appui stratégique**
 
--Décliner la stratégie de la direction en axes opérationnels
--Prioriser les projets et arbitrer les ressources
+- Décliner la stratégie de la direction en axes opérationnels
+- Prioriser les projets et arbitrer les ressources
 
 ##### **Gouvernance et comitologie**
 
--Concevoir et structurer la comitologie de la section (instances, rôles, circuits, …)
--Définir les règles de fonctionnement transverses
+- Concevoir et structurer la comitologie de la section (instances, rôles, circuits, …)
+- Définir les règles de fonctionnement transverses
 - Garantir la qualité des supports d'aide à la décision
 
 ##### **Management fonctionnel**
 
--Encadrer les chargés/référents de la section
--Garantir la complémentarité des rôles
--Assurer la montée en compétence collective
+- Encadrer les chargés/référents de la section
+- Garantir la complémentarité des rôles
+- Assurer la montée en compétence collective
 
 ##### **Pilotage de la performance et des indicateurs**
 
--Garantir la cohérence des indicateurs (RH, finances, qualité, risques, activités)
+- Garantir la cohérence des indicateurs (RH, finances, qualité, risques, activités)
 - Analyser les écarts et proposer des scénarii d'ajustement
 
 ##### **Gouvernance et reporting**
 
--Produire des analyses stratégiques pour la section
--Contribuer aux instances (CE/CHSCT)
+- Produire des analyses stratégiques pour la section
+- Contribuer aux instances (CE/CHSCT)
 - Alerter et anticiper sur les risques organisationnels
--Proposer des options structurées de décision
+- Proposer des options structurées de décision
 
 ##### **Contribuer aux projets de la section**
 
--Contribuer au cadrage méthodologique des projets portés par la section
--Garantir la cohérence des projets avec les orientations stratégiques, les priorisations et les capacités de la direction
--Apporter un appui à la structuration des projets transverses (objectifs, périmètre, articulation avec les autres fonctions d'appui)
--Veiller à la prise en compte des impacts organisationnels, fonctionnels et humains des projets
--Contribuer à la capitalisation des méthodes et retours d'expérience au sein de la section
+- Contribuer au cadrage méthodologique des projets portés par la section
+- Garantir la cohérence des projets avec les orientations stratégiques, les priorisations et les capacités de la direction
+- Apporter un appui à la structuration des projets transverses (objectifs, périmètre, articulation avec les autres fonctions d'appui)
+- Veiller à la prise en compte des impacts organisationnels, fonctionnels et humains des projets
+- Contribuer à la capitalisation des méthodes et retours d'expérience au sein de la section
 
 ##### **Caractéristiques particulières de l'emploi**
 
@@ -2429,7 +2427,7 @@ Les compétences suivies de (\*) pourront être acquises à la suite de la prise
 
 **Contact et informations complémentaires** Le chef de projet Tel : 26.79.28
 
-### **POUR RÉPONDRE À CETTE OFFRE**
+#### **Pour répondre à cette offre**
 
 Les candidatures (CV à jour, lettre de candidature, a minima) précisant la référence de l'offre doivent parvenir à la direction des ressources humaines – service développement des compétences – section recrutement compétences innovation formation initiale prioritairement par mail : [drh-candidature@opt.nc](mailto:drh-candidature@opt.nc)
 
@@ -2470,7 +2468,7 @@ la réorganisation
 
 **Date limite de candidature** vendredi 29 mai 2026
 
-### **Détails de l'offre : Avis de vacances de poste lié à la réorganisation de la Direction de la Poste et des services de proximité**
+#### **Détails de l\'offre : Avis de vacances de poste lié à la réorganisation de la Direction de la Poste et des services de proximité**
 
 **Emploi RESPNC** Responsable qualité et méthodes
 
@@ -3110,7 +3108,7 @@ Les compétences suivies de (\*) pourront être acquises à la suite de la prise
 
 **Contact et informations complémentaires** Le chef de projet Tel : 26.79.28
 
-### **POUR RÉPONDRE À CETTE OFFRE**
+#### **Pour répondre à cette offre**
 
 Les candidatures (CV à jour, lettre de candidature, a minima) précisant la référence de l'offre doivent parvenir à la direction des ressources humaines – service développement des compétences – section recrutement compétences innovation formation initiale prioritairement par mail : [drh-candidature@opt.nc](mailto:drh-candidature@opt.nc)
 
