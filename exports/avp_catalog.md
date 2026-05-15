@@ -1370,7 +1370,9 @@ la réorganisation **Date limite de candidature** vendredi 29 mai 2026
 
 > Contribuer à la modernisation des pratiques internes et à la diffusion d'une culture data et numérique au sein de l'OPT-NC.
 
-Accompagner à l'homogénéisation et à l'automatisation de la collecte des données des 3 pôles de la BU.
+Accompagner à l'homogénéisation et à l'automatisation de la collecte des
+
+données des 3 pôles de la BU.
 
 Place dans l'organigramme : N – 3 (par rapport au directeur opérationnel)
 
