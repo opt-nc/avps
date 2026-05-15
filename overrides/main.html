@@ -31,7 +31,7 @@
     "@context": "https://schema.org",
     "@type": "JobPosting",
     "title": "{{ page.meta.title | default(page.title) }}",
-    "description": "{{ page.meta.description | default(config.site_description) }}",
+    "description": "{{ page.meta.title | default(page.title) }} - {{ page.meta.corps_grade | default('') }}{% if page.meta.direction_interne %} - {{ page.meta.direction_interne }}{% endif %}. Poste à l'Office des Postes et Télécommunications de Nouvelle-Calédonie. Date limite de candidature : {{ page.meta.date_cloture }}.",
     "identifier": {
       "@type": "PropertyValue",
       "name": "Numéro AVP",
@@ -39,6 +39,8 @@
     },
     "datePosted": "{{ page.meta.date_publication | default('2026-05-01') }}",
     "validThrough": "{{ page.meta.date_cloture }}",
+    "url": "{{ page.canonical_url }}",
+    "directApply": true,
     "hiringOrganization": {
       "@type": "Organization",
       "name": "Office des Postes et Télécommunications de Nouvelle-Calédonie",
@@ -53,9 +55,21 @@
         "addressRegion": "Nouvelle-Calédonie",
         "addressCountry": "NC"
       }
-    },
+    },{% if page.meta.residence_nc_requise == true %}
+    "applicantLocationRequirements": {
+      "@type": "Country",
+      "name": "NC"
+    },{% endif %}
     "employmentType": "FULL_TIME",
-    "workHours": "39 heures par semaine"{% if page.meta.direction_interne %},
+    "workHours": "39 heures par semaine",
+    "educationRequirements": {
+      "@type": "EducationalOccupationalCredential",
+      "credentialCategory": "{{ page.meta.corps_grade | default('Selon profil') }}"
+    },
+    "experienceRequirements": {
+      "@type": "OccupationalExperienceRequirements",
+      "monthsOfExperience": 12
+    }{% if page.meta.direction_interne %},
     "department": "{{ page.meta.direction_interne }}"{% endif %}{% if page.meta.service %},
     "workingEnvironment": "{{ page.meta.service }}"{% endif %}{% if page.meta.disponible_immediatement == true %},
     "jobStartDate": "Immédiatement"{% endif %}
