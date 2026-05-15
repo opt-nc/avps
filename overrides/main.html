@@ -42,16 +42,20 @@
     "hiringOrganization": {
       "@type": "Organization",
       "name": "Office des Postes et Télécommunications de Nouvelle-Calédonie",
-      "sameAs": "https://www.opt.nc"
+      "sameAs": "https://www.opt.nc",
+      "logo": "{{ config.site_url }}assets/logo.png"
     },
     "jobLocation": {
       "@type": "Place",
       "address": {
-        "@type": "PostalAddress",
-        "addressCountry": "NC",
-        "addressRegion": "Nouvelle-Calédonie"
+        "@type": "PostalAddress",{% if page.meta.ville %}
+        "addressLocality": "{{ page.meta.ville }}",{% endif %}
+        "addressRegion": "Nouvelle-Calédonie",
+        "addressCountry": "NC"
       }
-    }{% if page.meta.direction_interne %},
+    },
+    "employmentType": "FULL_TIME",
+    "workHours": "39 heures par semaine"{% if page.meta.direction_interne %},
     "department": "{{ page.meta.direction_interne }}"{% endif %}{% if page.meta.service %},
     "workingEnvironment": "{{ page.meta.service }}"{% endif %}{% if page.meta.disponible_immediatement == true %},
     "jobStartDate": "Immédiatement"{% endif %}
