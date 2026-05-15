@@ -7,3 +7,9 @@ temp_pdfs/
 site/
 # Métadonnées JSON générées par marker-pdf
 data/*_meta.json
+
+# Fichiers lourds avec embeddings (push sur HF uniquement, pas dans Git)
+exports/*_embeddings.parquet
+exports/*_with_embeddings.parquet
+exports/*.safetensors
+exports/*.npy
