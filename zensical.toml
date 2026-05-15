@@ -82,8 +82,13 @@ name = "Kaggle OPT-NC"
 
 [[project.extra.social]]
 icon = "simple/huggingface"
-link = "https://huggingface.co/opt-nc"
-name = "Hugging Face OPT-NC"
+link = "https://huggingface.co/datasets/opt-nc/avps"
+name = "Dataset HuggingFace - AVPS avec embeddings"
+
+[[project.extra.social]]
+icon = "simple/huggingface"
+link = "https://huggingface.co/spaces/opt-nc/avps"
+name = "Application HuggingFace - Recherche sémantique AVPS"
 
 [[project.extra.social]]
 icon = "fontawesome/brands/x-twitter"
