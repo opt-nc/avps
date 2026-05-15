@@ -221,18 +221,18 @@ def process_pdfs_to_markdown(df, data_dir="data"):
             # Capture "- " puis enlève le deuxième "-" qui suit
             content = re.sub(r'^([ \t]*-\s+)-', r'\1', content, flags=re.MULTILINE)
             
-            # Corriger la section "POUR RÉPONDRE À CETTE OFFRE" : H1 → H3 et normaliser la casse
+            # Corriger la section "POUR RÉPONDRE À CETTE OFFRE" : tout niveau → H3 et normaliser la casse
             # Cette section ne doit pas être au même niveau que le titre de l'annonce
             content = re.sub(
-                r'^# \*\*POUR RÉPONDRE À CETTE OFFRE\*\*',
+                r'^#{1,6}\s+\*\*POUR RÉPONDRE À CETTE OFFRE\*\*',
                 r'### **Pour répondre à cette offre**',
                 content,
                 flags=re.MULTILINE
             )
             
-            # Corriger la section "Détails de l'offre" : H1 → H3
+            # Corriger la section "Détails de l'offre" : tout niveau → H3
             content = re.sub(
-                r'^# \*\*Détails de l\'offre',
+                r'^#{1,6}\s+\*\*Détails de l\'offre',
                 r'### **Détails de l\'offre',
                 content,
                 flags=re.MULTILINE
