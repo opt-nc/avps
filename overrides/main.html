@@ -114,7 +114,7 @@
           <td style="padding: 0.5em; font-weight: bold;">Lieu de travail</td>
           <td style="padding: 0.5em;">
             📍 {{ page.meta.lieu_travail }}
-            {% if page.meta.ville and page.meta.ville != page.meta.lieu_travail %}
+            {% if page.meta.ville and page.meta.ville not in page.meta.lieu_travail %}
             <br><small style="color: #666;">🏙️ Ville: {{ page.meta.ville }}</small>
             {% endif %}
           </td>
