@@ -169,11 +169,8 @@ jobs:
         run: |
           echo "📦 Pushing dataset to HuggingFace..."
           
-          # Installer huggingface_hub si nécessaire
-          pip install -q huggingface_hub
-          
           # Push des fichiers vers HuggingFace (sans README)
-          python -c "
+          uv run python -c "
           from huggingface_hub import HfApi
           import os
           
