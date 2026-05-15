@@ -444,6 +444,84 @@ def generate_embeddings_jsonl(df, data_dir="data", output_dir="exports", site_ur
     print(f"  JSONL créé : {output_path} ({num_records} enregistrements)")
     return output_path
 
+def generate_embeddings_with_bge_m3(jsonl_path, output_dir="exports"):
+    """Génère embeddings avec BAAI/bge-m3 et sauvegarde en Parquet."""
+    print("Génération des embeddings avec BAAI/bge-m3...")
+    
+    try:
+        from sentence_transformers import SentenceTransformer
+        import numpy as np
+        
+        # Charger le modèle bge-m3
+        print("  Chargement du modèle BAAI/bge-m3 (cela peut prendre quelques minutes)...")
+        model = SentenceTransformer('BAAI/bge-m3', device='cpu')
+        
+        # Lire le JSONL
+        records = []
+        texts = []
+        with open(jsonl_path, 'r', encoding='utf-8') as f:
+            for line in f:
+                record = json.loads(line)
+                records.append(record)
+                texts.append(record['text'])
+        
+        print(f"  Génération des embeddings pour {len(texts)} documents...")
+        # Générer les embeddings (batch processing)
+        embeddings = model.encode(
+            texts,
+            batch_size=8,
+            show_progress_bar=True,
+            normalize_embeddings=True  # Important pour similarity search
+        )
+        
+        # Créer un DataFrame avec tout
+        data = []
+        for record, embedding in zip(records, embeddings):
+            row = {
+                'id': record['id'],
+                'text': record['text'],
+                'embedding': embedding.tolist(),  # Liste pour Parquet
+                # Aplatir les métadonnées
+                'numero': record['metadata']['numero'],
+                'titre': record['metadata']['titre'],
+                'corps_grade': record['metadata']['corps_grade'],
+                'direction_interne': record['metadata']['direction_interne'],
+                'direction_interne_acronyme': record['metadata']['direction_interne_acronyme'],
+                'service': record['metadata']['service'],
+                'service_acronyme': record['metadata']['service_acronyme'],
+                'ville': record['metadata']['ville'],
+                'lieu_travail': record['metadata']['lieu_travail'],
+                'date_cloture': record['metadata']['date_cloture'],
+                'disponible_immediatement': record['metadata']['disponible_immediatement'],
+                'url': record['metadata']['url'],
+                'url_pdf': record['metadata']['url_pdf']
+            }
+            data.append(row)
+        
+        df = pd.DataFrame(data)
+        
+        # Sauvegarder en Parquet
+        os.makedirs(output_dir, exist_ok=True)
+        output_path = os.path.join(output_dir, "avp_opt_with_embeddings.parquet")
+        df.to_parquet(output_path, index=False, engine='pyarrow')
+        
+        # Calculer la taille
+        size_mb = os.path.getsize(output_path) / (1024 * 1024)
+        print(f"  ✅ Parquet avec embeddings créé : {output_path}")
+        print(f"     - {len(df)} enregistrements")
+        print(f"     - Dimension embeddings : {len(embeddings[0])}")
+        print(f"     - Taille : {size_mb:.2f} MB")
+        
+        return output_path
+        
+    except ImportError as e:
+        print(f"  ⚠️ Erreur : sentence-transformers n'est pas installé")
+        print(f"     Installez avec : pip install sentence-transformers")
+        return None
+    except Exception as e:
+        print(f"  ❌ Erreur lors de la génération des embeddings : {e}")
+        return None
+
 def generate_enriched_csv(df, data_dir="data", output_dir="exports"):
     """Génère un CSV enrichi avec les colonnes calculées (ville, direction_interne, service, etc.)"""
     print("Génération du CSV enrichi avec données calculées...")
