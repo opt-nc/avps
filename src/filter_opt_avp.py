@@ -330,6 +330,75 @@ def process_pdfs_to_markdown(df, data_dir="data"):
         os.remove(img_file)
         print(f"  Image logo supprimée : {os.path.basename(img_file)}")
 
+def generate_enriched_csv(df, data_dir="data", output_dir="exports"):
+    """Génère un CSV enrichi avec les colonnes calculées (ville, direction_interne, service, etc.)"""
+    print("Génération du CSV enrichi avec données calculées...")
+    
+    # Charger le référentiel et le mapping des lieux
+    referentiel = load_referentiel()
+    lieux_mapping = load_lieux_mapping()
+    
+    # Créer une copie du dataframe pour enrichissement
+    df_enriched = df.copy()
+    
+    # Colonnes enrichies à ajouter
+    villes = []
+    directions_internes = []
+    directions_internes_acronymes = []
+    services = []
+    services_acronymes = []
+    disponibles_immediatement = []
+    
+    for _, row in df.iterrows():
+        numero = str(row['numero']).replace("/", "_")
+        md_file = os.path.join(data_dir, f"{numero}.md")
+        
+        if os.path.exists(md_file):
+            with open(md_file, 'r', encoding='utf-8') as f:
+                content = f.read()
+                
+            # Extraire depuis le front matter YAML
+            import re
+            ville_match = re.search(r'^ville: "([^"]+)"', content, re.MULTILINE)
+            dir_acro_match = re.search(r'^direction_interne_acronyme: "([^"]+)"', content, re.MULTILINE)
+            dir_match = re.search(r'^direction_interne: "([^"]+)"', content, re.MULTILINE)
+            service_acro_match = re.search(r'^service_acronyme: "([^"]+)"', content, re.MULTILINE)
+            service_match = re.search(r'^service: "([^"]+)"', content, re.MULTILINE)
+            dispo_imm_match = re.search(r'^disponible_immediatement: (true|false)', content, re.MULTILINE)
+            
+            villes.append(ville_match.group(1) if ville_match else None)
+            directions_internes_acronymes.append(dir_acro_match.group(1) if dir_acro_match else None)
+            directions_internes.append(dir_match.group(1) if dir_match else None)
+            services_acronymes.append(service_acro_match.group(1) if service_acro_match else None)
+            services.append(service_match.group(1) if service_match else None)
+            disponibles_immediatement.append(dispo_imm_match.group(1) == "true" if dispo_imm_match else False)
+        else:
+            # Calcul fallback si le fichier MD n'existe pas encore
+            lieu_travail = row.get('lieu_travail', '')
+            ville = normalize_ville(lieu_travail, lieux_mapping) if lieu_travail else None
+            villes.append(ville)
+            directions_internes_acronymes.append(None)
+            directions_internes.append(None)
+            services_acronymes.append(None)
+            services.append(None)
+            disponibles_immediatement.append(row.get('date_a_pourvoir_libelle') == 'IMMEDIATEMENT')
+    
+    # Ajouter les colonnes enrichies
+    df_enriched['ville'] = villes
+    df_enriched['direction_interne_acronyme'] = directions_internes_acronymes
+    df_enriched['direction_interne'] = directions_internes
+    df_enriched['service_acronyme'] = services_acronymes
+    df_enriched['service'] = services
+    df_enriched['disponible_immediatement'] = disponibles_immediatement
+    
+    # Exporter le CSV enrichi
+    os.makedirs(output_dir, exist_ok=True)
+    output_path = os.path.join(output_dir, "avp_opt_enrichi.csv")
+    df_enriched.to_csv(output_path, index=False, encoding='utf-8')
+    
+    print(f"  CSV enrichi créé : {output_path} ({len(df_enriched)} lignes)")
+    return df_enriched
+
 def main():
     url = "https://data.gouv.nc/api/explore/v2.1/catalog/datasets/avis-de-vacances-de-poste-avp-drhfpnc/exports/parquet?lang=fr&timezone=Pacific%2FNoumea"
     
@@ -425,6 +494,9 @@ def main():
     
     # Génération de l'index.md
     generate_index_md(df_opt)
+    
+    # Génération du CSV enrichi
+    generate_enriched_csv(df_opt, data_dir="data", output_dir="exports")
     
     # Génération du catalogue consolidé
     generate_consolidated_catalog(data_dir="data", output_dir="exports")
