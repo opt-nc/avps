@@ -4,7 +4,893 @@ Ce fichier consolidé contient toutes les annonces AVP de l'Office des Postes et
 
 **Source :** [https://opt-nc.github.io/avps/](https://opt-nc.github.io/avps/)
 
-**Nombre d'annonces :** 28
+**Nombre d'annonces :** 37
+
+---
+
+
+# 26-0754 - Chef d'agence de Koné - Pouembout
+
+## Chef d'agence de Koné - Pouembout
+
+## **DDI - Chef d'Agence - Agence Koné - Pouembout**
+
+Référence : 3134-26-0754/SR du 15 mai 2026
+
+**Employeur : Office des Postes et des Télécommunications**
+
+**Corps ou Cadre d'emploi / Domaine** Contrôleur **Direction : Distribution**
+
+**Durée de résidence exigée**
+
+**pour le recrutement sur titre (1) : /**
+
+**Poste à pourvoir** susceptible d'être vacant à compter du
+
+1 er octobre 2026 **Date de dépôt de l'offre** vendredi 15 mai 2026
+
+**Lieu de travail** Agence OPT KONE et son annexe
+
+**Date limite de candidature** vendredi 5 juin 2026
+
+**Emploi RESPNC : Chef d'établissement**
+
+**Missions**
+
+Contrôler et adapter les moyens disponibles en agence, garantir la qualité de service ainsi que le respect des guides et pratiques par les agents, assurer les activités relatives à la position d'agent comptable secondaire, produire le reporting d'activités et en tirer les recommandations éventuelles.
+
+Pouembout
+
+Développer des nouveaux services ou activités visant à faire rayonner les agences sur la zone. Développer les niveaux de maîtrise des différentes fonctions au sein des agences, inspirer, imposer et accompagner les comportements adéquats (prise d'initiative, accueil et conseils client, posture commerciale et entraide mutuelle...) Contribuer à l'attractivité de l'agence et du réseau ainsi qu'à la notoriété/image de l'office
+
+**Unité organisationnelle** : Direction de la Distribution
+
+**Place dans l'organigramme** : N-3 (par rapport au directeur opérationnel)
+
+**Fonction du supérieur hiérarchique direct** : manager de zone
+
+**Nb d'agents encadrés** :
+
+Direct : 2 Indirect : 6
+
+#### **Activités principales**
+
+- Prévoir et anticiper : analyser l'activité passée (évènements intervenus, volumétrie d'activités, chiffre d'affaires, ressources utilisées, saisonnalité, stock, valeurs ...) et en tirer des prévisions quant à la mobilisation des moyens nécessaires et leur calendrier de mise en œuvre (travaux, congés des collaborateurs, pic d'activité...) de manière à assurer la continuité de service
+- Solliciter sa hiérarchie si moyens particuliers / spécifiques
+- Garantir les bons niveaux de stock fonds et valeur
+- Contrôler la disponibilité et la qualité des moyens nécessaires convenus (l'immobilier - les équipements - les hommes et leurs compétences), alerter la hiérarchie en cas d'écarts et suggérer les adaptations - organiser le travail en agence de manière à garantir la qualité de service et la satisfaction des clients ainsi que la meilleure optimisation des moyens alloués,
+- Contrôler et piloter la bonne compréhension et application par ses équipes de toutes les directives et instructions de travail, guides et procédures ayant attrait soit au métier confié soit aux politiques internes d'amélioration continue (qualité - santé / sécurité / hygiène - RSE...) et de maîtrise des risques (réglementation, risques...)
+- Tenir la fonction d'agent de guichet ou d'autres positions de travail lorsque nécessité
+
+- Préserver les intérêts et actifs de l'OPT/agence (conservation des fonds et valeurs, entretien bâtiment, équipement et véhicules...)
+- Représenter l'organisme localement dans le cadre des procédures/pratiques mises en œuvre
+- Répondre aux obligations incombant à la position d'agent comptable secondaire (production de comptabilité et de reporting),
+- Rendre compte de l'activité couverte sur tous les volets de son périmètre, l'analyser et en proposer à sa hiérarchie les enseignements / recommandations
+- Apporter une contribution personnelle sur les sujets d'évolution/transformation/amélioration, en particulier être porteur des démarches Lean au sein de l'agence
+- Contribuer à la meilleure efficacité collective de l'entité de rattachement par la capacité à tenir d'autres positions, à élever son niveau de pratique, à tutorer (sur la base du volontariat) /conseiller ses collègues.
+
+#### **Caractéristiques particulières de l'emploi**
+
+Habilitations, permis nécessaires pour l'exercice des fonctions : Permis B
+
+Conditions de travail : horaires de travail du lundi au samedi en fonction du règlement intérieur de l'agence et des permanences à assurer.
+
+Régimes indemnitaires rattachés au poste de travail : Indemnité hiérarchique de Chef d'agence
+
+### **Profil du candidat : Savoir / Connaissance / Diplôme exigé**
+
+- Maîtriser la comptabilité des agences
+- Très bonne connaissance des produits et services commercialisés par l'OPT (postaux, financiers et télécoms),
+- Maîtriser les outils de bureautique, les applications informatiques et les applications de guichet
+
+### **Savoir-faire**
+
+- Disposer de qualités organisationnelles et rédactionnelles (administratives et commerciales)
+- Savoir stimuler l'impulsion commerciale de son équipe\*
+- Avoir la capacité de communiquer et d'expliquer les actions engagées et les raisons pour lesquelles elles sont conduites, affirmer ses décisions et ses actions y compris face à des difficultés potentielles ou avérées
+- Écouter les besoins et les attentes de son interlocuteur client et externe
+- Répondre à la demande du client et chercher à le satisfaire au mieux
+- Renseigner et mettre à jour des statistiques
+- **-** Manipuler du numéraire et tenir une caisse
+
+#### **Savoir-être**
+
+- Bon relationnel avec le public et le personnel
+- Avoir le sens de l'accueil
+- Disposer d'une bonne aptitude au management et à l'esprit d'équipe
+- Avoir une maîtrise de soi en toute circonstance
+- Capacité d'initiative, d'anticipation et de dynamisme
+- Rigueur et méthode
+- Intégrité et discrétion professionnelle
+- Esprit d'entreprise
+- Donner une image professionnelle de l'OPT au travers de son apparence et de son comportement
+
+Les compétences suivies de (\*) pourront être acquises à la suite de la prise de poste via un accompagnement et des formations dispensées au sein de l'office
+
+**Contact et informations** Pour toute information sur le poste la personne à contacter est :
+
+**complémentaires** Manager de zone Tel : (+687) 20 64 60
+
+**POUR RÉPONDRE À CETTE OFFRE**
+
+Votre candidature doit **obligatoirement** comporter les documents suivants :
+
+- Lettre de motivation ;
+- Curriculum vitae (CV) détaillé ;
+- Fiche de renseignements dûment complétée à [télécharger](https://drhfpnc.gouv.nc/sites/default/files/atoms/files/recrutement_-_fiche_de_renseignements_candidature_vf_0.pdf) ici ;
+- Attestation sur l'honneur de non-bénéfice de la rupture conventionnelle à [télécharger](https://drhfpnc.gouv.nc/sites/default/files/atoms/files/attestation_sur_lhonneur_de_non_benefice_de_la_rupture_conventionnelle.pdf) ici ;
+- Photocopie des diplômes ;
+- Justificatifs concernant la citoyenneté ou la durée de résidence si nécessaire (liste des pièces à fournir dans le document "notice explicative" à [télécharger](https://drhfpnc.gouv.nc/sites/default/files/atoms/files/notice_explicative_emploi_local.pdf) ici .
+- Pour les fonctionnaires, demande de changement de corps ou cadre d'emploi si nécessaire à [télécharger](https://drhfpnc.gouv.nc/sites/default/files/atoms/files/formulaire_de_changement_de_corps_ou_de_cadre_demploi.pdf) ici
+
+Tous les documents mentionnés sont issus du site de la DRHFPNC
+
+Votre candidature, précisant la référence de l'offre, doit parvenir à la Direction des ressources humaines, section recrutement **prioritairement** par :
+
+- **Mail** : [DRH-candidature@opt.nc](mailto:DRH-candidature@opt.nc)
+
+En cas d'impossibilité de candidater par le biais de la messagerie électronique, les dossiers de candidatures peuvent parvenir à l'office des Postes et Télécommunications de Nouvelle-Calédonie par :
+
+- Dépôt physique : Direction générale, 2 rue Paul Montchovet, Port Plaisance 98841 Nouméa Cédex
+- Voie postale : idem que ci-dessus
+
+*Les candidatures de fonctionnaires doivent être transmises sous couvert de la voie hiérarchique*
+
+Toute candidature incomplète ne pourra être prise en considération
+
+---
+
+
+# 26-0753 - Préposé à la distribution à domicile - CDC N
+
+## Préposé à la distribution à domicile - CDC N
+
+## **DPO - Préposé à la distribution à domicile – CDC N**
+
+Référence : 3134-26-0753/SR du 15 mai 2026
+
+**Employeur : Office des Postes et des Télécommunications**
+
+**Corps ou Cadre d'emploi / Domaine** Préposé(e) à la
+
+distribution postale
+
+**Durée de résidence exigée pour le recrutement sur titre (1) : /**
+
+**Poste à pourvoir** à pourvoir au 17/06/2026
+
+**Direction : du postal**
+
+**Lieu de travail** Centre de distribution du courrier de Nouméa – 7 rue Eugène PORCHERON, 98841 Nouméa
+
+**Date de dépôt de l'offre** vendredi 15 mai 2026
+
+**Date limite de candidature** vendredi 5 juin 2026
+
+**Emploi RESPNC : Chargé(e) de la distribution postale**
+
+**Missions** Le/la préposé(e) à la distribution à domicile est responsable de la collecte, du tri et
+
+de la distribution du courrier et des colis dans une zone géographique spécifique. Son objectif principal est d'assurer une livraison précise, fiable et ponctuelle du
+
+courrier et des colis aux destinataires.
+
+**Unité organisationnelle** :
+
+Centre de distribution du courrier de Nouméa (CDC-N)
+
+Cellule zone sud
+
+**Place dans l'organigramme** :
+
+N-4 (par rapport au directeur opérationnel)
+
+**Fonction du supérieur hiérarchique direct** :
+
+Chef de la cellule zone sud
+
+**Nb d'agents encadrés** :
+
+Direct : / Indirect : /
+
+**Activités principales** 1. Collecte du courrier :
+
+Collecter le courrier en provenance du CTP ou d'autres points de dépôt désignés
+
+Vérifier que le courrier est correctement trié et prêt à être distribué.
+
+2.Traitement des objets avant distribution :
+
+Trier les objets de toutes nature en fonction de leur destination en utilisant des
+
+systèmes de tri automatisés ou manuels.
+
+Réaliser les travaux préparatoires à la distribution : coupage, piquage, dépôts
+
+Traiter les objets suivis (flashage, inscription, classement, etc.)
+
+3. Distribution :
+
+Distribuer le courrier et les colis aux adresses des destinataires de manière efficace
+
+et en respectant les délais de livraison impartis.
+
+Assurer la collecte et la distribution des objets en livraison personnalisée de
+
+manière efficace et en respectant les délais de livraison impartis.
+
+Utiliser des moyens de transport appropriés pour effectuer la tournée.
+
+Établissement des avis de mise en instance et dépôt des objets correspondants
+
+dans les agences d'instance.
+
+Appliquer les ordres de réexpédition.
+
+Signalement à l'encadrement de toute anomalie sur le terrain empêchant une distribution normée.
+
+#### 4. Signature des réceptions :
+
+S'assurer que le destinataire signe le registre et/ou l'application mobile de réception approprié.
+
+#### 5. Gestion des retours et des réclamations :
+
+En cas de courrier non distribué, d'adresses incorrectes ou de réclamations des clients, signaler ces problèmes à son supérieur et prendre les mesures appropriées pour résoudre ces situations.
+
+Renseignement et conseil aux clients en matière de courrier et colis
+
+## 6. Maintien de la sécurité :
+
+Veiller à sa propre sécurité et à celle des autres pendant la conduite et la livraison.
+
+Respecter le code de la route et les règles de sécurité,
+
+Signaler les incidents ou les accidents éventuels et prendre des mesures pour éviter les risques professionnels.
+
+Renfort et entraide au sein de l'établissement selon les besoins de service.
+
+### **Caractéristiques particulières de l'emploi**
+
+##### Habilitations, permis nécessaires pour l'exercice des fonctions :
+
+Permis B, A2 + obligation d'utiliser un véhicule de service + aptitude à la conduite d'un deux roues (scooter) obligatoire.
+
+##### Conditions de travail :
+
+Horaires de travail du lundi au vendredi en fonction du règlement intérieur du centre.
+
+Possibilité de travailler les jours fériés et le week-end.
+
+Conduite d'un véhicule deux roues (scooter).
+
+Port obligatoire de l'uniforme fourni
+
+Gestes répétitifs
+
+Condition physique compatible avec les missions confiées, conformément à la fiche de poste.
+
+Régimes indemnitaires rattachés au poste de travail : /
+
+##### **Profil du candidat : Savoir / Connaissance / Diplôme exigé**
+
+De l'organisation et du fonctionnement de l'OPT-NC.
+
+De la règlementation postale, notamment en matière de distribution.
+
+Des techniques de gestes et postures
+
+Des quartiers ou secteurs géographiques concernés.
+
+Des règles d'hygiène et sécurité, risques animaliers.
+
+Des règles du raccordement postal et de l'adressage.
+
+Des produits et services du domaine courrier et colis.
+
+### **Savoir-faire**
+
+
+- Appliquer les procédures et règlements en vigueur.
+- Contrôler la bonne application des règles d'hygiène et sécurité en vigueur.
+- Renseigner et conseiller les clients.
+- S'exprimer et communiquer avec clarté.
+### **Savoir-être**
+
+Conscience professionnelle du service public rendu.
+
+Rigueur
+
+Discrétion
+
+Autonomie
+
+Savoir représenter l'Office avec professionnalisme
+
+Dynamisme Polyvalence Esprit d'équipe Aptitude au changement
+
+Les compétences suivies de (\*) pourront être acquises à la suite de la prise de poste via un accompagnement et des formations dispensées au sein de l'office
+
+**Contact et informations** Chef du centre de distribution du courrier de Nouméa (CDC N)
+
+**complémentaires** Tel : (+687) 26 84 81
+
+**POUR RÉPONDRE À CETTE OFFRE**
+
+Votre candidature doit **obligatoirement** comporter les documents suivants :
+
+- Lettre de motivation ;
+- Curriculum vitae (CV) détaillé ;
+- Fiche de renseignements dûment complétée à [télécharger](https://drhfpnc.gouv.nc/sites/default/files/atoms/files/recrutement_-_fiche_de_renseignements_candidature_vf_0.pdf) ici ;
+- Attestation sur l'honneur de non-bénéfice de la rupture conventionnelle à [télécharger](https://drhfpnc.gouv.nc/sites/default/files/atoms/files/attestation_sur_lhonneur_de_non_benefice_de_la_rupture_conventionnelle.pdf) ici ;
+- Photocopie des diplômes ;
+- Justificatifs concernant la citoyenneté ou la durée de résidence si nécessaire (liste des pièces à fournir dans le document "notice explicative" à [télécharger](https://drhfpnc.gouv.nc/sites/default/files/atoms/files/notice_explicative_emploi_local.pdf) ici .
+- Pour les fonctionnaires, demande de changement de corps ou cadre d'emploi si nécessaire à [télécharger](https://drhfpnc.gouv.nc/sites/default/files/atoms/files/formulaire_de_changement_de_corps_ou_de_cadre_demploi.pdf) ici
+
+Tous les documents mentionnés sont issus du site de la DRHFPNC
+
+Votre candidature, précisant la référence de l'offre, doit parvenir à la Direction des ressources humaines, section recrutement **prioritairement** par :
+
+- **Mail** : [DRH-candidature@opt.nc](mailto:DRH-candidature@opt.nc)
+
+En cas d'impossibilité de candidater par le biais de la messagerie électronique, les dossiers de candidatures peuvent parvenir à l'office des Postes et Télécommunications de Nouvelle-Calédonie par :
+
+- Dépôt physique : Direction générale, 2 rue Paul Montchovet, Port Plaisance 98841 Nouméa Cédex
+- Voie postale : idem que ci-dessus
+
+*Les candidatures de fonctionnaires doivent être transmises sous couvert de la voie hiérarchique*
+
+Toute candidature incomplète ne pourra être prise en considération
+
+---
+
+
+# 26-0752 - Chargé de contact clientèle en soutien - zone Nouméa Agglomération
+
+## Chargé de contact clientèle en soutien - zone Nouméa Agglomération
+
+## **Chargé de contact clientèle en Soutien – Zone Nouméa Agglomération**
+
+Référence : 3134-26-0752/SR du 15 mai 2026
+
+**Employeur : Office des Postes et des Télécommunications**
+
+**Corps ou Cadre d'emploi / Domaine** Agent d'exploitation **Direction : Distribution**
+
+**Durée de résidence exigée**
+
+**pour le recrutement sur titre (1) : /**
+
+**Poste à pourvoir** Susceptible d'être vacant
+
+**Lieu de travail** Agences de Nouméa - Agglomération
+
+**Date de dépôt de l'offre** vendredi 15 mai 2026
+
+**Date limite de candidature** vendredi 5 juin 2026
+
+**Emploi RESPNC : Chargé de contact clientèle**
+
+#### **Missions**
+
+-Renforcer les agences en tant que chargé de contact clientèle en fonction des besoins (renfort, remplacement, ...).
+
+- Garantir à ce titre, la réalisation effective des opérations intra agence (commercialisation, opérations de guichet, activités administratives, tenue de poste et renfort…), dans les meilleures conditions d'accueil du client, de conformité aux guides et pratiques métiers et de délai de réalisation.
+
+**Unité organisationnelle** : Direction de la Distribution
+
+**Place dans l'organigramme** : N-5 (par rapport au directeur opérationnel)
+
+**Fonction du supérieur hiérarchique direct** : Chef de Cellule – Superviseur Nouméa/Agglomération
+
+##### **Nb d'agents encadrés** :
+
+Direct : 0 Indirect : 0
+
+- **Activités principales** Réaliser pour le périmètre agence, l'ensemble des opérations concourantes à la commercialisation, au conseil client, à la délivrance des produits et services ainsi qu'au meilleur accueil et à la satisfaction des clients.
+  - Garantir la conformité de ces opérations ainsi que les activités dites administratives associées, aux guides, procédures et pratiques internes.
+  - Maintenir l'implication dans la lutte contre les non-conformités et suggérer les leviers d'une plus grande maîtrise des opérations confiées.
+  - Produire les auto-contrôles et autres activités permettant une meilleure maîtrise/couverture des risques.
+  - Rendre compte de l'activité, l'analyser et proposer toutes sources d'amélioration.
+  - Contribuer à la meilleure efficacité collective de l'entité de rattachement par la capacité à tenir d'autres positions, à élever son niveau de pratique, à tutorer (sur la base du volontariat) /conseiller ses collègues.
+
+#### **Caractéristiques particulières de l'emploi**
+
+Habilitations, permis nécessaires pour l'exercice des fonctions : Permis B (obligatoire)
+
+##### Conditions de travail :
+
+- Est sous la responsabilité du Chef de cellule Superviseur / Planificateur, mais est aussi en affectation sous la responsabilité d'un Chef d'agence (ou Chef de Cellule).
+- Itinérance.
+- Horaires de travail du lundi au samedi en fonction du règlement intérieur de l'agence.
+
+##### Fourniture ou mise à disposition de matériels, biens ou services : / Régimes indemnitaires rattachés au poste de travail :
+
+- Indemnité de guichet.
+- Indemnité forfaitaire mensuelle d'utilisation de véhicule personnel.
+
+##### **Profil du candidat : Savoir / Connaissance / Diplôme exigé**
+
+- Offre et réglementation des produits et services commercialisés par l'OPT \*
+- Organisation et fonctionnement de l'OPT-NC
+- Techniques de vente \*
+- Outils de bureautique, applications informatiques et logiciels de guichet\*
+- Techniques de gestes et postures
+- Règles d'hygiène et sécurité
+- Utiliser les applications informatiques 'métier'
+- Manipuler du numéraire, tenir une caisse
+
+##### **Savoir-faire**
+
+- Gérer une relation client
+- Communiquer
+- Accueillir une personne, un groupe, du public
+- Mettre en œuvre une règle, une norme, une procédure, un protocole
+- Gérer une situation de crise, d'urgence ou dangereuse
+
+#### **Savoir-être**
+
+- Sens du service publique
+- Aisance relationnelle
+- Esprit d'initiative
+- Faculté d'adaptation
+- Être rigoureux
+- Faire preuve de discrétion
+- Esprit d'initiative
+- Avoir l'esprit d'équipe
+- Maîtrise de soi
+
+Les compétences suivies de (\*) pourront être acquises à la suite de la prise de poste via un accompagnement et des formations dispensées au sein de l'office
+
+**Contact et informations complémentaires**
+
+Pour toute information sur le poste la personne à contacter est :
+
+Chef de Cellule – Superviseur Nouméa/Agglomération - Tel : (+687) 26 79 03
+
+#### **Pour répondre à cette offre**
+
+Votre candidature doit **obligatoirement** comporter les documents suivants :
+
+- Lettre de motivation ;
+- Curriculum vitae (CV) détaillé ;
+
+- Fiche de renseignements dûment complétée à [télécharger](https://drhfpnc.gouv.nc/sites/default/files/atoms/files/recrutement_-_fiche_de_renseignements_candidature_vf_0.pdf) ici ;
+- Attestation sur l'honneur de non-bénéfice de la rupture conventionnelle à [télécharger](https://drhfpnc.gouv.nc/sites/default/files/atoms/files/attestation_sur_lhonneur_de_non_benefice_de_la_rupture_conventionnelle.pdf) ici ;
+- Photocopie des diplômes ;
+- Justificatifs concernant la citoyenneté ou la durée de résidence si nécessaire (liste des pièces à fournir dans le document "notice explicative" à [télécharger](https://drhfpnc.gouv.nc/sites/default/files/atoms/files/notice_explicative_emploi_local.pdf) ici .
+- Pour les fonctionnaires, demande de changement de corps ou cadre d'emploi si nécessaire à [télécharger](https://drhfpnc.gouv.nc/sites/default/files/atoms/files/formulaire_de_changement_de_corps_ou_de_cadre_demploi.pdf) ici
+
+Tous les documents mentionnés sont issus du site de la DRHFPNC
+
+Votre candidature, précisant la référence de l'offre, doit parvenir à la Direction des ressources humaines, section recrutement **prioritairement** par :
+
+- **Mail** : [DRH-candidature@opt.nc](mailto:DRH-candidature@opt.nc)
+
+En cas d'impossibilité de candidater par le biais de la messagerie électronique, les dossiers de candidatures peuvent parvenir à l'office des Postes et Télécommunications de Nouvelle-Calédonie par :
+
+- Dépôt physique : Direction générale, 2 rue Paul Montchovet, Port Plaisance 98841 Nouméa Cédex
+- Voie postale : idem que ci-dessus
+
+*Les candidatures de fonctionnaires doivent être transmises sous couvert de la voie hiérarchique*
+
+Toute candidature incomplète ne pourra être prise en considération
+
+---
+
+
+# 26-0751 - Conseiller financier multi canal - Service relations clients
+
+## Conseiller financier multi canal - Service relations clients
+
+## **DSB – Conseiller financier multi canal – Service Relations Clients**
+
+Référence : 3134-26-0751/SR du 15 mai 2026
+
+**Employeur : Office des Postes et des Télécommunications**
+
+**Corps ou Cadre d'emploi / Domaine** Contrôleur
+
+**Durée de résidence exigée pour le recrutement sur titre (1)** /
+
+**Poste à pourvoir** vacant
+
+**Direction** Direction des services bancaires
+
+**Lieu de travail** KONE – KOUMAC avec itinérances
+
+sur la zone Nord
+
+**Date de dépôt de l'offre** vendredi 15 mai 2026
+
+**Date limite de candidature** vendredi 5 juin 2026
+
+**Emploi RESPNC** Conseiller commercial
+
+- **Missions** Maintenir la connaissance client (KYC), analyser les besoins, conseiller, et vendre des produits et services bancaires adaptés à son client et l'accompagner dans la gestion de ses opérations.
+  - Le conseiller financier multicanal devra exercer ses missions en respect du référentiel des fonctions de l'agent de l'OPT-NC.
+
+**Unité organisationnelle** : Service client
+
+**Place dans l'organigramme** : N-3 (par rapport au directeur opérationnel)
+
+**Fonction du supérieur hiérarchique direct** : Chef de cellule commerciale intérieur et iles
+
+**Nb d'agents encadrés** : 0
+
+Direct : 0 Indirect : 0
+
+- **Activités principales** Prendre les rendez-vous pour les clients bancaires de l'OPT-NC, préparer les entretiens, prendre en charge les clients, en présentiel, à distance (téléphone, visio-conférence, mail),
+  - Identifier, pour chaque client, les risques financiers (fraude fiscale, blanchiment, …)
+  - Assurer la complétude des dossiers clients (KYC) en recueillant, analysant et saisissant les différents éléments nécessaires à la connaissance client et à la maîtrise du risque LCB-FT.
+  - Etablir, pour chaque client, un diagnostic identifiant son profil, ses besoins et de ses projets,
+  - Assurer le conseil, la promotion et la vente des produits et services bancaires de l'OPT-NC
+  - Assurer le service après-vente (réclamation, opposition des moyens de paiements, fausse imputation…)
+  - Assurer le suivi des entretiens et des clients
+  - Renseigner et mettre à jour les fichiers clients dans le système d'information
+  - Mettre à jour les modes opératoires des positions de travail
+  - Réaliser un reporting vis-à-vis de son manager
+
+- **Activités secondaires** Effectuer toute mission particulière confiée par son N+1 dans le cadre de ses attributions
+  - Pratiquer l'entraide
+  - Contribuer à l'amélioration continue du service rendu aux clients en proposant ses idées ou pistes de solution.
+
+### **Caractéristiques particulières de l'emploi**
+
+Habilitations, permis nécessaires pour l'exercice des fonctions : Permis B
+
+Conditions de travail : Déplacements possibles pour recevoir des clients dans les agences de
+
+la zone, rendez-vous physique, en visio-conférence
+
+Fourniture ou mise à disposition de matériels, biens ou services :Véhicule de service en cas
+
+de déplacement
+
+## **Profil du candidat** Savoir / Connaissance/Diplôme exigé :
+
+Organisation et fonctionnement de l'OPT-NC\* Produits et services financiers commercialisés\*
+
+Réglementation et procédures internes du domaine bancaire y compris déontologie, conformité et
+
+Lutte contre le blanchiment des capitaux et du financement du terrorisme \*
+
+Techniques de communication (phoning, accueil et vente en face à face ou en visio-conférence) \*
+
+Utilisation des outils de bureautique et applications informatiques métiers\*
+
+Techniques de gestion du stress\* Techniques de gestion de conflits\*
+
+Connaissances en matière de droit des sociétés, comptabilité et fiscalité \*
+
+#### Savoir-faire :
+
+S'exprimer à l'oral
+
+Écouter avec attention, questionner et reformuler
+
+Rédiger
+
+Instruire un dossier Maîtriser les délais
+
+Rechercher des données, des informations
+
+Synthétiser des informations, des données, un document
+
+Travailler en équipe
+
+Appliquer la réglementation, les procédures et règles en vigueur
+
+#### Comportement professionnel :
+
+Être à l'écoute
+
+Capacité d'adaptation
+
+Sens de la pédagogie
+
+Maîtrise de soi
+
+Esprit d'analyse et de synthèse Rigueur, sens de l'organisation Discrétion professionnelle absolue
+
+Courtoisie Réactivité Esprit d'équipe
+
+Les compétences suivies de (\*) pourront être acquises à la suite de la prise de poste via un accompagnement et des formations dispensées au sein de l'office
+
+**Contact et informations complémentaires** Pour toute information sur le poste la personne à contacter est :
+
+la cheffe du service client - Tél : 268832
+
+Votre candidature doit **obligatoirement** comporter les documents suivants :
+
+- Lettre de motivation ;
+- Curriculum vitae (CV) détaillé ;
+- Fiche de renseignements dûment complétée à [télécharger](https://drhfpnc.gouv.nc/sites/default/files/atoms/files/recrutement_-_fiche_de_renseignements_candidature_vf_0.pdf) ici ;
+- Attestation sur l'honneur de non-bénéfice de la rupture conventionnelle à [télécharger](https://drhfpnc.gouv.nc/sites/default/files/atoms/files/attestation_sur_lhonneur_de_non_benefice_de_la_rupture_conventionnelle.pdf) ici ;
+- Photocopie des diplômes ;
+- Justificatifs concernant la citoyenneté ou la durée de résidence si nécessaire (liste des pièces à fournir dans le document "notice explicative" à [télécharger](https://drhfpnc.gouv.nc/sites/default/files/atoms/files/notice_explicative_emploi_local.pdf) ici .
+- Pour les fonctionnaires, demande de changement de corps ou cadre d'emploi si nécessaire à [télécharger](https://drhfpnc.gouv.nc/sites/default/files/atoms/files/formulaire_de_changement_de_corps_ou_de_cadre_demploi.pdf) ici
+
+Tous les documents mentionnés sont issus du site de la DRHFPNC
+
+Votre candidature, précisant la référence de l'offre, doit parvenir à la Direction des ressources humaines, section recrutement **prioritairement** par :
+
+- **Mail** : [DRH-candidature@opt.nc](mailto:DRH-candidature@opt.nc)
+
+En cas d'impossibilité de candidater par le biais de la messagerie électronique, les dossiers de candidatures peuvent parvenir à l'office des Postes et Télécommunications de Nouvelle-Calédonie par :
+
+- Dépôt physique : Direction générale, 2 rue Paul Montchovet, Port Plaisance 98841 Nouméa Cédex
+- Voie postale : idem que ci-dessus
+
+*Les candidatures de fonctionnaires doivent être transmises sous couvert de la voie hiérarchique*
+
+Toute candidature incomplète ne pourra être prise en considération
+
+---
+
+
+# 26-0747 - Secrétaire - Agences entreprises
+
+## Secrétaire - Agences entreprises
+
+## **DT - Secrétaire - Agence entreprises**
+
+Référence : 3134-26-0747/SR du 15 mai 2026
+
+**Employeur : Office des Postes et des Télécommunications**
+
+**Corps ou Cadre d'emploi / Domaine** Contrôleur **Direction** Direction des Télécommunications
+
+**Durée de résidence exigée**
+
+**pour le recrutement sur titre (1)** / **Lieu de travail** Agence Entreprise - 9 rue Galliéni
+
+-NOUMEA
+
+**Poste à pourvoir** Dès que possible **Date de dépôt de l'offre** vendredi 15 mai 2026
+
+**Date limite de candidature** vendredi 5 juin 2026
+
+**Emploi RESPNC : Secrétaire**
+
+### **Missions**
+
+- Organiser et assurer la réception, le traitement et la circulation de l'information liée au centre
+
+- Assurer les échanges et interfaces avec les services supports
+
+- Assurer le remplacement des secrétaires du CERT et du CSNO
+
+**Unité organisationnelle** : Agence Entreprises
+
+**Place dans l'organigramme** : N-3 (par rapport au directeur opérationnel)
+
+**Fonction du supérieur hiérarchique direct** : Chef de Centre Agence Entreprises
+
+### **Nb d'agents encadrés** :
+
+Direct : / Indirect : /
+
+### **Activités principales** Dans le domaine de l'accueil :
+
+- Accueillir et orienter les visiteurs de l'AE
+- Assurer l'accueil téléphonique, la première information et l'orientation des appels
+
+## Dans le domaine du courrier :
+
+- Traiter le courrier arrivée et départ : enregistrer, ventiler, numériser et archiver les courriers e-mails
+- Rédiger ou mettre en forme les courriers de réponse en veillant à respecter la charte graphique de l'OPT
+- Organiser la circulation et l'affichage des bulletins officiels, circulaires et autres documents officiels
+
+#### Dans le domaine de la gestion du personnel :
+
+- Suivre et contrôler les positions du personnel avant transmission au SG-DRH
+- Préparer et suivre les plannings de formation du personnel
+- Editer et suivre les contrats d'embauche à durée déterminée
+
+Dans le domaine budget / finances :
+
+- Effectuer le suivi des factures et des lettres de commandes
+- Effectuer le suivi des conventions et marchés
+- Participer à l'élaboration des appels d'offres et consultation
+- Rédiger les fiches d'accompagnements pour lancer les lettres de commandes
+
+### **Activités secondaires** Dans le domaine organisationnel :
+
+- Gérer le planning de la salle de réunion
+- Réaliser le suivi des véhicules (révision, entretiens, assurance etc.)
+- Assurer l'approvisionnement de la papeterie et du matériel de bureau
+
+### Dans le domaine hygiène et sécurité :
+
+- Veiller aux règles et faire remonter les vigilances dans les domaines de l'hygiène et de la sécurité
+
+## **Caractéristiques particulières de l'emploi**
+
+### Habilitations, permis nécessaires pour l'exercice des fonctions :
+
+Permis de Conduire B
+
+## Conditions de travail :
+
+Du lundi au vendredi en fonction du règlement intérieur
+
+Fourniture ou mise à disposition de matériels, biens ou services : /
+
+Régimes indemnitaires rattachés au poste de travail : /
+
+#### **Profil du candidat : Savoir / Connaissance / Diplôme exigé**
+
+- Organisation et fonctionnement de l'OPT- NC\*.
+- Procédures administratives de l'OPT-NC
+- Outils bureautiques et applications informatiques
+- Techniques de secrétariat et de bureautique
+- Maîtrise de la langue et de la grammaire française
+
+### **Savoir-faire**
+
+- Organiser, gérer, et tenir un secrétariat
+- S'exprimer clairement
+- Rédiger et mettre en forme tous types de courriers
+- Appliquer des procédures
+- Prioriser les demandes en fonction de l'urgence
+- Mettre à jour des tableaux de bord
+
+### **Savoir-être**
+
+- Bonne capacité d'adaptation
+- Dynamisme
+- Rigoureux
+- **-** Bon relationnel
+
+Les compétences suivies de (\*) pourront être acquises à la suite de la prise de poste via un accompagnement et des formations dispensées au sein de l'office
+
+**Contact et informations complémentaires**
+
+Pour toute information sur le poste la personne à contacter est :
+
+Chef de Centre Agence Entreprises
+
+Tel : (+687) 267770 ou Mob : (+687) 778131
+
+#### **Pour répondre à cette offre**
+
+Votre candidature doit **obligatoirement** comporter les documents suivants :
+
+- Lettre de motivation ;
+- Curriculum vitae (CV) détaillé ;
+- Fiche de renseignements dûment complétée à [télécharger](https://drhfpnc.gouv.nc/sites/default/files/atoms/files/recrutement_-_fiche_de_renseignements_candidature_vf_0.pdf) ici ;
+- Attestation sur l'honneur de non-bénéfice de la rupture conventionnelle à [télécharger](https://drhfpnc.gouv.nc/sites/default/files/atoms/files/attestation_sur_lhonneur_de_non_benefice_de_la_rupture_conventionnelle.pdf) ici ;
+- Photocopie des diplômes ;
+- Justificatifs concernant la citoyenneté ou la durée de résidence si nécessaire (liste des pièces à fournir dans le document "notice explicative" à [télécharger](https://drhfpnc.gouv.nc/sites/default/files/atoms/files/notice_explicative_emploi_local.pdf) ici .
+- Pour les fonctionnaires, demande de changement de corps ou cadre d'emploi si nécessaire à [télécharger](https://drhfpnc.gouv.nc/sites/default/files/atoms/files/formulaire_de_changement_de_corps_ou_de_cadre_demploi.pdf) ici
+
+Tous les documents mentionnés sont issus du site de la DRHFPNC
+
+Votre candidature, précisant la référence de l'offre, doit parvenir à la Direction des ressources humaines, section recrutement **prioritairement** par :
+
+- **Mail** : [DRH-candidature@opt.nc](mailto:DRH-candidature@opt.nc)
+
+En cas d'impossibilité de candidater par le biais de la messagerie électronique, les dossiers de candidatures peuvent parvenir à l'office des Postes et Télécommunications de Nouvelle-Calédonie par :
+
+- Dépôt physique : Direction générale, 2 rue Paul Montchovet, Port Plaisance 98841 Nouméa Cédex
+- Voie postale : idem que ci-dessus
+
+*Les candidatures de fonctionnaires doivent être transmises sous couvert de la voie hiérarchique* Toute candidature incomplète ne pourra être prise en considération
+
+---
+
+
+# 26-0746 - Psychologue - service développement des compétences
+
+## Psychologue - service développement des compétences
+
+## **DRH - Psychologue – Service développement des compétences**
+
+**Référence : 3134-26-0746/SR du 15 mai 2026**
+
+## **Employeur : Office des Postes et des Télécommunications**
+
+**Corps /Cadre / Domaine** psychologue - médico-sociale et
+
+travail
+
+**Lieu de travail** DRH \_ Immeuble Georges Kling - DUCOS-
+
+**Direction** des ressources humaines
+
+NOUMEA
+
+**Durée de résidence exigée**
+
+**pour le recrutement sur titre (1):** au moins égale à 5 ans
+
+**Poste à pourvoir** à/c du 19 octobre 2026 **Date de dépôt de l'offre** vendredi 15 mai 2026
+
+**Date limite de candidature** vendredi 5 juin 2026
+
+## Détails de l'offre :
+
+## **Emploi RESPNC : psychologue**
+
+#### **Missions**
+
+Agir en équipe pluridisciplinaire dans le cadre du programme QVCT de l'Office (Qualité de Vie et Conditions de Travail), accompagner les agents dans la construction de leur parcours professionnel et mettre en place des actions de prévention, et de soutien auprès des agents et des managers.
+
+Place dans l'organigramme : N - 2 (par rapport au directeur opérationnel)
+
+Fonction du supérieur hiérarchique direct : Chef du service développement des compétences
+
+## Nb d'agents encadrés : /
+
+- Directs : /
+
+- Indirects : /
+
+## Conditions de travail :
+
+- déplacement fréquents sur l'agglomération et de temps en temps sur l'ensemble de la Nouvelle-Calédonie
+
+### Habilitations :
+
+Permis nécessaires pour l'exercice des fonctions : Posséder le permis de conduire catégorie B
+
+##### **Activités principales** :
+
+##### Principales :
+
+- Elaborer une offre de services RH répondant aux différents types de besoins d'accompagnement en s'appuyant sur les données stratégiques de l'Office et communiquer sur les services et dispositifs offerts,
+- Accompagner l'agent dans la construction de son projet professionnel et l'orienter afin de viser une réussite optimale du projet en mobilisant les dispositifs les plus appropriés,
+- Concevoir, communiquer et animer des ateliers sur des thématiques en lien avec la prévention et le bien-être au travail,
+- Evaluer, identifier et accompagner les agents en individuel ou en collectif sur les thématiques RPS,
+- Concevoir et mener des projets ciblés pour améliorer les comportements professionnels, en évaluant les résultats par des passations de tests ou autres outils,
+- Conduire des études terrain en matière de RPS (diagnostic, préconisations) et suivre la réalisation des plans d'actions,
+- Réaliser des prestations de bilan ou d'orientation professionnelle et restituer les résultats,
+
+- Travailler en collaboration avec l'équipe pluridisciplinaire pour alerter et apporter une réponse aux situations RH sensibles,
+- Mener des expertises sur des situations sensibles ou des entretiens de conciliation en cas de conflits interpersonnels et intervenir rapidement en cas de situation critique,
+- Veiller au respect des attendus décrits dans les référentiels de fonction de l'OPT (agents).
+
+##### **Profil du candidat** Savoir / Connaissance/Diplôme exigé :
+
+- \* Master 2 en Psychologie
+- \* Conduite et gestion de projet
+- \* Connaissance du droit et de la réglementation applicables dans son périmètre de missions
+- \* Connaissance de la psychométrie et des outils d'évaluation
+- \* Sociologie des organisations, du management et des groupes
+
+### Savoir-faire :
+
+- \* Techniques d'animation et de facilitation de groupe
+- \* Expérience dans l'accompagnement de personnes ou de groupes
+- \* Maîtrise des outils bureautiques pour présenter ses écrits professionnels
+- \* Analyser des situations de travail individuelles ou collectives complexes
+- \* Conception de démarches et de dispositifs de prévention
+- \* Conduite d'entretien de conciliation
+- \* Gestion d'une situation de crise, d'urgence ou dangereuse
+
+### Comportement professionnel :
+
+- \* Capacité à travailler en équipe pluri disciplinaire et dans un contexte d'entreprise
+- \* Sens de l'analyse et compréhension des comportements humains
+- \* Assertivité
+- \* Adaptabilité
+- \* Ethique et déontologie
+
+Les compétences suivies de (\*) pourront être acquises à la suite de la prise de poste via un accompagnement et des formations dispensées au sein de l'office
+
+**Contact et informations complémentaires** Chef du service Tél. : 26 81 19
+
+#### **Pour répondre à cette offre**
+
+Les candidatures (CV détaillé, lettre de motivation, photocopie des diplômes, fiche de renseignements, attestation sur l'honneur de non-bénéfice de la rupture conventionnelle, ainsi que la demande de changement de corps ou cadre d'emplois si nécessaire (2)) précisant la référence de l'offre doivent parvenir à la Direction des ressources humaines, Bureau recrutement, mobilité, accompagnement par :
+
+- Voie postale : Direction Générale 2 rue Montchovet, Port Plaisance 98841 NOUMÉA Cedex
+- Dépôt physique (adresse) : idem que ci-dessus
+- Mail (adresse) : [DRH-candidature@opt.nc](mailto:DRH-candidature@opt.nc)
+
+(1) Vous trouverez la liste des pièces à fournir afin de justifier de la citoyenneté ou de la durée de résidence dans le document intitulé "Notice explicative : pièces à fournir pour justifier de votre citoyenneté ou de votre résidence" qui est à télécharger directement sur la page de garde des avis de vacances de poste sur le site de la DRHFPNC.
+
+(2) La fiche de renseignements et la demande de changement de corps ou cadre d'emploi sont à télécharger directement sur la page de garde des avis de vacances de poste sur le site de la DRHFPNC. Toute candidature incomplète ne pourra être prise en considération.
 
 ---
 
@@ -131,6 +1017,131 @@ Les candidatures (CV détaillé, lettre de motivation, photocopie des diplômes,
 (2) La fiche de renseignements, l'attestation sur l'honneur de non-bénéfice de la rupture conventionnelle et la demande de changement de corps ou cadre d'emploi sont à télécharger directement sur la page de garde des avis de vacances de poste sur le site de la DRHFPNC.
 
 Toute candidature incomplète ne pourra être prise en considération.
+
+*Les candidatures de fonctionnaires doivent être transmises sous couvert de la voie hiérarchique*
+
+---
+
+
+# 26-0716 - Assistant commercial Grands Comptes - Agence entreprises
+
+## Assistant commercial Grands Comptes - Agence entreprises
+
+## **DT - Assistant Commercial Grands Comptes – Agence entreprises**
+
+**Référence : 3134-26-0716/SR du 15 mai 2026**
+
+**Employeur** Office des postes et télécommunications
+
+**Corps ou Cadre d'emploi /Domaine** : Contrôleur ou
+
+agent d'exploitation
+
+**Durée de résidence exigée pour le recrutement sur titre** (1) **: /**
+
+**Postes à pourvoir** susceptible d'être à pourvoir **Date limite de candidature** vendredi 15 mai 2026
+
+**Date de dépôt de l'offre** vendredi 5 juin 2026
+
+**Lieu de travail** Direction générale - Immeuble Waruna - 2 rue Paul Montchovet - Nouméa
+
+Détails de l'offre :
+
+**Emploi RESPNC : Secrétaire**
+
+**Missions** : Assurer l'administration des ventes en support des chargés d'affaire (GC)
+
+Assurer la relation client
+
+**Unité organisationnelle** : **Agence Entreprises**
+
+**Place dans l'organigramme : N-4** (par rapport au directeur opérationnel)
+
+**Direction** Télécom
+
+**Fonction du supérieur hiérarchique direct** Chef de Section Développement
+
+Clients
+
+#### **Nb d'agents encadrés** :
+
+- Directs : / - Indirects : /
+
+## **Activités principales** Principales :
+
+- Assurer l'assistance commerciale du chargé d'affaires grands comptes
+- Accueillir, renseigner, proposer les produits et services aux clients
+- Traiter les courriers (électroniques et papiers) en back office
+- Traiter les demandes clients et évaluer leurs besoins
+- Proposer les offres et établir des devis simples (en fonction de la demande et de la technicité requise) ou solliciter l'intervention d'un chargé d'affaires pour l'ingénierie commerciale et la production d'offres adaptées
+- Assurer l'administration des ventes (mise à jour des bases de données, saisie, statistiques...) et le support aux chargés d'affaires (saisie, préparation des réunions clients, préparation et émission des offres...)
+- Veiller à la qualité des données clients dans les Systèmes d'Information
+- Participer aux actions commerciales (opérations markéting, salons...)
+- Assurer le reporting de son activité au chef de section
+- Contribuer à la meilleure efficacité collective de l'entité de rattachement par la capacité à tenir d'autre positions, à élever son niveau de pratique, à tutorer (sur la base du volontariat) et conseiller ses collègues
+- Garantir une qualité de service en termes d'accueil téléphonique et physique de la clientèle
+- Veiller au respect des attendus décrits dans les référentiels de fonction de l'OPT (Agents)
+
+## **Caractéristiques particulières de l'emploi** :
+
+- Habilitations, permis nécessaires pour l'exercice des fonctions : Permis de conduire B
+- Conditions de travail : du lundi au samedi en fonction du règlement intérieur
+
+### **Profil du candidat** Savoir / Connaissance/Diplôme exigé :
+
+- Outils informatiques et suite MS 365
+- Systèmes d'Information et applications métiers liées aux produits et services vendus
+- Techniques rédactionnelles et maîtrise de l'orthographe
+- Techniques commerciales et conseil au client
+- Produits et services télécoms commercialisés par l'OPT-NC
+- Organisation de l'OPT-NC
+- Processus métiers et interlocuteurs internes
+- Techniques de vente (processus de vente : prospection, accueil client, découverte du besoin, présentation produits, négociation, suivi du client…)..
+
+## Savoir-faire :
+
+- Gérer une relation client
+- Analyser un besoin
+- Conseiller
+- Instruire un dossier
+- Argumenter
+- Rendre compte
+- Synthétiser les informations
+- Rédiger des comptes rendus
+- S'exprimer à l'oral
+
+.
+
+### Comportement professionnel :
+
+- Capacité à communiquer
+- Sens de la pédagogie
+- Aptitude à l'écoute
+- Aisance relationnelle
+- Sens de l'organisation
+- Avoir l'esprit d'équipe
+- Etre rigoureux
+- Réactivité
+- Etre autonome
+
+Les compétences suivies de \* pourront être acquises à la suite de la prise de poste via un accompagnement et des formations dispensées au sein de l'office
+
+**Contact et informations complémentaires**
+
+Cheffe de section Développement Clients
+
+Tél : 26 77 98 ;
+
+**POUR RÉPONDRE À CETTE OFFRE**
+
+Les candidatures (CV détaillé, lettre de motivation, photocopie des diplômes, fiche de renseignements, attestation sur l'honneur de non bénéfice de la rupture conventionnelle, ainsi que la demande de changement de corps ou cadre d'emplois si nécessaire (2)) précisant la référence de l'offre doivent parvenir à la Direction des ressources humaines, Bureau recrutement, mobilité, accompagnement par :
+
+- Voie postale : Direction Générale 2 rue Montchovet, Port Plaisance 98841 NOUMÉA Cedex
+- Dépôt physique (adresse) : idem que ci-dessus
+- Mail (adresse) : drh-candidature@opt.nc
+
+- (1) Vous trouverez la liste des pièces à fournir afin de justifier de la citoyenneté ou de la durée de résidence dans le document intitulé "Notice explicative : pièces à fournir pour justifier de votre citoyenneté ou de votre résidence" qui est à télécharger directement sur la page de garde des avis de vacances de poste sur le site de la DRHFPNC.
+- (2) La fiche de renseignements et la demande de changement de corps ou cadre d'emploi sont à télécharger directement sur la page de garde des avis de vacances de poste sur le site de la DRHFPNC. Toute candidature incomplète ne pourra être prise en considération.
 
 *Les candidatures de fonctionnaires doivent être transmises sous couvert de la voie hiérarchique*
 
@@ -3458,6 +4469,270 @@ En cas d'impossibilité de candidater par le biais de la messagerie électroniqu
 
 - Dépôt physique : Direction générale 2 rue Montchovet, Port Plaisance 98841 Nouméa Cedex
 - Voie postale : même adresse
+
+*Les candidatures de fonctionnaires doivent être transmises sous couvert de la voie hiérarchique*
+
+---
+
+
+# 26-0641 - Assistant commercial Pro et Revendeurs - Agence entreprises
+
+## Assistant commercial Pro et Revendeurs - Agence entreprises
+
+## **DT - Assistant Commercial Pro et Revendeurs – Agence entreprises**
+
+**Référence** 3134-26-0641/SR du 15 mai 2026
+
+**Employeur** Office des postes et télécommunications
+
+**Corps ou Cadre d'emploi /Domaine** : Contrôleur ou
+
+Agent d'exploitation
+
+**Durée de résidence exigée pour le recrutement sur**
+
+**Postes à pourvoir** susceptible d'être à pourvoir
+
+**titre** (1) **:** / **Direction** Télécom
+
+**Lieu de travail :** Agence Entreprise - 9 rue Galliéni
+
+NOUMEA
+
+**Date limite de candidature** vendredi 15 mai 2026
+
+**Date de dépôt de l'offre** vendredi 5 juin 2026
+
+Détails de l'offre :
+
+**Missions** : Apporter un soutien commercial et technique auprès des revendeurs et atteindre
+
+les objectifs commerciaux par la vente de produit et services télécoms auprès des
+
+clients pros
+
+**Unité organisationnelle** : Agence Entreprises
+
+**Place dans l'organigramme : N-4** (par rapport au directeur opérationnel)
+
+**Fonction du supérieur hiérarchique direct** Chef de Section Support Pro et
+
+Revendeurs
+
+## **Nb d'agents encadrés** :
+
+- Directs : / - Indirects : /
+
+## **Activités principales** Principales :
+
+- Accueillir, renseigner, proposer les produits et services aux clients
+- Garantir une qualité de service en termes d'accueil téléphonique et physique de la clientèle de la section
+- Assurer l'assistance commerciale des clients pro et des revendeurs
+- Traiter les courriers (électroniques et papiers) en back office
+- Assurer le contrôle et la conformité des contrats clients Mobilis ainsi que la qualité des données clients dans les Systèmes d'Information
+- Développer auprès du réseau des revendeurs, leur niveau de maîtrise des offres, leurs méthodes de vente et de contractualisation avec les clients par une proximité à travers un accompagnement, de la formation et du contrôle
+- Garantir la diffusion auprès des revendeurs des informations commerciales et contrôler leur bonne compréhension et mise en œuvre
+- Veiller au respect des attendus décrits dans les référentiels de fonction de l'OPT (Agents)
+- Assurer le reporting de son activité au chef de section
+- Veiller au respect des attendus décrits dans les référentiels de fonction de l'OPT (Agents)
+
+## **Caractéristiques particulières de l'emploi** :
+
+- Habilitations, permis nécessaires pour l'exercice des fonctions : Permis de conduire B
+- Conditions de travail : du lundi au samedi en fonction du règlement intérieur
+
+### **Profil du candidat** Savoir / Connaissance/Diplôme exigé :
+
+- Outils informatiques et suite MS 365
+- Systèmes d'Information et applications métiers liées aux produits et services vendus
+- Techniques rédactionnelles et maîtrise de l'orthographe
+- Techniques commerciales et conseil au client
+- Produits et services télécoms commercialisés par l'OPT-NC
+- Organisation de l'OPT-NC
+- Processus métiers et interlocuteurs internes
+- Techniques de vente (processus de vente : prospection, accueil client, découverte du besoin, présentation produits, négociation, suivi du client…)..
+
+## Savoir-faire :
+
+- Gérer une relation client
+- Analyser un besoin
+- Conseiller
+- Instruire un dossier
+- Argumenter
+- Rendre compte
+- Synthétiser les informations
+- Rédiger des comptes rendus
+- S'exprimer à l'oral
+
+.
+
+#### Comportement professionnel :
+
+- Capacité à communiquer
+- Sens de la pédagogie
+- Aptitude à l'écoute
+- Aisance relationnelle
+- Sens de l'organisation
+- Avoir l'esprit d'équipe
+- Être rigoureux
+- Réactivité
+- Être autonome
+- Faculté d'adaptation
+
+Les compétences suivies de \* pourront être acquises à la suite de la prise de poste via un accompagnement et des formations dispensées au sein de l'office
+
+**Contact et informations complémentaires**
+
+Chef de Centre de l'Agence Entreprises
+
+Tél : 26 77 70 ;
+
+Les candidatures (CV détaillé, lettre de motivation, photocopie des diplômes, fiche de renseignements, attestation sur l'honneur de non-bénéfice de la rupture conventionnelle, ainsi que la demande de changement de corps ou cadre d'emplois si nécessaire (2)) précisant la référence de l'offre doivent parvenir à la Direction des ressources humaines, Bureau recrutement, mobilité, accompagnement par :
+
+- Voie postale : Direction Générale 2 rue Montchovet, Port Plaisance 98841 NOUMÉA Cedex
+- Dépôt physique (adresse) : idem que ci-dessus
+- Mail (adresse) : drh-candidature@opt.nc
+
+(1) Vous trouverez la liste des pièces à fournir afin de justifier de la citoyenneté ou de la durée de résidence dans le document intitulé "Notice explicative : pièces à fournir pour justifier de votre citoyenneté ou de votre résidence" qui est à télécharger directement sur la page de garde des avis de vacances de poste sur le site de la DRHFPNC.
+
+(2) La fiche de renseignements et la demande de changement de corps ou cadre d'emploi sont à télécharger directement sur la page de garde des avis de vacances de poste sur le site de la DRHFPNC. Toute candidature incomplète ne pourra être prise en considération.
+
+*Les candidatures de fonctionnaires doivent être transmises sous couvert de la voie hiérarchique*
+
+---
+
+
+# 26-0624 - Chargé d'affaires Télécom Grand Comptes - AE
+
+## Chargé d'affaires Télécom Grand Comptes - AE
+
+## **DT - Chargés d'affaires Télécom Grands Comptes - AE**
+
+**Référence** 3134-26-0624/SR du 15 mai 2026
+
+**Employeur** Office des postes et télécommunications
+
+**Corps ou Cadre d'emploi /Domaine** : **Direction** Télécom
+
+Cadre d'exploitation ou Contrôleur
+
+**Postes à pourvoir** dès que possible
+
+**Durée de résidence exigée pour le recrutement sur**
+
+**titre** (1) **:** / **Lieu de travail** Direction générale - Immeuble Waruna - 2 rue Paul Montchovet - Nouméa
+
+**Date limite de candidature** vendredi 15 mai 2026
+
+**Date de dépôt de l'offre** vendredi 5 juin 2026
+
+Détails de l'offre :
+
+**Missions** : Garantir une relation de proximité avec les clients en portefeuille (B to B)
+
+Écouter, identifier et analyser les besoins émis et proposer des solutions
+
+Adaptées
+
+**Unité organisationnelle** : Agence Entreprises
+
+**Place dans l'organigramme : N-2** (par rapport au directeur opérationnel)
+
+**Fonction du supérieur hiérarchique direct** Chef de Section Développement
+
+Clients
+
+#### **Nb d'agents encadrés** :
+
+- Directs : /
+
+- Indirects : /
+
+#### **Activités principales** Principales :
+
+- Fidéliser les clients B2B par les effets combinés grande proximité et réactivité dans la mise en œuvre d'outils, dispositifs et pratiques commerciales favorisant la captation, l'analyse et le traitement des informations clients,
+- Connaître les structures grands comptes (décideurs, produits, perspectives de développement, organisation de leur système de communication) et connaître le marché calédonien,
+- Conseiller et vendre aux clients les solutions correspondant à leurs besoins
+
+et en adéquation avec la stratégie de l'OPT,
+
+- Contribuer à la définition et à l'atteinte des objectifs commerciaux,
+- Participer à l'élaboration du plan d'actions commerciales en lien avec le chef de section et en assurer la mise en place,
+- Assurer l'ingénierie commerciale, ainsi que les étapes de négociation conduisant à l'acceptation des offres émises dans les conditions tarifaires définies,
+- Contribuer à l'identification et à la recherche de sources d'amélioration des résultats et des performances commerciales,
+- Promouvoir les offres OPT par une information régulière et assurer une relation commerciale de qualité
+- Participer et être force de proposition lors de l'élaboration des offres en collaboration avec l service marketing et le servie architecture et projet,
+
+- Garantir la transmission des informations aux assistants commerciaux et veiller à la complétude des dossiers clients,
+- Assurer le reporting de son activité et proposer à sa hiérarchie des axes d'amélioration et recommandations,
+- Veiller à la qualité des données clients dans les systèmes d'information
+- Contribuer à la meilleure efficacité collective de l'entité de rattachement par la capacité à tenir d'autres positions, à élever son niveau de pratique, à tutorer (sur la base du volontariat), à conseiller ses collègues,
+- Assurer la représentation de l'agence entreprises lors des manifestations (salon, forum, etc)
+- Veiller au respect des attendus décrits dans les référentiels de fonction de l'OPT (agents).
+
+## **Caractéristiques particulières de l'emploi** :
+
+- Habilitations, permis nécessaires pour l'exercice des fonctions : Permis de conduire B
+- Conditions de travail : du lundi au samedi en fonction du règlement intérieur
+
+## **Profil du candidat** Savoir / Connaissance/Diplôme exigé :
+
+- Outils informatiques et suite MS 365
+- Systèmes d'Information et applications métiers liées aux produits et services vendus
+- Techniques rédactionnelles et maîtrise de l'orthographe
+- Techniques commerciales et conseil au client
+- Produits et services télécoms commercialisés par l'OPT-NC
+- Organisation de l'OPT-NC
+- Processus métiers et interlocuteurs internes
+- Techniques de vente (processus de vente : prospection, accueil client, découverte du besoin, présentation produits, négociation, suivi du client…)..
+
+#### Savoir-faire :
+
+- Prospecter une clientèle
+- Gérer une relation client
+- Analyser un besoin
+- Conseiller
+- Instruire un dossier
+- Argumenter
+- Rendre compte
+- Synthétiser les informations
+- Rédiger des comptes rendus
+- Travailler en réseau
+- S'exprimer à l'oral
+
+## .
+
+## Comportement professionnel :
+
+- Capacité à communiquer
+- Sens de la pédagogie
+- Aptitude à l'écoute
+- Aisance relationnelle
+- Faculté d'adaptation
+- Faire preuve de discrétion
+- Sens de l'organisation
+- Avoir l'esprit d'équipe
+- Être rigoureux
+- Réactivité
+- Être autonome
+
+Les compétences suivies de \* pourront être acquises à la suite de la prise de poste via un accompagnement et des formations dispensées au sein de l'office
+
+**Contact et informations complémentaires**
+
+Cheffe de section Développement Clients Tél : 26 77 98 ;
+
+**POUR RÉPONDRE À CETTE OFFRE**
+
+Les candidatures (CV détaillé, lettre de motivation, photocopie des diplômes, fiche de renseignements, attestation sur l'honneur de non bénéfice de la rupture conventionnelle, ainsi que la demande de changement de corps ou cadre d'emplois si nécessaire (2)) précisant la référence de l'offre doivent parvenir à la Direction des ressources humaines, Bureau recrutement, mobilité, accompagnement par :
+
+- Voie postale : Direction Générale 2 rue Montchovet, Port Plaisance 98841 NOUMÉA Cedex
+- Dépôt physique (adresse) : idem que ci-dessus
+- Mail (adresse) : drh-candidature@opt.nc
+
+(1) Vous trouverez la liste des pièces à fournir afin de justifier de la citoyenneté ou de la durée de résidence dans le document intitulé "Notice explicative : pièces à fournir pour justifier de votre citoyenneté ou de votre résidence" qui est à télécharger directement sur la page de garde des avis de vacances de poste sur le site de la DRHFPNC.
+
+(2) La fiche de renseignements et la demande de changement de corps ou cadre d'emploi sont à télécharger directement sur la page de garde des avis de vacances de poste sur le site de la DRHFPNC. Toute candidature incomplète ne pourra être prise en considération.
 
 *Les candidatures de fonctionnaires doivent être transmises sous couvert de la voie hiérarchique*
 

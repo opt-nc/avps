@@ -4,19 +4,21 @@ Bienvenue sur le site des **Avis de Vacances de Poste** de l'Office des Postes e
 
 ## 📊 En bref
 
-- **28** postes disponibles actuellement
-- 📅 Dernière mise à jour : **15/05/2026 à 16h50** (Nouméa)
+- **37** postes disponibles actuellement
+- 📅 Dernière mise à jour : **16/05/2026 à 12h26** (Nouméa)
 - 🔄 Prochaine mise à jour : demain à 00h00 (automatique)
 
 ### 📈 Répartition par corps/grade
 
 ```mermaid
 pie title Répartition des postes par corps/grade
-    "Cadre d'exploitation" : 16
+    "Cadre d'exploitation" : 17
+    "Contrôleur" : 8
     "Cadre technique" : 4
     "Emploi fonctionnel" : 3
-    "Contrôleur" : 3
-    "Agent d'exploitation" : 1
+    "Agent d'exploitation" : 2
+    "Psychologue" : 1
+    "Préposé à la distribution postale" : 1
     "Technicien" : 1
 ```
 
@@ -32,6 +34,53 @@ Cette page recense les avis de vacances de poste publiés par l'OPT-NC, issus du
 ### Liste des AVP disponibles
 
 
+!!! info "26-0754 - Chef d'agence de Koné - Pouembout"
+    **🏢 Direction :** Direction de la Distribution (DDI)  
+    **📅 Date limite :** 04/06/2026  
+    **💼 Corps :** Contrôleur  
+    **📅 Disponibilité :** À date  
+    
+    [📖 Voir les détails](26-0754/){ .md-button } [📄 Télécharger le PDF](https://data.gouv.nc/explore/dataset/avis-de-vacances-de-poste-avp-drhfpnc/files/a64d729a674203b1f90f900d799ec90b/download/){ .md-button .md-button--primary target="_blank" }
+
+!!! info "26-0753 - Préposé à la distribution à domicile - CDC N"
+    **🏢 Direction :** Direction du Postal (DPO)  
+    **📅 Date limite :** 04/06/2026  
+    **💼 Corps :** Préposé à la distribution postale  
+    **📅 Disponibilité :** À date  
+    
+    [📖 Voir les détails](26-0753/){ .md-button } [📄 Télécharger le PDF](https://data.gouv.nc/explore/dataset/avis-de-vacances-de-poste-avp-drhfpnc/files/89baef96efe33bb0fa0fea200905f276/download/){ .md-button .md-button--primary target="_blank" }
+
+!!! info "26-0752 - Chargé de contact clientèle en soutien - zone Nouméa Agglomération 🟡"
+    **🏢 Direction :** Office des postes et télécommunications (OPT)  
+    **📅 Date limite :** 04/06/2026  
+    **💼 Corps :** Agent d'exploitation  
+    **🔔 Disponibilité :** Susceptible d'être vacant  
+    
+    [📖 Voir les détails](26-0752/){ .md-button } [📄 Télécharger le PDF](https://data.gouv.nc/explore/dataset/avis-de-vacances-de-poste-avp-drhfpnc/files/34b340045432282272be314d4ac20c12/download/){ .md-button .md-button--primary target="_blank" }
+
+!!! info "26-0751 - Conseiller financier multi canal - Service relations clients"
+    **🏢 Direction :** Direction des Services Bancaires (DSB)  
+    **📅 Date limite :** 04/06/2026  
+    **💼 Corps :** Contrôleur  
+    
+    [📖 Voir les détails](26-0751/){ .md-button } [📄 Télécharger le PDF](https://data.gouv.nc/explore/dataset/avis-de-vacances-de-poste-avp-drhfpnc/files/d9ea9d774ef01ef402ddd5eed06b34f5/download/){ .md-button .md-button--primary target="_blank" }
+
+!!! info "26-0747 - Secrétaire - Agences entreprises 🟢"
+    **🏢 Direction :** Direction des Télécommunications (DT)  
+    **📅 Date limite :** 04/06/2026  
+    **💼 Corps :** Contrôleur  
+    **⚡ Disponibilité :** Immédiate  
+    
+    [📖 Voir les détails](26-0747/){ .md-button } [📄 Télécharger le PDF](https://data.gouv.nc/explore/dataset/avis-de-vacances-de-poste-avp-drhfpnc/files/2a935e75c29b9755e384c006643b7793/download/){ .md-button .md-button--primary target="_blank" }
+
+!!! info "26-0746 - Psychologue - service développement des compétences"
+    **🏢 Direction :** Office des postes et télécommunications (OPT)  
+    **📅 Date limite :** 04/06/2026  
+    **💼 Corps :** Psychologue  
+    **📅 Disponibilité :** À date  
+    
+    [📖 Voir les détails](26-0746/){ .md-button } [📄 Télécharger le PDF](https://data.gouv.nc/explore/dataset/avis-de-vacances-de-poste-avp-drhfpnc/files/78929e47a20fc7188db1bfd08fa8dcd9/download/){ .md-button .md-button--primary target="_blank" }
+
 !!! info "26-0717 - Chef de section SAV - CPMC 🟡"
     **🏢 Direction :** Direction des Télécommunications (DT)  
     **🔧 Service :** Centre de Production et de Maintenance Clients (CPMC)  
@@ -40,6 +89,14 @@ Cette page recense les avis de vacances de poste publiés par l'OPT-NC, issus du
     **🔔 Disponibilité :** Susceptible d'être vacant  
     
     [📖 Voir les détails](26-0717/){ .md-button } [📄 Télécharger le PDF](https://data.gouv.nc/explore/dataset/avis-de-vacances-de-poste-avp-drhfpnc/files/4fac4d8ae02775a03fe834fa53c63be4/download/){ .md-button .md-button--primary target="_blank" }
+
+!!! info "26-0716 - Assistant commercial Grands Comptes - Agence entreprises 🟡"
+    **🏢 Direction :** Direction des Télécommunications (DT)  
+    **📅 Date limite :** 04/06/2026  
+    **💼 Corps :** Contrôleur  
+    **🔔 Disponibilité :** Susceptible d'être vacant  
+    
+    [📖 Voir les détails](26-0716/){ .md-button } [📄 Télécharger le PDF](https://data.gouv.nc/explore/dataset/avis-de-vacances-de-poste-avp-drhfpnc/files/aff36b8c73bd42aa355b59c4d3d20677/download/){ .md-button .md-button--primary target="_blank" }
 
 !!! info "26-0715 - Responsable produit Télécoms - SMC 🟡"
     **🏢 Direction :** Direction des Télécommunications (DT)  
@@ -259,6 +316,22 @@ Cette page recense les avis de vacances de poste publiés par l'OPT-NC, issus du
     **🔔 Disponibilité :** Susceptible d'être vacant  
     
     [📖 Voir les détails](26-0672/){ .md-button } [📄 Télécharger le PDF](https://data.gouv.nc/explore/dataset/avis-de-vacances-de-poste-avp-drhfpnc/files/b4f556b149b543de0eca299c6848adde/download/){ .md-button .md-button--primary target="_blank" }
+
+!!! info "26-0641 - Assistant commercial Pro et Revendeurs - Agence entreprises 🟡"
+    **🏢 Direction :** Direction des Télécommunications (DT)  
+    **📅 Date limite :** 04/06/2026  
+    **💼 Corps :** Contrôleur  
+    **🔔 Disponibilité :** Susceptible d'être vacant  
+    
+    [📖 Voir les détails](26-0641/){ .md-button } [📄 Télécharger le PDF](https://data.gouv.nc/explore/dataset/avis-de-vacances-de-poste-avp-drhfpnc/files/ea72fc6a73c10516a38fb4283f05a728/download/){ .md-button .md-button--primary target="_blank" }
+
+!!! info "26-0624 - Chargé d'affaires Télécom Grand Comptes - AE 🟢"
+    **🏢 Direction :** Direction des Télécommunications (DT)  
+    **📅 Date limite :** 04/06/2026  
+    **💼 Corps :** Cadre d'exploitation  
+    **⚡ Disponibilité :** Immédiate  
+    
+    [📖 Voir les détails](26-0624/){ .md-button } [📄 Télécharger le PDF](https://data.gouv.nc/explore/dataset/avis-de-vacances-de-poste-avp-drhfpnc/files/dc896c21b51524be10656637f0b0d108/download/){ .md-button .md-button--primary target="_blank" }
 
 ## 📝 Comment postuler ?
 
