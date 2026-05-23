@@ -20,6 +20,20 @@ Les données sont mises à jour quotidiennement via GitHub Actions :
 - Merge et tagging automatique (format: `YYYY-MM-DD` avec incrémentation si nécessaire)
 - Publication automatique sur GitHub Pages via Zensical
 
+## 🚀 Déploiement manuel
+
+Pour déclencher manuellement la génération et publication du site :
+
+```bash
+# Publier le site sur GitHub Pages
+gh workflow run publish-pages.yml
+
+# Ou mettre à jour uniquement les données
+gh workflow run daily_update.yml
+```
+
+Le site sera déployé sur : https://opt-nc.github.io/avps/
+
 ## 📊 Données
 
 Les données sont stockées dans le dossier `data/` :
