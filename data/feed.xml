@@ -5,7 +5,7 @@
   <link>https://opt-nc.github.io/avps/</link>
   <description>Avis de vacances de poste en cours et publiés par l'OPT-NC</description>
   <language>fr</language>
-  <lastBuildDate>Sat, 16 May 2026 01:26:07 +1100</lastBuildDate>
+  <lastBuildDate>Sat, 23 May 2026 12:10:09 +1100</lastBuildDate>
   <atom:link href="https://opt-nc.github.io/avps/feed.xml" rel="self" type="application/rss+xml" />
   <image>
     <url>https://opt-nc.github.io/avps/assets/logo.png</url>
@@ -15,20 +15,67 @@
   <itunes:image href="https://opt-nc.github.io/avps/assets/logo.png" />
   <media:thumbnail url="https://opt-nc.github.io/avps/assets/logo.png" />
   <item>
-    <title>26-0641 - Assistant commercial Pro et Revendeurs - Agence entreprises</title>
-    <link>https://opt-nc.github.io/avps/26-0641/</link>
-    <guid isPermaLink="true">https://opt-nc.github.io/avps/26-0641/</guid>
+    <title>26-0778 - Acheteur - CENTAL</title>
+    <link>https://opt-nc.github.io/avps/26-0778/</link>
+    <guid isPermaLink="true">https://opt-nc.github.io/avps/26-0778/</guid>
     <description><![CDATA[
-    <p><strong>Poste :</strong> Assistant commercial Pro et Revendeurs - Agence entreprises</p>
+    <p><strong>Poste :</strong> Acheteur - CENTAL</p>
     <p><strong>Direction :</strong> Office des postes et télécommunications</p>
     <p><strong>Corps/Grade :</strong> contrôleur</p>
     <p><strong>À pourvoir :</strong> SUSCEPTIBLE_VACANT</p>
+    <p><strong>Date de clôture :</strong> 11/06/2026</p>
+    <p><a href="https://data.gouv.nc/explore/dataset/avis-de-vacances-de-poste-avp-drhfpnc/files/450f9aa26f340b39033381bab4b11aca/download/">📄 Télécharger le PDF</a></p>
+  ]]></description>
+    <pubDate>Thu, 21 May 2026 00:00:00 +1100</pubDate>
+  <category>Emploi</category>
+  <category>Direction des Moyens</category>
+  </item>
+  <item>
+    <title>26-0768 - Agent comptable</title>
+    <link>https://opt-nc.github.io/avps/26-0768/</link>
+    <guid isPermaLink="true">https://opt-nc.github.io/avps/26-0768/</guid>
+    <description><![CDATA[
+    <p><strong>Poste :</strong> Agent comptable</p>
+    <p><strong>Direction :</strong> Office des postes et télécommunications</p>
+    <p><strong>Corps/Grade :</strong> emploi fonctionnel</p>
+    <p><strong>À pourvoir :</strong> A_DATE</p>
+    <p><strong>Date de clôture :</strong> 11/06/2026</p>
+    <p><a href="https://data.gouv.nc/explore/dataset/avis-de-vacances-de-poste-avp-drhfpnc/files/6fa71f523a5c242dc03a6041b01aac5b/download/">📄 Télécharger le PDF</a></p>
+  ]]></description>
+    <pubDate>Thu, 21 May 2026 00:00:00 +1100</pubDate>
+  <category>Emploi</category>
+  <category>Agent Comptable</category>
+  </item>
+  <item>
+    <title>26-0746 - Psychologue - service développement des compétences</title>
+    <link>https://opt-nc.github.io/avps/26-0746/</link>
+    <guid isPermaLink="true">https://opt-nc.github.io/avps/26-0746/</guid>
+    <description><![CDATA[
+    <p><strong>Poste :</strong> Psychologue - service développement des compétences</p>
+    <p><strong>Direction :</strong> Office des postes et télécommunications</p>
+    <p><strong>Corps/Grade :</strong> psychologue</p>
+    <p><strong>À pourvoir :</strong> A_DATE</p>
     <p><strong>Date de clôture :</strong> 04/06/2026</p>
-    <p><a href="https://data.gouv.nc/explore/dataset/avis-de-vacances-de-poste-avp-drhfpnc/files/ea72fc6a73c10516a38fb4283f05a728/download/">📄 Télécharger le PDF</a></p>
+    <p><a href="https://data.gouv.nc/explore/dataset/avis-de-vacances-de-poste-avp-drhfpnc/files/78929e47a20fc7188db1bfd08fa8dcd9/download/">📄 Télécharger le PDF</a></p>
   ]]></description>
     <pubDate>Thu, 14 May 2026 00:00:00 +1100</pubDate>
   <category>Emploi</category>
-  <category>Direction des Télécommunications</category>
+  </item>
+  <item>
+    <title>26-0751 - Conseiller financier multi canal - Service relations clients</title>
+    <link>https://opt-nc.github.io/avps/26-0751/</link>
+    <guid isPermaLink="true">https://opt-nc.github.io/avps/26-0751/</guid>
+    <description><![CDATA[
+    <p><strong>Poste :</strong> Conseiller financier multi canal - Service relations clients</p>
+    <p><strong>Direction :</strong> Office des postes et télécommunications</p>
+    <p><strong>Corps/Grade :</strong> contrôleur</p>
+    <p><strong>À pourvoir :</strong> AUTRE</p>
+    <p><strong>Date de clôture :</strong> 04/06/2026</p>
+    <p><a href="https://data.gouv.nc/explore/dataset/avis-de-vacances-de-poste-avp-drhfpnc/files/d9ea9d774ef01ef402ddd5eed06b34f5/download/">📄 Télécharger le PDF</a></p>
+  ]]></description>
+    <pubDate>Thu, 14 May 2026 00:00:00 +1100</pubDate>
+  <category>Emploi</category>
+  <category>Direction des Services Bancaires</category>
   </item>
   <item>
     <title>26-0747 - Secrétaire - Agences entreprises</title>
@@ -47,20 +94,20 @@
   <category>Direction des Télécommunications</category>
   </item>
   <item>
-    <title>26-0751 - Conseiller financier multi canal - Service relations clients</title>
-    <link>https://opt-nc.github.io/avps/26-0751/</link>
-    <guid isPermaLink="true">https://opt-nc.github.io/avps/26-0751/</guid>
+    <title>26-0641 - Assistant commercial Pro et Revendeurs - Agence entreprises</title>
+    <link>https://opt-nc.github.io/avps/26-0641/</link>
+    <guid isPermaLink="true">https://opt-nc.github.io/avps/26-0641/</guid>
     <description><![CDATA[
-    <p><strong>Poste :</strong> Conseiller financier multi canal - Service relations clients</p>
+    <p><strong>Poste :</strong> Assistant commercial Pro et Revendeurs - Agence entreprises</p>
     <p><strong>Direction :</strong> Office des postes et télécommunications</p>
     <p><strong>Corps/Grade :</strong> contrôleur</p>
-    <p><strong>À pourvoir :</strong> AUTRE</p>
+    <p><strong>À pourvoir :</strong> SUSCEPTIBLE_VACANT</p>
     <p><strong>Date de clôture :</strong> 04/06/2026</p>
-    <p><a href="https://data.gouv.nc/explore/dataset/avis-de-vacances-de-poste-avp-drhfpnc/files/d9ea9d774ef01ef402ddd5eed06b34f5/download/">📄 Télécharger le PDF</a></p>
+    <p><a href="https://data.gouv.nc/explore/dataset/avis-de-vacances-de-poste-avp-drhfpnc/files/ea72fc6a73c10516a38fb4283f05a728/download/">📄 Télécharger le PDF</a></p>
   ]]></description>
     <pubDate>Thu, 14 May 2026 00:00:00 +1100</pubDate>
   <category>Emploi</category>
-  <category>Direction des Services Bancaires</category>
+  <category>Direction des Télécommunications</category>
   </item>
   <item>
     <title>26-0754 - Chef d'agence de Koné - Pouembout</title>
@@ -110,19 +157,20 @@
   <category>Direction du Postal</category>
   </item>
   <item>
-    <title>26-0746 - Psychologue - service développement des compétences</title>
-    <link>https://opt-nc.github.io/avps/26-0746/</link>
-    <guid isPermaLink="true">https://opt-nc.github.io/avps/26-0746/</guid>
+    <title>26-0716 - Assistant commercial Grands Comptes - Agence entreprises</title>
+    <link>https://opt-nc.github.io/avps/26-0716/</link>
+    <guid isPermaLink="true">https://opt-nc.github.io/avps/26-0716/</guid>
     <description><![CDATA[
-    <p><strong>Poste :</strong> Psychologue - service développement des compétences</p>
+    <p><strong>Poste :</strong> Assistant commercial Grands Comptes - Agence entreprises</p>
     <p><strong>Direction :</strong> Office des postes et télécommunications</p>
-    <p><strong>Corps/Grade :</strong> psychologue</p>
-    <p><strong>À pourvoir :</strong> A_DATE</p>
+    <p><strong>Corps/Grade :</strong> contrôleur</p>
+    <p><strong>À pourvoir :</strong> SUSCEPTIBLE_VACANT</p>
     <p><strong>Date de clôture :</strong> 04/06/2026</p>
-    <p><a href="https://data.gouv.nc/explore/dataset/avis-de-vacances-de-poste-avp-drhfpnc/files/78929e47a20fc7188db1bfd08fa8dcd9/download/">📄 Télécharger le PDF</a></p>
+    <p><a href="https://data.gouv.nc/explore/dataset/avis-de-vacances-de-poste-avp-drhfpnc/files/aff36b8c73bd42aa355b59c4d3d20677/download/">📄 Télécharger le PDF</a></p>
   ]]></description>
     <pubDate>Thu, 14 May 2026 00:00:00 +1100</pubDate>
   <category>Emploi</category>
+  <category>Direction des Télécommunications</category>
   </item>
   <item>
     <title>26-0624 - Chargé d'affaires Télécom Grand Comptes - AE</title>
@@ -141,52 +189,36 @@
   <category>Direction des Télécommunications</category>
   </item>
   <item>
-    <title>26-0716 - Assistant commercial Grands Comptes - Agence entreprises</title>
-    <link>https://opt-nc.github.io/avps/26-0716/</link>
-    <guid isPermaLink="true">https://opt-nc.github.io/avps/26-0716/</guid>
+    <title>26-0684 - Chef(fe) de projet - Service Pilotage et Performance</title>
+    <link>https://opt-nc.github.io/avps/26-0684/</link>
+    <guid isPermaLink="true">https://opt-nc.github.io/avps/26-0684/</guid>
     <description><![CDATA[
-    <p><strong>Poste :</strong> Assistant commercial Grands Comptes - Agence entreprises</p>
-    <p><strong>Direction :</strong> Office des postes et télécommunications</p>
-    <p><strong>Corps/Grade :</strong> contrôleur</p>
-    <p><strong>À pourvoir :</strong> SUSCEPTIBLE_VACANT</p>
-    <p><strong>Date de clôture :</strong> 04/06/2026</p>
-    <p><a href="https://data.gouv.nc/explore/dataset/avis-de-vacances-de-poste-avp-drhfpnc/files/aff36b8c73bd42aa355b59c4d3d20677/download/">📄 Télécharger le PDF</a></p>
-  ]]></description>
-    <pubDate>Thu, 14 May 2026 00:00:00 +1100</pubDate>
-  <category>Emploi</category>
-  <category>Direction des Télécommunications</category>
-  </item>
-  <item>
-    <title>26-0690 - Administrateur des pratiques métiers - section applications et pratiques métiers</title>
-    <link>https://opt-nc.github.io/avps/26-0690/</link>
-    <guid isPermaLink="true">https://opt-nc.github.io/avps/26-0690/</guid>
-    <description><![CDATA[
-    <p><strong>Poste :</strong> Administrateur des pratiques métiers - section applications et pratiques métiers</p>
+    <p><strong>Poste :</strong> Chef(fe) de projet - Service Pilotage et Performance</p>
     <p><strong>Direction :</strong> Office des postes et télécommunications</p>
     <p><strong>Corps/Grade :</strong> cadre d'exploitation</p>
     <p><strong>À pourvoir :</strong> SUSCEPTIBLE_VACANT</p>
     <p><strong>Date de clôture :</strong> 28/05/2026</p>
-    <p><a href="https://data.gouv.nc/explore/dataset/avis-de-vacances-de-poste-avp-drhfpnc/files/60e51e47713579732ce575c556125c7d/download/">📄 Télécharger le PDF</a></p>
+    <p><a href="https://data.gouv.nc/explore/dataset/avis-de-vacances-de-poste-avp-drhfpnc/files/050299f7287ff459b4b93265507000a9/download/">📄 Télécharger le PDF</a></p>
   ]]></description>
     <pubDate>Thu, 07 May 2026 00:00:00 +1100</pubDate>
   <category>Emploi</category>
   <category>Direction de la Poste et des Services de Proximité</category>
   </item>
   <item>
-    <title>26-0705 - Responsable  Cybersécurité et Résilience Réseau</title>
-    <link>https://opt-nc.github.io/avps/26-0705/</link>
-    <guid isPermaLink="true">https://opt-nc.github.io/avps/26-0705/</guid>
+    <title>26-0691 - Chargé(e) de l'animation commerciale - section expérience commerciale</title>
+    <link>https://opt-nc.github.io/avps/26-0691/</link>
+    <guid isPermaLink="true">https://opt-nc.github.io/avps/26-0691/</guid>
     <description><![CDATA[
-    <p><strong>Poste :</strong> Responsable  Cybersécurité et Résilience Réseau</p>
+    <p><strong>Poste :</strong> Chargé(e) de l'animation commerciale - section expérience commerciale</p>
     <p><strong>Direction :</strong> Office des postes et télécommunications</p>
-    <p><strong>Corps/Grade :</strong> cadre technique</p>
-    <p><strong>À pourvoir :</strong> IMMEDIATEMENT</p>
+    <p><strong>Corps/Grade :</strong> cadre d'exploitation</p>
+    <p><strong>À pourvoir :</strong> SUSCEPTIBLE_VACANT</p>
     <p><strong>Date de clôture :</strong> 28/05/2026</p>
-    <p><a href="https://data.gouv.nc/explore/dataset/avis-de-vacances-de-poste-avp-drhfpnc/files/2a6abf2880b0a5ed17a785a419098c96/download/">📄 Télécharger le PDF</a></p>
+    <p><a href="https://data.gouv.nc/explore/dataset/avis-de-vacances-de-poste-avp-drhfpnc/files/3eb212cf7e1ca947d2656bdb7bb29b2c/download/">📄 Télécharger le PDF</a></p>
   ]]></description>
     <pubDate>Thu, 07 May 2026 00:00:00 +1100</pubDate>
   <category>Emploi</category>
-  <category>Direction des Télécommunications</category>
+  <category>Direction de la Poste et des Services de Proximité</category>
   </item>
   <item>
     <title>26-0685 - Che(fe) de service pilotage et performance - service pilotage et performance</title>
@@ -205,36 +237,20 @@
   <category>Direction de la Poste et des Services de Proximité</category>
   </item>
   <item>
-    <title>26-0684 - Chef(fe) de projet - Service Pilotage et Performance</title>
-    <link>https://opt-nc.github.io/avps/26-0684/</link>
-    <guid isPermaLink="true">https://opt-nc.github.io/avps/26-0684/</guid>
+    <title>26-0690 - Administrateur des pratiques métiers - section applications et pratiques métiers</title>
+    <link>https://opt-nc.github.io/avps/26-0690/</link>
+    <guid isPermaLink="true">https://opt-nc.github.io/avps/26-0690/</guid>
     <description><![CDATA[
-    <p><strong>Poste :</strong> Chef(fe) de projet - Service Pilotage et Performance</p>
+    <p><strong>Poste :</strong> Administrateur des pratiques métiers - section applications et pratiques métiers</p>
     <p><strong>Direction :</strong> Office des postes et télécommunications</p>
     <p><strong>Corps/Grade :</strong> cadre d'exploitation</p>
     <p><strong>À pourvoir :</strong> SUSCEPTIBLE_VACANT</p>
     <p><strong>Date de clôture :</strong> 28/05/2026</p>
-    <p><a href="https://data.gouv.nc/explore/dataset/avis-de-vacances-de-poste-avp-drhfpnc/files/050299f7287ff459b4b93265507000a9/download/">📄 Télécharger le PDF</a></p>
+    <p><a href="https://data.gouv.nc/explore/dataset/avis-de-vacances-de-poste-avp-drhfpnc/files/60e51e47713579732ce575c556125c7d/download/">📄 Télécharger le PDF</a></p>
   ]]></description>
     <pubDate>Thu, 07 May 2026 00:00:00 +1100</pubDate>
   <category>Emploi</category>
   <category>Direction de la Poste et des Services de Proximité</category>
-  </item>
-  <item>
-    <title>26-0714 - Assistant commercial Grands Comptes - Agence entreprises</title>
-    <link>https://opt-nc.github.io/avps/26-0714/</link>
-    <guid isPermaLink="true">https://opt-nc.github.io/avps/26-0714/</guid>
-    <description><![CDATA[
-    <p><strong>Poste :</strong> Assistant commercial Grands Comptes - Agence entreprises</p>
-    <p><strong>Direction :</strong> Office des postes et télécommunications</p>
-    <p><strong>Corps/Grade :</strong> contrôleur</p>
-    <p><strong>À pourvoir :</strong> SUSCEPTIBLE_VACANT</p>
-    <p><strong>Date de clôture :</strong> 28/05/2026</p>
-    <p><a href="https://data.gouv.nc/explore/dataset/avis-de-vacances-de-poste-avp-drhfpnc/files/81006fa6d1dba9f4df7c3af15dc01057/download/">📄 Télécharger le PDF</a></p>
-  ]]></description>
-    <pubDate>Thu, 07 May 2026 00:00:00 +1100</pubDate>
-  <category>Emploi</category>
-  <category>Direction des Télécommunications</category>
   </item>
   <item>
     <title>26-0682 - Référent(e) Ressources Humaines - Section appui stratégique</title>
@@ -247,6 +263,22 @@
     <p><strong>À pourvoir :</strong> SUSCEPTIBLE_VACANT</p>
     <p><strong>Date de clôture :</strong> 28/05/2026</p>
     <p><a href="https://data.gouv.nc/explore/dataset/avis-de-vacances-de-poste-avp-drhfpnc/files/09fb9f450860caae2bd0cb292c4069e4/download/">📄 Télécharger le PDF</a></p>
+  ]]></description>
+    <pubDate>Thu, 07 May 2026 00:00:00 +1100</pubDate>
+  <category>Emploi</category>
+  <category>Direction de la Poste et des Services de Proximité</category>
+  </item>
+  <item>
+    <title>26-0681 - Chef(fe) de section appui stratégique - service pilotage et performance</title>
+    <link>https://opt-nc.github.io/avps/26-0681/</link>
+    <guid isPermaLink="true">https://opt-nc.github.io/avps/26-0681/</guid>
+    <description><![CDATA[
+    <p><strong>Poste :</strong> Chef(fe) de section appui stratégique - service pilotage et performance</p>
+    <p><strong>Direction :</strong> Office des postes et télécommunications</p>
+    <p><strong>Corps/Grade :</strong> cadre d'exploitation</p>
+    <p><strong>À pourvoir :</strong> SUSCEPTIBLE_VACANT</p>
+    <p><strong>Date de clôture :</strong> 28/05/2026</p>
+    <p><a href="https://data.gouv.nc/explore/dataset/avis-de-vacances-de-poste-avp-drhfpnc/files/fbe87dd1f912b7f4848ccdf93eaa943e/download/">📄 Télécharger le PDF</a></p>
   ]]></description>
     <pubDate>Thu, 07 May 2026 00:00:00 +1100</pubDate>
   <category>Emploi</category>
@@ -300,38 +332,6 @@
   <category>Emploi</category>
   <category>Direction des Télécommunications</category>
   <category>Centre d'Expertise Réseau et Télécommunications</category>
-  </item>
-  <item>
-    <title>26-0688 - Chef(fe) de section Applications et pratiques métiers - service support métiers</title>
-    <link>https://opt-nc.github.io/avps/26-0688/</link>
-    <guid isPermaLink="true">https://opt-nc.github.io/avps/26-0688/</guid>
-    <description><![CDATA[
-    <p><strong>Poste :</strong> Chef(fe) de section Applications et pratiques métiers - service support métiers</p>
-    <p><strong>Direction :</strong> Office des postes et télécommunications</p>
-    <p><strong>Corps/Grade :</strong> cadre d'exploitation</p>
-    <p><strong>À pourvoir :</strong> SUSCEPTIBLE_VACANT</p>
-    <p><strong>Date de clôture :</strong> 28/05/2026</p>
-    <p><a href="https://data.gouv.nc/explore/dataset/avis-de-vacances-de-poste-avp-drhfpnc/files/17abc4467919a0b7961a06beaf9a9620/download/">📄 Télécharger le PDF</a></p>
-  ]]></description>
-    <pubDate>Thu, 07 May 2026 00:00:00 +1100</pubDate>
-  <category>Emploi</category>
-  <category>Direction de la Poste et des Services de Proximité</category>
-  </item>
-  <item>
-    <title>26-0691 - Chargé(e) de l'animation commerciale - section expérience commerciale</title>
-    <link>https://opt-nc.github.io/avps/26-0691/</link>
-    <guid isPermaLink="true">https://opt-nc.github.io/avps/26-0691/</guid>
-    <description><![CDATA[
-    <p><strong>Poste :</strong> Chargé(e) de l'animation commerciale - section expérience commerciale</p>
-    <p><strong>Direction :</strong> Office des postes et télécommunications</p>
-    <p><strong>Corps/Grade :</strong> cadre d'exploitation</p>
-    <p><strong>À pourvoir :</strong> SUSCEPTIBLE_VACANT</p>
-    <p><strong>Date de clôture :</strong> 28/05/2026</p>
-    <p><a href="https://data.gouv.nc/explore/dataset/avis-de-vacances-de-poste-avp-drhfpnc/files/3eb212cf7e1ca947d2656bdb7bb29b2c/download/">📄 Télécharger le PDF</a></p>
-  ]]></description>
-    <pubDate>Thu, 07 May 2026 00:00:00 +1100</pubDate>
-  <category>Emploi</category>
-  <category>Direction de la Poste et des Services de Proximité</category>
   </item>
 </channel>
 </rss>

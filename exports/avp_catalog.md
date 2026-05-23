@@ -4,7 +4,353 @@ Ce fichier consolidé contient toutes les annonces AVP de l'Office des Postes et
 
 **Source :** [https://opt-nc.github.io/avps/](https://opt-nc.github.io/avps/)
 
-**Nombre d'annonces :** 37
+**Nombre d'annonces :** 39
+
+---
+
+
+# 26-0778 - Acheteur - CENTAL
+
+## Acheteur - CENTAL
+
+## **DMI- Acheteur- CENTAL**
+
+Référence : 3134-26-0778/SR du 22 mai 2026
+
+**Employeur : Office des Postes et des Télécommunications**
+
+**Corps ou Cadre d'emploi / Domaine** Contrôleur
+
+**Durée de résidence exigée**
+
+**pour le recrutement sur titre (1) : /**
+
+**Poste à pourvoir** poste susceptible d'être vacant
+
+**Direction : Direction des Moyens et de l'Immobilier**
+
+**Lieu de travail** CENTAL - 1 rue Eiffel ZI Ducos - Nouméa
+
+**Date de dépôt de l'offre** vendredi 22 mai 2026
+
+**Date limite de candidature** vendredi 12 juin 2026
+
+## **Emploi RESPNC : Acheteur**
+
+## **Missions**
+
+- Garantir l'achat optimal des biens et des services selon les besoins de l'OPT-NC, en sélectionnant les produits et service, en évaluant leur qualité et en s'assurant du meilleur prix et délais selon les besoins exprimés par le client interne.
+- Gérer le processus complet d'achat et d'approvisionnement, depuis l'expression du besoin jusqu'à la disponibilité des produits.
+- Sécuriser les flux d'approvisionnement en garantissant les niveaux de stock et la continuité de service.
+  - Sourcer, sélectionner et négocier avec les fournisseurs pour obtenir les meilleures conditions de coût, qualité et délai.
+  - Piloter la relation et la performance fournisseurs et assurer le suivi contractuel.
+  - Contribuer à la performance globale de l'entreprise par la réduction des coûts, l'optimisation des stocks et l'amélioration continue.
+  - Assurer la veille réglementaire et les évolutions métiers en lien avec les types d'achats et famille du produits.
+
+**Unité organisationnelle** : Section achats, douane et facturation
+
+**Place dans l'organigramme** : N-3 (par rapport au directeur opérationnel)
+
+**Fonction du supérieur hiérarchique direct** : Chef de Section achats, douane et facturation
+
+## **Nb d'agents encadrés** :
+
+Direct : 0 Indirect : 0
+
+## **Activités principales**
+
+## **Analyse des besoins, planification et stratégie**
+
+Recueillir les besoins des services internes.
+
+Analyser les besoins issus des prévisions et des demandes inscrites au budget Planifier et programmer les achats et les approvisionnements.
+
+Réaliser des analyses de marché et définir des stratégies d'achat / approvisionnement.
+
+Déterminer les paramètres logistiques : stocks mini/maxi.
+
+#### **Sourcing, consultation & sélection fournisseurs**
+
+Rechercher et qualifier de nouveaux fournisseurs.
+
+Rédiger les cahiers des charges en lien avec les équipes techniques.
+
+Lancer et analyser des appels d'offres.
+
+Évaluer les fournisseurs sur critères qualité, coût, délai, risque.
+
+## **Négociation & contractualisation**
+
+Appliquer la stratégie de négociation.
+
+Négocier tarifs, conditions de paiement, incoterms, délais, volumes.
+
+Rédiger ou mettre à jour les contrats.
+
+Assurer la conformité aux règles internes et aux exigences réglementaires (marchés publics).
+
+## **Passation et suivi de l'exécution**
+
+Créer et suivre les commandes dans l'ERP (ORACLE) et dans OTRS.
+
+Relancer les fournisseurs en cas de retard, incohérence ou risque de rupture.
+
+Ajuster les commandes en fonction des besoins réels et des aléas.
+
+Mettre à jour la base de données de suivi des commandes sur SHAREPOINT.
+
+## **Suivi logistique des livraisons et gestion des litiges**
+
+Coordonner le transport, la livraison et superviser le contrôle de la marchandise.
+
+Traiter les litiges : non-conformités, manquants, retards.
+
+Réceptionner les lettres de commande dans l'application ORACLE.
+
+Traiter les factures sur DOCUWARE après service fait.
+
+#### **Gestion de la performance fournisseurs**
+
+Suivre les indicateurs QCDR (Qualité / Coût / Délai / Réactivité).
+
+Organiser des revues fournisseurs.
+
+Mettre en place des plans d'amélioration.
+
+Gérer les risques : obsolescence, dépendance, fragilité financière.
+
+## **Optimisation et amélioration continue**
+
+Identifier des opportunités de réduction de coûts.
+
+Évaluer la satisfaction des clients internes (conformité de la marchandise commandée, respect des délais de livraison).
+
+Optimiser les stocks et les flux.
+
+## **Activités secondaires**
+
+Participer à l'inventaire de fin d'année : aider au comptage. Effectuer toutes tâches confiées par son supérieur hiérarchique.
+
+## **Caractéristiques particulières de l'emploi**
+
+**Habilitations, permis necessaires pour l'exercice des fonctions** : Permis B
+
+**Conditions de travail** : Bureau/ Docks
+
+**Fourniture ou mise à disposition de matériels, biens ou services** : Poste de travail informatique, téléphone fixe d'exploitation, téléphone de sécurité (fixe et mobile). EPI adapté au poste de travail
+
+##### **Profil du candidat Savoir / Connaissance / Diplôme exigé**
+
+- Bac ou bac +2 dans le domaine des achats serait un plus
+- Connaissance de l'Organisation et fonctionnement de l'OPT-NC\*
+- Outils de bureautique (Word, Excel, OFFICE S365) et applications informatiques spécifiques (OA-STOCK, DOCUWARE, OTRS)
+- Maîtrise des processus achats et approvisionnements
+- Techniques commerciales
+- Notions en comptabilité publique
+- Règles des contrats publics\*
+- Connaissance de la chaîne logistique ou des approvisionnements
+- Notion sur la réglementation douanière
+- Connaissance des flux financiers, transport, douane
+
+## **Savoir-faire**
+
+- Travailler en équipe
+- Suivre le processus d'acheminement de la marchandise (de la commande à la facturation)
+- Connaissance des flux financiers, transport, douane
+
+- Réceptionner et contrôler administrativement des commandes
+- Analyse des données et des performances
+- Prise de décision
+- Prendre en compte et respecter les différentes contraintes, techniques, organisationnelles, administratives ou financières
+
+#### **Savoir-être**
+
+- Qualités relationnelles
+- Avoir l'esprit d'équipe
+- Être force de proposition
+- Autonomie
+- Sens de l'anticipation
+- Sens de l'initiative
+- Bonne communication
+- Faire preuve de rigueur
+- Esprit d'analyse
+- Réactivité
+- Souci du service client
+- Gestion des priorités
+- Gestion des délais
+- Faire preuve d'adaptation aux outils, procédures et méthodes de travail
+- Maîtrise de soi
+
+Les compétences suivies de (\*) pourront être acquises à la suite de la prise de poste via un accompagnement et des formations dispensées au sein de l'office
+
+**Contact et informations** Pour toute information sur le poste la personne à contacter est :
+
+**complémentaires** Le chef de section
+
+Tél : 26.87.05
+
+#### **Pour répondre à cette offre**
+
+Votre candidature doit **obligatoirement** comporter les documents suivants :
+
+- Lettre de motivation ;
+- Curriculum vitae (CV) détaillé ;
+- Fiche de renseignements dûment complétée à [télécharger](https://drhfpnc.gouv.nc/sites/default/files/atoms/files/recrutement_-_fiche_de_renseignements_candidature_vf_0.pdf) ici ;
+- Attestation sur l'honneur de non-bénéfice de la rupture conventionnelle à [télécharger](https://drhfpnc.gouv.nc/sites/default/files/atoms/files/attestation_sur_lhonneur_de_non_benefice_de_la_rupture_conventionnelle.pdf) ici ;
+- Photocopie des diplômes ;
+- Justificatifs concernant la citoyenneté ou la durée de résidence si nécessaire (liste des pièces à fournir dans le document "notice explicative" à [télécharger](https://drhfpnc.gouv.nc/sites/default/files/atoms/files/notice_explicative_emploi_local.pdf) ici .
+- Pour les fonctionnaires, demande de changement de corps ou cadre d'emploi si nécessaire à [télécharger](https://drhfpnc.gouv.nc/sites/default/files/atoms/files/formulaire_de_changement_de_corps_ou_de_cadre_demploi.pdf) ici
+
+Tous les documents mentionnés sont issus du site de la DRHFPNC
+
+Votre candidature, précisant la référence de l'offre, doit parvenir à la Direction des ressources humaines, section recrutement **prioritairement** par :
+
+- **Mail** : [DRH-candidature@opt.nc](mailto:DRH-candidature@opt.nc)
+
+En cas d'impossibilité de candidater par le biais de la messagerie électronique, les dossiers de candidatures peuvent parvenir à l'office des Postes et Télécommunications de Nouvelle-Calédonie par :
+
+- Dépôt physique : Direction générale, 2 rue Paul Montchovet, Port Plaisance 98841 Nouméa Cédex
+- Voie postale : idem que ci-dessus
+
+*Les candidatures de fonctionnaires doivent être transmises sous couvert de la voie hiérarchique* Toute candidature incomplète ne pourra être prise en considération
+
+---
+
+
+# 26-0768 - Agent comptable
+
+## Agent comptable
+
+## **AC – Agent comptable**
+
+Référence : 3134-26-0768/SR du 22 mai 2026
+
+**Employeur : Office des Postes et des Télécommunications**
+
+**Corps ou Cadre d'emploi / Domaine** Emploi fonctionnel **Direction : Agence comptable**
+
+**Durée de résidence exigée**
+
+**pour le recrutement sur titre (1) : / Lieu de travail** Direction générale OPT Immeuble
+
+Waruna– 2 rue Paul Montchovet– 98841 NOUMEA
+
+**Poste à pourvoir** le 01/09/2026 **Date de dépôt de l'offre** vendredi 22 mai 2026
+
+**Date limite de candidature** vendredi 12 juin 2026
+
+**Emploi RESPNC : Responsable comptable**
+
+#### **Contexte du poste**
+
+Le poste d'agent comptable s'exerce dans un contexte de transformation de la fonction financière de l'OPT-NC, marqué par l'évolution du référentiel comptable de l'établissement, la modernisation des processus financiers et la préparation du déploiement d'un futur ERP.
+
+Dans ce cadre, le titulaire du poste contribue, en lien étroit avec l'ordonnateur et les directions concernées, à la définition et à la sécurisation de la trajectoire cible de la fonction financière, tout en garantissant la continuité, la régularité, la fiabilité et la qualité de l'exécution comptable pendant toute la phase de transition.
+
+**Missions** L'agent comptable, comptable principal, encadre une équipe de 21 personnes en charge de la perception des recettes et du paiement des dépenses de l'Office. De plus, il produit et présente le compte financier annuel au Conseil d'Administration (CA).
+
+#### Missions spécifiques liées à la transformation de la fonction financière et au projet ERP
+
+Au titre de la transformation de la fonction financière et de la préparation du futur ERP, l'agent comptable :
+
+- Contribue à la définition de la cible comptable et financière de l'établissement, en lien avec les travaux de modernisation engagés ;
+- Analyse les impacts comptables, organisationnels et de contrôle interne liés à l'évolution du référentiel comptable et des processus financiers ;
+- Participe à la conception des processus cibles en matière de dépenses, recettes, trésorerie, clôture et production des comptes ;
+- Veille à la cohérence des schémas comptables, des règles de gestion et des contrôles intégrés dans le futur système d'information financier ;
+- Contribue au cadrage fonctionnel du futur ERP sur son périmètre de compétence ;
+- Prépare et sécurise la reprise des données comptables ainsi que les conditions de bascule vers le futur système ;
+- Identifie et maîtrise les risques comptables, financiers et organisationnels liés à la phase de transition ;
+- Accompagne l'évolution des pratiques, la formalisation des procédures et la montée en compétence des équipes dans un environnement en transformation.
+
+#### **Activités principales**
+
+- Centralise et intègre dans ses écritures les opérations des comptables secondaires : 32 agences OPT, Centre de traitement postal (CTP), agence philatélique et Centre de Production Bancaire (CPB)
+- **-** Prend en charge les mandats de dépenses pour paiement, après réalisation des contrôles réglementaires.
+- Prend en charge les titres de recettes après réalisation des contrôles réglementaires et en exerce le recouvrement amiable et forcé,
+- Dresse l'état des restes à recouvrer.
+
+- Etablit en fin d'exercice le rapport sur le compte financier et fait approuver par le Conseil d'Administration le compte financier annuel et le présente au juge des comptes.
+- Assiste avec voix consultative aux séances du conseil d'administration (CA) et de la commission d'appels d'offres aux marchés publics (CAO). Membre du conseil de direction (CODIR) et expert au comité d'entreprise (CE) dans le domaine économique et financier.
+- Mise en place et suivi du CICF ainsi que de la qualité comptable.
+- Activité secondaire : Prodigue des conseils divers en cas de saisine des différents services de l'OPT-NC (conventions, litiges, contentieux, retenues sur la paye, etc…).
+
+## **Caractéristiques particulières de l'emploi**
+
+Le recrutement s'inscrit dans une séquence de transformation financière majeure prévue sur les deux prochaines années, impliquant une forte capacité de pilotage, de sécurisation et d'accompagnement du changement.
+
+## Habilitations, permis nécessaires pour l'exercice des fonctions :
+
+Permis B
+
+Fourniture ou mise à disposition de matériels, biens ou services :
+
+Logement de fonction
+
+Régimes indemnitaires rattachés au poste de travail :
+
+Indemnité hiérarchique d'agent comptable principal
+
+### **Profil du candidat : Savoir / Connaissance / Diplôme exigé**
+
+- Solide maîtrise des règles de la comptabilité publique et de la production comptable ;
+- Bonne compréhension des enjeux de transformation de la fonction financière ;
+- Expérience appréciée en conduite de projet de modernisation comptable, financière ou organisationnelle ;
+- Connaissance ou appétence pour les projets ERP, les schémas comptables, les règles de gestion et le contrôle interne ;
+- Capacité à formaliser des processus cibles et à travailler en mode projet ;
+- Aptitude à articuler sécurité comptable, conformité réglementaire et recherche d'efficience opérationnelle.
+
+#### **Savoir-faire**
+
+- Capacité d'analyse et de recul ;
+- Sens de l'organisation et de la sécurisation des risques ;
+- Capacité à travailler en transversalité avec des interlocuteurs multiples ;
+- Aptitude à accompagner le changement avec pédagogie et fermeté ;
+- Capacité à s'inscrire dans une dynamique de transformation institutionnelle.
+
+### **Savoir-être**
+
+- Rigueur et méthode
+- Détermination et pugnacité
+- Sens des responsabilités
+- Adaptation et animation
+- Sens de l'organisation
+- Sens des relations humaines
+- Sens aigu du service public
+- Grande ouverture d'esprit
+- Esprit d'analyse et de synthèse.
+
+**Contact et informations complémentaires**
+
+Pour toute information sur le poste la personne à contacter est :
+
+Direction générale Tel : (+687)26.82.17
+
+#### **Pour répondre à cette offre**
+
+Votre candidature doit **obligatoirement** comporter les documents suivants :
+
+- Lettre de motivation ;
+- Curriculum vitae (CV) détaillé ;
+- Fiche de renseignements dûment complétée à [télécharger](https://drhfpnc.gouv.nc/sites/default/files/atoms/files/recrutement_-_fiche_de_renseignements_candidature_vf_0.pdf) ici ;
+- Attestation sur l'honneur de non-bénéfice de la rupture conventionnelle à [télécharger](https://drhfpnc.gouv.nc/sites/default/files/atoms/files/attestation_sur_lhonneur_de_non_benefice_de_la_rupture_conventionnelle.pdf) ici ;
+- Photocopie des diplômes ;
+- Justificatifs concernant la citoyenneté ou la durée de résidence si nécessaire (liste des pièces à fournir dans le document "notice explicative" à [télécharger](https://drhfpnc.gouv.nc/sites/default/files/atoms/files/notice_explicative_emploi_local.pdf) ici .
+- Pour les fonctionnaires, demande de changement de corps ou cadre d'emploi si nécessaire à [télécharger](https://drhfpnc.gouv.nc/sites/default/files/atoms/files/formulaire_de_changement_de_corps_ou_de_cadre_demploi.pdf) ici
+
+Tous les documents mentionnés sont issus du site de la DRHFPNC
+
+Votre candidature, précisant la référence de l'offre, doit parvenir à la Direction des ressources humaines, section recrutement **prioritairement** par :
+
+- **Mail** : [DRH-candidature@opt.nc](mailto:DRH-candidature@opt.nc)
+
+En cas d'impossibilité de candidater par le biais de la messagerie électronique, les dossiers de candidatures peuvent parvenir à l'office des Postes et Télécommunications de Nouvelle-Calédonie par :
+
+- Dépôt physique : Direction générale, 2 rue Paul Montchovet, Port Plaisance 98841 Nouméa Cédex
+- Voie postale : idem que ci-dessus
+
+*Les candidatures de fonctionnaires doivent être transmises sous couvert de la voie hiérarchique*
+
+Toute candidature incomplète ne pourra être prise en considération
 
 ---
 
