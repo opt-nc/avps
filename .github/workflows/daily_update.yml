@@ -87,7 +87,6 @@ jobs:
           commit-message: "chore: daily data update - CSV and Markdown files"
           branch: data-update-${{ github.run_id }}
           delete-branch: true
-          push-to-fork: false
           title: "📊 Daily Data Update - ${{ github.run_id }}"
           body: |
             ## 🔄 Mise à jour automatique des données
