@@ -17,7 +17,7 @@ jobs:
       - name: Checkout code
         uses: actions/checkout@v6
         with:
-          token: ${{ github.token }}
+          token: ${{ secrets.GITHUB_TOKEN }}
           persist-credentials: true
 
       - name: Install system dependencies
@@ -83,7 +83,7 @@ jobs:
         id: create_pr
         uses: peter-evans/create-pull-request@v8
         with:
-          token: ${{ github.token }}
+          token: ${{ secrets.GITHUB_TOKEN }}
           commit-message: "chore: daily data update - CSV and Markdown files"
           branch: data-update-${{ github.run_id }}
           delete-branch: true
