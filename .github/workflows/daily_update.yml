@@ -8,6 +8,7 @@ on:
 permissions:
   contents: write
   pull-requests: write
+  actions: write
 
 jobs:
   update-data:
@@ -15,6 +16,9 @@ jobs:
     steps:
       - name: Checkout code
         uses: actions/checkout@v6
+        with:
+          token: ${{ github.token }}
+          persist-credentials: true
 
       - name: Install system dependencies
         run: |
@@ -79,10 +83,11 @@ jobs:
         id: create_pr
         uses: peter-evans/create-pull-request@v8
         with:
-          token: ${{ secrets.GITHUB_TOKEN }}
+          token: ${{ github.token }}
           commit-message: "chore: daily data update - CSV and Markdown files"
           branch: data-update-${{ github.run_id }}
           delete-branch: true
+          push-to-fork: false
           title: "📊 Daily Data Update - ${{ github.run_id }}"
           body: |
             ## 🔄 Mise à jour automatique des données
