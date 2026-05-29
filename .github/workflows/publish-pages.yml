@@ -1,6 +1,9 @@
 name: Publish to GitHub Pages
 
 on:
+  schedule:
+    # Jeudi 21h00 heure NCL (UTC+11) = jeudi 10:00 UTC
+    - cron: '0 10 * * 4'
   push:
     branches:
       - main
@@ -10,6 +13,11 @@ on:
       - 'zensical.toml'
       - '.github/workflows/publish-pages.yml'
   workflow_dispatch:
+    inputs:
+      skip_data_generation:
+        description: 'Skip data generation (use existing data)'
+        type: boolean
+        default: false
 
 permissions:
   contents: read
@@ -49,6 +57,7 @@ jobs:
           enable-cache: true
 
       - name: Generate data and update config
+        if: ${{ inputs.skip_data_generation != true }}
         run: |
           uv run src/filter_opt_avp.py
           uv run src/update_zensical_config.py
