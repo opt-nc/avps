@@ -9,6 +9,6 @@ dependencies = [
     "pytz>=2026.2",
     "pyyaml>=6.0.3",
     "requests>=2.34.2",
-    "huggingface-hub>=0.26.0,<1.0",
-    "sentence-transformers>=5.5.0",
+    "huggingface-hub>=1.17.0,<2.0",
+    "sentence-transformers>=5.5.1",
 ]
